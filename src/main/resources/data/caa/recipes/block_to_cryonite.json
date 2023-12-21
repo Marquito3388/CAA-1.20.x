@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caa:cryoniteblock"
+    }
+  ],
+  "result": {
+    "item": "caa:cryonite",
+    "count": 9
+  }
+}

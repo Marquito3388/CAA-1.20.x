@@ -1,0 +1,166 @@
+{
+
+
+  "item.caa.basilisk_scale": "Basilisk Scale",
+  "item.caa.dark_brick": "Dark Brick",
+
+  "item.caa.raw_vanadium": "Raw Vanadium",
+  "item.caa.raw_cobalt": "Raw Cobalt",
+  "item.caa.raw_palladium": "Raw Palladium",
+  "item.caa.raw_netherium": "Raw Netherium",
+
+  "item.caa.vanadium_chunk": "Vanadium Chunk",
+  "item.caa.cobalt_chunk": "Cobalt Chunk",
+  "item.caa.palladium_chunk": "Palladium Chunk",
+  "item.caa.netherium_chunk": "Netherium Chunk",
+
+  "item.caa.vanadium": "Vanadium",
+  "item.caa.cobalt": "Cobalt",
+  "item.caa.palladium": "Palladium",
+  "item.caa.netherium": "Netherium",
+
+
+
+  "item.caa.tissue_sample": "Tissue Sample",
+  "item.caa.shadow_scale": "Shadow Scale",
+
+
+  "item.caa.crimtane_ore": "Crimtane Ore",
+  "item.caa.demonite_ore": "Demonite Ore",
+  "item.caa.crimtane_bar": "Crimtane Bar",
+  "item.caa.demonite_bar": "Demonite Bar",
+
+  "item.caa.zanite_gemstone": "Zanite Gemstone",
+  "block.caa.enchanted_gravitite": "§EEnchanted Gravitite",
+
+  "item.caa.zanite_sword": "Zanite Sword",
+  "item.caa.gravitite_sword": "Gravitite Sword",
+
+  "item.caa.zanite_pickaxe": "Zanite Pickaxe",
+  "item.caa.gravitite_pickaxe": "Gravitite Pickaxe",
+
+  "item.caa.zanite_axe": "Zanite Axe",
+  "item.caa.gravitite_axe": "Gravitite Axe",
+
+  "item.caa.zanite_shovel": "Zanite Shovel",
+  "item.caa.gravitite_shovel": "Gravitite Shovel",
+
+  "item.caa.crimtane_axe": "Blood Lust Cluster",
+  "item.caa.blood_butcherer": "Blood Butcherer",
+  "item.caa.crimtane_pickaxe": "Deathbringer Pickaxe",
+
+  "item.caa.demonite_axe": "War Axe of the Night",
+  "item.caa.lights_bane": "Light's Bane",
+  "item.caa.demonite_pickaxe": "Nightmare Pickaxe",
+
+
+
+  "item.caa.vanadium_axe": "Vanadium Axe",
+  "item.caa.cobalt_axe": "Cobalt Axe",
+  "item.caa.palladium_axe": "Palladium Axe",
+  "item.caa.netherium_axe": "Netherium Axe",
+
+  "item.caa.vanadium_pickaxe": "Vanadium Pickaxe",
+  "item.caa.cobalt_pickaxe": "Cobalt Pickaxe",
+  "item.caa.palladium_pickaxe": "Palladium Pickaxe",
+  "item.caa.netherium_pickaxe": "Netherium Pickaxe",
+
+  "item.caa.cobalt_drill": "Cobalt Drill",
+  "item.caa.palladium_drill": "Palladium Drill",
+  "item.caa.netherium_drill": "Netherium Drill",
+
+  "item.caa.vanadium_hoe": "Vanadium Hoe",
+  "item.caa.cobalt_hoe": "Cobalt Hoe",
+  "item.caa.palladium_hoe": "Palladium Hoe",
+  "item.caa.netherium_hoe": "Netherium Hoe",
+
+  "item.caa.vanadium_shovel": "Vanadium Shovel",
+  "item.caa.cobalt_shovel": "Cobalt Shovel",
+  "item.caa.palladium_shovel": "Palladium Shovel",
+  "item.caa.netherium_shovel": "Netherium Shovel",
+
+  "item.caa.vanadium_sword": "Vanadium Sword",
+  "item.caa.cobalt_sword": "Cobalt Sword",
+  "item.caa.palladium_sword": "Palladium Sword",
+  "item.caa.netherium_sword": "Netherium Sword",
+
+  "item.caa.vanadium_spear": "Vanadium Spear",
+  "item.caa.cobalt_spear": "Cobalt Spear",
+  "item.caa.palladium_spear": "Palladium Spear",
+  "item.caa.netherium_spear": "Netherium Spear",
+
+
+  "item.caa.vanadium_ba": "Vanadium Battle Axe",
+  "item.caa.cobalt_ba": "Cobalt Battle Axe",
+  "item.caa.palladium_ba": "Palladium Battle Axe",
+  "item.caa.netherium_ba": "Netherium Battle Axe",
+
+
+  "item.caa.vanadium_dagger": "Vanadium Dagger",
+  "item.caa.cobalt_dagger": "Cobalt Dagger",
+  "item.caa.palladium_dagger": "Palladium Dagger",
+  "item.caa.netherium_dagger": "Netherium Dagger",
+
+
+  "item.caa.arkhalis": "Arkhalis",
+
+
+  "item.caa.cobalt_helmet": "Cobalt Helmet",
+  "item.caa.cobalt_chestplate": "Cobalt Chestplate",
+  "item.caa.cobalt_leggings": "Cobalt Leggings",
+  "item.caa.cobalt_boots": "Cobalt Boots",
+
+  "item.caa.palladium_helmet": "Palladium Helmet",
+  "item.caa.palladium_chestplate": "Palladium Chestplate",
+  "item.caa.palladium_leggings": "Palladium Leggings",
+  "item.caa.palladium_boots": "Palladium Boots",
+
+  "item.caa.netherium_helmet": "Netherium Helmet",
+  "item.caa.netherium_chestplate": "Netherium Chestplate",
+  "item.caa.netherium_leggings": "Netherium Leggings",
+  "item.caa.netherium_boots": "Netherium Boots",
+
+
+
+  "creativetab.caamtrl_tab": "CaA Materials",
+  "creativetab.caablocks_tab": "CaA Blocks",
+  "creativetab.caaweapons_tab": "CaA Weapons",
+  "creativetab.caatools_tab": "CaA Tools",
+  "creativetab.caaarmor_tab": "CaA Armors",
+
+
+  "block.caa.vanadiumoreds": "Vanadium Ore",
+  "block.caa.cobaltore": "Cobalt Ore",
+  "block.caa.palladiumore": "Palladium Ore",
+  "block.caa.netheriumore": "Netherium Ore",
+
+
+
+  "block.caa.vanadiumblock": "Vanadium Block",
+  "block.caa.cobaltblock": "Cobalt Block",
+  "block.caa.palladiumblock": "Palladium Block",
+  "block.caa.netheriumblock": "Netherium Block",
+
+
+  "block.caa.vanadiumbricks": "Vanadium Brick",
+  "block.caa.cobaltbricks": "Cobalt Brick",
+  "block.caa.palladiumbricks": "Palladium Brick",
+  "block.caa.netheriumbricks": "Netherium Brick",
+
+
+  "block.caa.red_lamp_on": "Red Lamp",
+  "block.caa.black_lamp_on": "Black Lamp",
+  "block.caa.blue_lamp_on": "Blue Lamp",
+  "block.caa.brown_lamp_on": "Brown Lamp",
+  "block.caa.cyan_lamp_on": "Cyan Lamp",
+  "block.caa.green_lamp_on": "Green Lamp",
+  "block.caa.grey_lamp_on": "Grey Lamp",
+  "block.caa.lightblue_lamp_on": "Light Blue Lamp",
+  "block.caa.lightgrey_lamp_on": "Light Grey Lamp",
+  "block.caa.lime_lamp_on": "Lime Lamp",
+  "block.caa.magenta_lamp_on": "Magenta Lamp",
+  "block.caa.orange_lamp_on": "Orange Lamp",
+  "block.caa.pink_lamp_on": "Pink Lamp",
+  "block.caa.purple_lamp_on": "Pruple Lamp",
+  "block.caa.yellow_lamp_on": "Yellow Lamp"
+}

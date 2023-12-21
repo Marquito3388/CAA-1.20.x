@@ -1,0 +1,31 @@
+{
+  "values": [
+    "caa:vanadiumoreds",
+    "caa:cobaltore",
+    "caa:palladiumore",
+    "caa:netheriumore",
+    "caa:vanadiumblock",
+    "caa:cobaltblock",
+    "caa:palladiumblock",
+    "caa:netheriumblock",
+    "caa:vanadiumbricks",
+    "caa:cobaltbricks",
+    "caa:palladiumbricks",
+    "caa:netheriumbricks",
+    "caa:brown_lamp_on",
+    "caa:lime_lamp_on",
+    "caa:yellow_lamp_on",
+    "caa:red_lamp_on",
+    "caa:lightgrey_lamp_on",
+    "caa:blue_lamp_on",
+    "caa:lightblue_lamp_on",
+    "caa:purple_lamp_on",
+    "caa:pink_lamp_on",
+    "caa:orange_lamp_on",
+    "caa:magenta_lamp_on",
+    "caa:grey_lamp_on",
+    "caa:green_lamp_on",
+    "caa:cyan_lamp_on",
+    "caa:black_lamp_on"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:book"
+    },
+    "title": "Get Ready...",
+    "description": "Welcome to Chaos and Abyss",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "caa:textures/caa_achievement.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+
+      }
+    }
+  }
+}

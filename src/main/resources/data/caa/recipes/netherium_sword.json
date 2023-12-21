@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    " N ",
+    "VEV"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:netherite_ingot"
+    },
+    
+     "N": {
+      "item": "caa:netherium"
+    },
+
+    "V": {
+      "item": "caa:vanadium"
+    }
+    
+  },
+  "result": {
+    "item": "caa:netherium_sword",
+    "count": 1
+  }
+}

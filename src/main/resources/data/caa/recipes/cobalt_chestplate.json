@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C C",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+
+
+    "C": {
+      "item": "caa:cobalt"
+    }
+
+  },
+  "result": {
+    "item": "caa:cobalt_chestplate",
+    "count": 1
+  }
+}

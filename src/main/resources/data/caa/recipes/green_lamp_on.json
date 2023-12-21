@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GMG",
+    "@D@",
+    "GMG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    
+     "@": {
+      "item": "minecraft:glowstone_dust"
+    },
+    
+     "D": {
+      "item": "minecraft:green_dye"
+    },
+    
+     "M": {
+      "item": "caa:vanadium"
+    }
+    
+  },
+  "result": {
+    "item": "caa:green_lamp_on",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CRC",
+    "ROR",
+    " R "
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    
+     "R": {
+      "item": "caa:raw_palladium"
+    },
+    
+     "C": {
+      "item": "minecraft:coal"
+    }
+    
+  },
+  "result": {
+    "item": "caa:palladium_chunk",
+    "count": 1
+  }
+}

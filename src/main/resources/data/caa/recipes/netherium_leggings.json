@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "N N",
+    "N N"
+  ],
+  "key": {
+    "N": {
+      "item": "caa:netherium"
+    }
+
+  },
+  "result": {
+    "item": "caa:netherium_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " GG",
+    " GG"
+  ],
+  "key": {
+    "G": {
+      "item": "caa:raw_palladium"
+    }
+    
+  },
+  "result": {
+    "item": "caa:palladiumbricks",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "VV ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "V": {
+      "item": "caa:vanadium"
+    },
+    
+     "S": {
+      "item": "minecraft:stick"
+    }
+    
+  },
+  "result": {
+    "item": "caa:vanadium_hoe",
+    "count": 1
+  }
+}

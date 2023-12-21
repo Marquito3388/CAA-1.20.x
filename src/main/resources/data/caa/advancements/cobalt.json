@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "caa:cobalt"
+    },
+    "title": "Beyond the limit!",
+    "description": "Acquire Cobalt ingot",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "caa:welcome",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caa:cobalt"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

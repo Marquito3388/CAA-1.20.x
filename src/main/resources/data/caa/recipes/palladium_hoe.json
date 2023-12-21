@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP ",
+    " V ",
+    " V "
+  ],
+  "key": {
+    "V": {
+      "item": "caa:vanadium"
+    },
+    
+     "P": {
+      "item": "caa:palladium"
+    }
+    
+  },
+  "result": {
+    "item": "caa:palladium_hoe",
+    "count": 1
+  }
+}

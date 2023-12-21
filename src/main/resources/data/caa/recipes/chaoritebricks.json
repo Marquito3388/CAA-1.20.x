@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " GG",
+    " GG"
+  ],
+  "key": {
+    "G": {
+      "item": "caa:chaorite"
+    }
+    
+  },
+  "result": {
+    "item": "caa:chaoritebricks",
+    "count": 1
+  }
+}
