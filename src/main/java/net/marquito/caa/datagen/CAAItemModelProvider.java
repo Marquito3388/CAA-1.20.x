@@ -51,6 +51,8 @@ public class CAAItemModelProvider extends ItemModelProvider {
         simpleItem(CAAItemsClass.BASILISK_SCALE);
         simpleItem(CAAItemsClass.DARK_BRICK);
 
+        simpleItem(CAAItemsClass.DARK_MATTER);
+
 
         //ORES
         simpleItem(CAAItemsClass.RAW_VANADIUM);
@@ -148,9 +150,16 @@ public class CAAItemModelProvider extends ItemModelProvider {
         handheldItem(CAAItemsClass.PALLADIUM_BATTLEAXE);
         handheldItem(CAAItemsClass.NETHERIUM_BATTLEAXE);
 
+        /*
         handheldItem(CAAItemsClass.COBALT_BOW);
         handheldItem(CAAItemsClass.PALLADIUM_BOW);
         handheldItem(CAAItemsClass.NETHERIUM_BOW);
+
+         */
+
+        handheldItem(CAAItemsClass.FLAME_SPEAR);
+        handheldItem(CAAItemsClass.WATER_SPEAR);
+        handheldItem(CAAItemsClass.THUNDER_SPEAR);
 
         /*
 

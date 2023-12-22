@@ -34,6 +34,8 @@ public class DataGenerators {
 
         generator.addProvider(event.includeServer(), new CAAWorldProvider(packOutput, lookupProvider));
 
+        generator.addProvider(event.includeServer(), new CAAGlobalLootModifierProvider(packOutput));
+
 
     }
 }

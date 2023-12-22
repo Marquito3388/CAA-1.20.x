@@ -29,6 +29,9 @@ public class CAAItemsClass {
     public static final RegistryObject<Item> DARK_BRICK = ITEMS.register("dark_brick",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> DARK_MATTER = ITEMS.register("dark_matter",
+            () -> new Item(new Item.Properties()));
+
 
 
     public static final RegistryObject<Item> SHADOW_SCALE = ITEMS.register("shadow_scale",
@@ -106,11 +109,22 @@ public class CAAItemsClass {
      */
 
 
+
     // EXTRA TOOLS==================================================================
 
 
+    public static final RegistryObject<Item> FLAME_SPEAR = ITEMS.register("flame_spear",
+            () -> new SwordItem(CAAToolTiers.VANADIUM,  4, -2.3F, new  Item.Properties()));
+
+    public static final RegistryObject<Item> WATER_SPEAR = ITEMS.register("water_spear",
+            () -> new SwordItem(CAAToolTiers.VANADIUM, 4, -2.8F, new  Item.Properties()));
+
+    public static final RegistryObject<Item> THUNDER_SPEAR = ITEMS.register("thunder_spear",
+            () -> new SwordItem(CAAToolTiers.VANADIUM, 4, -2.8F, new  Item.Properties()));
+
+
     public static final RegistryObject<Item> ARKHALIS = ITEMS.register("arkhalis",
-            () -> new SwordItem(CAAToolTiers.VANADIUM, 3, 1F, new  Item.Properties()));
+            () -> new SwordItem(CAAToolTiers.VANADIUM, 3, 5F, new  Item.Properties()));
 
     /*
 

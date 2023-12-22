@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "caa:item/cobalt_bow"
+    "layer0": "caa:item/flame_spear"
   }
 }

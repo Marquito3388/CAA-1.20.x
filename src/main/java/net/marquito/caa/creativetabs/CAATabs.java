@@ -24,6 +24,9 @@ public class CAATabs {
                     .title(Component.translatable("creativetab.caamtrl_tab"))
                     .displayItems((pParameters, pOutput) -> {
 
+
+                        pOutput.accept(CAAItemsClass.DARK_MATTER.get());
+
                        // pOutput.accept(CAAItemsClass.SHADOW_SCALE.get());
                       //  pOutput.accept(CAAItemsClass.TISSUE_SAMPLE.get());
                         pOutput.accept(CAAItemsClass.RAW_VANADIUM.get());
@@ -95,6 +98,9 @@ public class CAATabs {
                         pOutput.accept(CAAItemsClass.NETHERIUM_BOW.get());
 
 
+                        pOutput.accept(CAAItemsClass.FLAME_SPEAR.get());
+                        pOutput.accept(CAAItemsClass.WATER_SPEAR.get());
+                        pOutput.accept(CAAItemsClass.THUNDER_SPEAR.get());
 
                         pOutput.accept(CAAItemsClass.ARKHALIS.get());
 

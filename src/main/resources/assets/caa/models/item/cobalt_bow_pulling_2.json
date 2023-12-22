@@ -1,0 +1,6 @@
+{
+    "parent": "caa:item/cobalt_bow",
+    "textures": {
+        "layer0": "caa:item/cobalt_bow_pulling_2"
+    }
+}

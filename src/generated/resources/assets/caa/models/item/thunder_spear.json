@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "caa:item/netherium_bow"
+    "layer0": "caa:item/thunder_spear"
   }
 }

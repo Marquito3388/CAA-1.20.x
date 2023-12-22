@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.marquito.caa.block.CAABlocksClass;
 import net.marquito.caa.creativetabs.CAATabs;
 import net.marquito.caa.item.CAAItemsClass;
+import net.marquito.loot.CAALootModifier;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -36,9 +37,11 @@ public class ChaosAndAbyss {
         CAATabs.register(modEventBus);
         CAAItemsClass.register(modEventBus);
         CAABlocksClass.register(modEventBus);
+        CAALootModifier.register(modEventBus);
 
 
         modEventBus.addListener(this::commonSetup);
+
 
 
         MinecraftForge.EVENT_BUS.register(this);

@@ -1,0 +1,10 @@
+{
+  "type": "caa:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/water_spear_from_underwater_ruin_big"
+    }
+  ],
+  "item": "caa:water_spear"
+}

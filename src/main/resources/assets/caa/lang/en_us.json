@@ -24,6 +24,8 @@
   "item.caa.tissue_sample": "Tissue Sample",
   "item.caa.shadow_scale": "Shadow Scale",
 
+  "item.caa.dark_matter": "Dark Matter",
+
 
   "item.caa.crimtane_ore": "Crimtane Ore",
   "item.caa.demonite_ore": "Demonite Ore",
@@ -100,6 +102,15 @@
   "item.caa.cobalt_dagger": "Cobalt Dagger",
   "item.caa.palladium_dagger": "Palladium Dagger",
   "item.caa.netherium_dagger": "Netherium Dagger",
+
+  "item.caa.cobalt_bow": "Cobalt Bow",
+  "item.caa.palladium_bow": "Palladium Bow",
+  "item.caa.netherium_bow": "Netherium Bow",
+
+  "item.caa.flame_spear": "Flame Spear",
+  "item.caa.water_spear": "Water Spear",
+  "item.caa.thunder_spear": "Thunder Spear",
+
 
 
   "item.caa.arkhalis": "Arkhalis",
