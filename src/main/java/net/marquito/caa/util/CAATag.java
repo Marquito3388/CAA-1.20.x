@@ -16,7 +16,7 @@ public class CAATag {
 
         public static final TagKey<Block> NEEDS_COBALT_TOOL = tag("needs_cobalt_tool");
         public static final TagKey<Block> NEEDS_PALLADIUM_TOOL = tag("needs_palladium_tool");
-        public static final TagKey<Block> NEEDS_NETHERIUM_TOOL = tag("needs_netherium_tool");
+        public static final TagKey<Block> NEEDS_ENDERIUM_TOOL = tag("needs_enderium_tool");
 
         public static final TagKey<Block> DRILL = tag("mineable_with_drill");
 

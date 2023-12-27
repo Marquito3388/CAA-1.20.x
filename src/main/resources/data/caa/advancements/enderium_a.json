@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "caa:raw_enderium"
+    },
+    "title": "Not from this world",
+    "description": "Acquire raw Enderium",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "caa:cobalt",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caa:raw_enderium"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

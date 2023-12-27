@@ -3,15 +3,15 @@
     "caa:vanadiumoreds",
     "caa:cobaltore",
     "caa:palladiumore",
-    "caa:netheriumore",
+    "caa:enderiumore",
     "caa:vanadiumblock",
     "caa:cobaltblock",
     "caa:palladiumblock",
-    "caa:netheriumblock",
+    "caa:enderiumblock",
     "caa:vanadiumbricks",
     "caa:cobaltbricks",
     "caa:palladiumbricks",
-    "caa:netheriumbricks",
+    "caa:enderiumbricks",
     "caa:brown_lamp_on",
     "caa:lime_lamp_on",
     "caa:yellow_lamp_on",
@@ -26,6 +26,7 @@
     "caa:grey_lamp_on",
     "caa:green_lamp_on",
     "caa:cyan_lamp_on",
-    "caa:black_lamp_on"
+    "caa:black_lamp_on",
+    "caa:sword_shrine"
   ]
 }

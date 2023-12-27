@@ -2,6 +2,8 @@ package net.marquito.caa.block;
 
 import net.marquito.caa.ChaosAndAbyss;
 import net.marquito.caa.item.CAAItemsClass;
+import net.minecraft.client.animation.definitions.WardenAnimation;
+import net.minecraft.world.entity.monster.warden.Warden;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -40,8 +42,8 @@ public class CAABlocksClass {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.DEEPSLATE)));
 
-    public static final RegistryObject<Block> NETHERIUM_ORE =
-            registerBlock("netheriumore", () -> new Block(BlockBehaviour.Properties
+    public static final RegistryObject<Block> ENDERIUM_ORE =
+            registerBlock("enderiumore", () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.END_STONE)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.DEEPSLATE)));
@@ -67,8 +69,8 @@ public class CAABlocksClass {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.DEEPSLATE)));
 
-    public static final RegistryObject<Block> NETHERIUM_BLOCK =
-            registerBlock("netheriumblock", () -> new Block(BlockBehaviour.Properties
+    public static final RegistryObject<Block> ENDERIUM_BLOCK =
+            registerBlock("enderiumblock", () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.GOLD_BLOCK)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.DEEPSLATE)));
@@ -94,8 +96,8 @@ public class CAABlocksClass {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)));
 
-    public static final RegistryObject<Block> NETHERIUM_BRICK =
-            registerBlock("netheriumbricks", () -> new Block(BlockBehaviour.Properties
+    public static final RegistryObject<Block> ENDERIUM_BRICK =
+            registerBlock("enderiumbricks", () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.BRICKS)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)));
@@ -106,6 +108,11 @@ public class CAABlocksClass {
                     .copy(Blocks.GLOWSTONE)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)));
+
+    //WardenAnimation
+
+    //Warden
+
 
     public static final RegistryObject<Block> BLACK_LAMP =
             registerBlock("black_lamp_on", () -> new Block(BlockBehaviour.Properties
@@ -189,6 +196,14 @@ public class CAABlocksClass {
             registerBlock("yellow_lamp_on", () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.GLOWSTONE)
                     .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+
+    public static final RegistryObject<Block> SWORD_SHRINE =
+            registerBlock("sword_shrine", () -> new SwordShrineBlock(BlockBehaviour.Properties
+                    .copy(Blocks.STONE)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
                     .sound(SoundType.STONE)));
 
 

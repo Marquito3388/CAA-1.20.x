@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.marquito.caa.block.CAABlocksClass;
 import net.marquito.caa.creativetabs.CAATabs;
 import net.marquito.caa.item.CAAItemsClass;
+import net.marquito.caa.util.CAAItemProperties;
 import net.marquito.loot.CAALootModifier;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -50,6 +51,13 @@ public class ChaosAndAbyss {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+
+        CAAItemProperties.addCustomItemProperties();
+
+    }
+
+    private void clientSetup( final FMLClientSetupEvent event){
+
 
 
     }

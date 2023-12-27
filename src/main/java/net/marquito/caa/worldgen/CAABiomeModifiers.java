@@ -16,7 +16,7 @@ public class CAABiomeModifiers {
     public static final ResourceKey<BiomeModifier> ADD_VANADIUM_ORE = registerKey("add_vanadiumoreds");
     public static final ResourceKey<BiomeModifier> ADD_COBALT_ORE = registerKey("add_cobaltore");
     public static final ResourceKey<BiomeModifier> ADD_PALLADIUM_ORE = registerKey("add_palladiumore");
-    public static final ResourceKey<BiomeModifier> ADD_NETHERIUM_ORE = registerKey("add_netheriumore");
+    public static final ResourceKey<BiomeModifier> ADD_ENDERIUM_ORE = registerKey("add_enderiumore");
 
 
     public static void bootstrap(BootstapContext<BiomeModifier> context) {
@@ -38,9 +38,9 @@ public class CAABiomeModifiers {
                 HolderSet.direct(placedFeatures.getOrThrow(CAAPlacedFeatures.PALLADIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
 
-        context.register(ADD_NETHERIUM_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+        context.register(ADD_ENDERIUM_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_END),
-                HolderSet.direct(placedFeatures.getOrThrow(CAAPlacedFeatures.NETHERIUM_ORE_PLACED_KEY)),
+                HolderSet.direct(placedFeatures.getOrThrow(CAAPlacedFeatures.ENDERIUM_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
 
     }

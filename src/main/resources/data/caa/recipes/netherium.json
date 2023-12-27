@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "caa:netherium_chunk"
-  },
-  "result": "caa:netherium",
-  "experience": 0.9,
-  "cookingtime": 400
-}

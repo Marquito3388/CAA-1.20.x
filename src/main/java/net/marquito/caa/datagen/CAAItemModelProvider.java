@@ -2,7 +2,6 @@ package net.marquito.caa.datagen;
 
 import net.marquito.caa.ChaosAndAbyss;
 import net.marquito.caa.item.CAAItemsClass;
-import net.marquito.mcm.MarquitosCoreMod;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
@@ -11,12 +10,10 @@ import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.armortrim.TrimMaterial;
 import net.minecraft.world.item.armortrim.TrimMaterials;
-import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.LinkedHashMap;
@@ -67,13 +64,11 @@ public class CAAItemModelProvider extends ItemModelProvider {
         simpleItem(CAAItemsClass.PALLADIUM_CHUNK);
         simpleItem(CAAItemsClass.PALLADIUM);
 
-        simpleItem(CAAItemsClass.RAW_NETHERIUM);
-        simpleItem(CAAItemsClass.NETHERIUM_CHUNK);
-        simpleItem(CAAItemsClass.NETHERIUM);
+        simpleItem(CAAItemsClass.RAW_ENDERIUM);
+        simpleItem(CAAItemsClass.ENDERIUM_CHUNK);
+        simpleItem(CAAItemsClass.ENDERIUM);
 
 
-        simpleItem(CAAItemsClass.TISSUE_SAMPLE);
-        simpleItem(CAAItemsClass.SHADOW_SCALE);
 
         simpleItem(CAAItemsClass.COBALT_HELMET);
         simpleItem(CAAItemsClass.COBALT_CHESTPLATE);
@@ -85,10 +80,10 @@ public class CAAItemModelProvider extends ItemModelProvider {
         simpleItem(CAAItemsClass.PALLADIUM_LEGGINGS);
         simpleItem(CAAItemsClass.PALLADIUM_BOOTS);
 
-        simpleItem(CAAItemsClass.NETHERIUM_HELMET);
-        simpleItem(CAAItemsClass.NETHERIUM_CHESTPLATE);
-        simpleItem(CAAItemsClass.NETHERIUM_LEGGINGS);
-        simpleItem(CAAItemsClass.NETHERIUM_BOOTS);
+        simpleItem(CAAItemsClass.ENDERIUM_HELMET);
+        simpleItem(CAAItemsClass.ENDERIUM_CHESTPLATE);
+        simpleItem(CAAItemsClass.ENDERIUM_LEGGINGS);
+        simpleItem(CAAItemsClass.ENDERIUM_BOOTS);
 
 
         //EXTRA ORES
@@ -124,38 +119,36 @@ public class CAAItemModelProvider extends ItemModelProvider {
         handheldItem(CAAItemsClass.PALLADIUM_SHOVEL);
         handheldItem(CAAItemsClass.PALLADIUM_DRILL);
 
-        handheldItem(CAAItemsClass.NETHERIUM_SWORD);
-        handheldItem(CAAItemsClass.NETHERIUM_PICKAXE);
-        handheldItem(CAAItemsClass.NETHERIUM_AXE);
-        handheldItem(CAAItemsClass.NETHERIUM_HOE);
-        handheldItem(CAAItemsClass.NETHERIUM_SHOVEL);
-        handheldItem(CAAItemsClass.NETHERIUM_DRILL);
+        handheldItem(CAAItemsClass.ENDERIUM_SWORD);
+        handheldItem(CAAItemsClass.ENDERIUM_PICKAXE);
+        handheldItem(CAAItemsClass.ENDERIUM_AXE);
+        handheldItem(CAAItemsClass.ENDERIUM_HOE);
+        handheldItem(CAAItemsClass.ENDERIUM_SHOVEL);
+        handheldItem(CAAItemsClass.ENDERIUM_DRILL);
 
 
 
-        handheldItem(CAAItemsClass.ARKHALIS);
+        handheldItem(CAAItemsClass.SKULK_BLADE);
 
         handheldItem(CAAItemsClass.VANADIUM_DAGGER);
         handheldItem(CAAItemsClass.COBALT_DAGGER);
         handheldItem(CAAItemsClass.PALLADIUM_DAGGER);
-        handheldItem(CAAItemsClass.NETHERIUM_DAGGER);
+        handheldItem(CAAItemsClass.ENDERIUM_DAGGER);
 
         handheldItem(CAAItemsClass.VANADIUM_SPEAR);
         handheldItem(CAAItemsClass.COBALT_SPEAR);
         handheldItem(CAAItemsClass.PALLADIUM_SPEAR);
-        handheldItem(CAAItemsClass.NETHERIUM_SPEAR);
+        handheldItem(CAAItemsClass.ENDERIUM_SPEAR);
 
         handheldItem(CAAItemsClass.VANADIUM_BATTLEAXE);
         handheldItem(CAAItemsClass.COBALT_BATTLEAXE);
         handheldItem(CAAItemsClass.PALLADIUM_BATTLEAXE);
-        handheldItem(CAAItemsClass.NETHERIUM_BATTLEAXE);
+        handheldItem(CAAItemsClass.ENDERIUM_BATTLEAXE);
 
-        /*
-        handheldItem(CAAItemsClass.COBALT_BOW);
-        handheldItem(CAAItemsClass.PALLADIUM_BOW);
-        handheldItem(CAAItemsClass.NETHERIUM_BOW);
 
-         */
+        handheldItem(CAAItemsClass.THE_BUTCHER);
+
+
 
         handheldItem(CAAItemsClass.FLAME_SPEAR);
         handheldItem(CAAItemsClass.WATER_SPEAR);

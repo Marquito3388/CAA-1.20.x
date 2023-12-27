@@ -41,9 +41,9 @@ public class CAATabs {
                         pOutput.accept(CAAItemsClass.PALLADIUM_CHUNK.get());
                         pOutput.accept(CAAItemsClass.PALLADIUM.get());
 
-                        pOutput.accept(CAAItemsClass.RAW_NETHERIUM.get());
-                        pOutput.accept(CAAItemsClass.NETHERIUM_CHUNK.get());
-                        pOutput.accept(CAAItemsClass.NETHERIUM.get());
+                        pOutput.accept(CAAItemsClass.RAW_ENDERIUM.get());
+                        pOutput.accept(CAAItemsClass.ENDERIUM_CHUNK.get());
+                        pOutput.accept(CAAItemsClass.ENDERIUM.get());
 
 
 
@@ -68,41 +68,46 @@ public class CAATabs {
 
     public static final RegistryObject<CreativeModeTab> WEAPONS_TAB = CREATIVE_MODE_TABS.register("caaweapons_tab",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(CAAItemsClass.NETHERIUM_SWORD.get()))
+                    .icon(() -> new ItemStack(CAAItemsClass.ENDERIUM_SWORD.get()))
                     .title(Component.translatable("creativetab.caaweapons_tab"))
                     .displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(CAAItemsClass.VANADIUM_SWORD.get());
                         pOutput.accept(CAAItemsClass.COBALT_SWORD.get());
                         pOutput.accept(CAAItemsClass.PALLADIUM_SWORD.get());
-                        pOutput.accept(CAAItemsClass.NETHERIUM_SWORD.get());
+                        pOutput.accept(CAAItemsClass.ENDERIUM_SWORD.get());
 
                         pOutput.accept(CAAItemsClass.VANADIUM_SPEAR.get());
                         pOutput.accept(CAAItemsClass.COBALT_SPEAR.get());
                         pOutput.accept(CAAItemsClass.PALLADIUM_SPEAR.get());
-                        pOutput.accept(CAAItemsClass.NETHERIUM_SPEAR.get());
+                        pOutput.accept(CAAItemsClass.ENDERIUM_SPEAR.get());
 
                         pOutput.accept(CAAItemsClass.VANADIUM_BATTLEAXE.get());
                         pOutput.accept(CAAItemsClass.COBALT_BATTLEAXE.get());
                         pOutput.accept(CAAItemsClass.PALLADIUM_BATTLEAXE.get());
-                        pOutput.accept(CAAItemsClass.NETHERIUM_BATTLEAXE.get());
+                        pOutput.accept(CAAItemsClass.ENDERIUM_BATTLEAXE.get());
 
                         pOutput.accept(CAAItemsClass.VANADIUM_DAGGER.get());
                         pOutput.accept(CAAItemsClass.COBALT_DAGGER.get());
                         pOutput.accept(CAAItemsClass.PALLADIUM_DAGGER.get());
-                        pOutput.accept(CAAItemsClass.NETHERIUM_DAGGER.get());
+                        pOutput.accept(CAAItemsClass.ENDERIUM_DAGGER.get());
 
 
                         pOutput.accept(CAAItemsClass.COBALT_BOW.get());
                         pOutput.accept(CAAItemsClass.PALLADIUM_BOW.get());
-                        pOutput.accept(CAAItemsClass.NETHERIUM_BOW.get());
+                        pOutput.accept(CAAItemsClass.ENDERIUM_BOW.get());
+
+                        pOutput.accept(CAAItemsClass.FOREST_BOW.get());
 
 
                         pOutput.accept(CAAItemsClass.FLAME_SPEAR.get());
                         pOutput.accept(CAAItemsClass.WATER_SPEAR.get());
                         pOutput.accept(CAAItemsClass.THUNDER_SPEAR.get());
 
-                        pOutput.accept(CAAItemsClass.ARKHALIS.get());
+                        pOutput.accept(CAAItemsClass.SKULK_BLADE.get());
+
+
+                        pOutput.accept(CAAItemsClass.THE_BUTCHER.get());
 
                         /*
                         pOutput.accept(CAAItemsClass.ZANITE_SWORD.get());
@@ -144,11 +149,11 @@ public class CAATabs {
                         pOutput.accept(CAAItemsClass.PALLADIUM_SHOVEL.get());
                         pOutput.accept(CAAItemsClass.PALLADIUM_DRILL.get());
 
-                        pOutput.accept(CAAItemsClass.NETHERIUM_PICKAXE.get());
-                        pOutput.accept(CAAItemsClass.NETHERIUM_AXE.get());
-                        pOutput.accept(CAAItemsClass.NETHERIUM_HOE.get());
-                        pOutput.accept(CAAItemsClass.NETHERIUM_SHOVEL.get());
-                        pOutput.accept(CAAItemsClass.NETHERIUM_DRILL.get());
+                        pOutput.accept(CAAItemsClass.ENDERIUM_PICKAXE.get());
+                        pOutput.accept(CAAItemsClass.ENDERIUM_AXE.get());
+                        pOutput.accept(CAAItemsClass.ENDERIUM_HOE.get());
+                        pOutput.accept(CAAItemsClass.ENDERIUM_SHOVEL.get());
+                        pOutput.accept(CAAItemsClass.ENDERIUM_DRILL.get());
 
                         /*
                         pOutput.accept(CAAItemsClass.DEMONITE_PICKAXE.get());
@@ -176,24 +181,24 @@ public class CAATabs {
 
     public static final RegistryObject<CreativeModeTab> BLOCKS_TAB = CREATIVE_MODE_TABS.register("caablocks_tab",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(CAABlocksClass.NETHERIUM_ORE.get()))
+                    .icon(() -> new ItemStack(CAABlocksClass.ENDERIUM_ORE.get()))
                     .title(Component.translatable("creativetab.caablocks_tab"))
                     .displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(CAABlocksClass.VANADIUM_ORE.get());
                         pOutput.accept(CAABlocksClass.COBALT_ORE.get());
                         pOutput.accept(CAABlocksClass.PALLADIUM_ORE.get());
-                        pOutput.accept(CAABlocksClass.NETHERIUM_ORE.get());
+                        pOutput.accept(CAABlocksClass.ENDERIUM_ORE.get());
 
                         pOutput.accept(CAABlocksClass.VANADIUM_BLOCK.get());
                         pOutput.accept(CAABlocksClass.COBALT_BLOCK.get());
                         pOutput.accept(CAABlocksClass.PALLADIUM_BLOCK.get());
-                        pOutput.accept(CAABlocksClass.NETHERIUM_BLOCK.get());
+                        pOutput.accept(CAABlocksClass.ENDERIUM_BLOCK.get());
 
                         pOutput.accept(CAABlocksClass.VANADIUM_BRICK.get());
                         pOutput.accept(CAABlocksClass.COBALT_BRICK.get());
                         pOutput.accept(CAABlocksClass.PALLADIUM_BRICK.get());
-                        pOutput.accept(CAABlocksClass.NETHERIUM_BRICK.get());
+                        pOutput.accept(CAABlocksClass.ENDERIUM_BRICK.get());
 
                         pOutput.accept(CAABlocksClass.BLUE_LAMP.get());
                         pOutput.accept(CAABlocksClass.BLACK_LAMP.get());
@@ -211,6 +216,7 @@ public class CAATabs {
                         pOutput.accept(CAABlocksClass.LIME_LAMP.get());
                         pOutput.accept(CAABlocksClass.LIGHT_GREY_LAMP.get());
 
+                        pOutput.accept(CAABlocksClass.SWORD_SHRINE.get());
 
 
 
@@ -236,10 +242,10 @@ public class CAATabs {
                         pOutput.accept(CAAItemsClass.PALLADIUM_LEGGINGS.get());
                         pOutput.accept(CAAItemsClass.PALLADIUM_BOOTS.get());
 
-                        pOutput.accept(CAAItemsClass.NETHERIUM_HELMET.get());
-                        pOutput.accept(CAAItemsClass.NETHERIUM_CHESTPLATE.get());
-                        pOutput.accept(CAAItemsClass.NETHERIUM_LEGGINGS.get());
-                        pOutput.accept(CAAItemsClass.NETHERIUM_BOOTS.get());
+                        pOutput.accept(CAAItemsClass.ENDERIUM_HELMET.get());
+                        pOutput.accept(CAAItemsClass.ENDERIUM_CHESTPLATE.get());
+                        pOutput.accept(CAAItemsClass.ENDERIUM_LEGGINGS.get());
+                        pOutput.accept(CAAItemsClass.ENDERIUM_BOOTS.get());
 
 
 

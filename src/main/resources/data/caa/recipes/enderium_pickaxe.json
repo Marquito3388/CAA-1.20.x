@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    " N ",
+    " V "
+  ],
+  "key": {
+    "V": {
+      "item": "caa:vanadium"
+    },
+    
+     "A": {
+      "item": "caa:enderium"
+    },
+    
+     "N": {
+      "item": "minecraft:netherite_ingot"
+    }
+    
+  },
+  "result": {
+    "item": "caa:enderium_pickaxe",
+    "count": 1
+  }
+}

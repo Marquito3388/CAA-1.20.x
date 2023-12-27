@@ -23,7 +23,7 @@ public class CAAConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> VANADIUM_ORE_KEY = registerKey("vanadiumoreds");
     public static final ResourceKey<ConfiguredFeature<?, ?>> COBALT_ORE_KEY = registerKey("cobaltore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> PALLADIUM_ORE_KEY = registerKey("palladiumore");
-    public static final ResourceKey<ConfiguredFeature<?, ?>> NETHERIUM_ORE_KEY = registerKey("netheriumore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> ENDERIUM_ORE_KEY = registerKey("enderiumore");
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
 
         RuleTest deepslateReplaceables = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
@@ -45,8 +45,8 @@ public class CAAConfiguredFeatures {
         register(context, PALLADIUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplacables,
                 CAABlocksClass.PALLADIUM_ORE.get().defaultBlockState(), 6));
 
-        register(context, NETHERIUM_ORE_KEY, Feature.ORE, new OreConfiguration(endReplaceables,
-                CAABlocksClass.NETHERIUM_ORE.get().defaultBlockState(), 6));
+        register(context, ENDERIUM_ORE_KEY, Feature.ORE, new OreConfiguration(endReplaceables,
+                CAABlocksClass.ENDERIUM_ORE.get().defaultBlockState(), 6));
 
     }
 

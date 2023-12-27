@@ -20,19 +20,19 @@ public class CAABlockStateProvider extends BlockStateProvider {
         blockWithItem(CAABlocksClass.VANADIUM_ORE);
         blockWithItem(CAABlocksClass.COBALT_ORE);
         blockWithItem(CAABlocksClass.PALLADIUM_ORE);
-        blockWithItem(CAABlocksClass.NETHERIUM_ORE);
+        blockWithItem(CAABlocksClass.ENDERIUM_ORE);
 
         blockWithItem(CAABlocksClass.VANADIUM_BLOCK);
         blockWithItem(CAABlocksClass.COBALT_BLOCK);
         blockWithItem(CAABlocksClass.PALLADIUM_BLOCK);
-        blockWithItem(CAABlocksClass.NETHERIUM_BLOCK);
+        blockWithItem(CAABlocksClass.ENDERIUM_BLOCK);
 
         //blockWithItem(CAABlocksClass.ENCHANTED_GRAVITITE);
 
         blockWithItem(CAABlocksClass.VANADIUM_BRICK);
         blockWithItem(CAABlocksClass.COBALT_BRICK);
         blockWithItem(CAABlocksClass.PALLADIUM_BRICK);
-        blockWithItem(CAABlocksClass.NETHERIUM_BRICK);
+        blockWithItem(CAABlocksClass.ENDERIUM_BRICK);
 
 
         blockWithItem(CAABlocksClass.BLUE_LAMP);

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CRC",
+    "RAR",
+    " R "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:ancient_debris"
+    },
+    
+     "R": {
+      "item": "caa:raw_enderium"
+    },
+    
+     "C": {
+      "item": "minecraft:coal"
+    }
+    
+  },
+  "result": {
+    "item": "caa:enderium_chunk",
+    "count": 1
+  }
+}

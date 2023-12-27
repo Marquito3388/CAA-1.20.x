@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "caa:enderium_chunk"
+  },
+  "result": "caa:enderium",
+  "experience": 0.9,
+  "cookingtime": 400
+}

@@ -18,8 +18,8 @@ public enum CAAArmorMaterial implements ArmorMaterial {
     PALLADIUM("palladium", 33, new int[]{3, 10, 6, 3}, 12, SoundEvents.ARMOR_EQUIP_NETHERITE,
             3.5F, 0.12F, () -> Ingredient.of(CAAItemsClass.PALLADIUM.get())),
 
-    NETHERIUM("netherium", 36, new int[]{3, 10, 7, 2}, 13, SoundEvents.ARMOR_EQUIP_NETHERITE,
-            3.7F, 0.17F, () -> Ingredient.of(CAAItemsClass.NETHERIUM.get()));
+    ENDERIUM("enderium", 36, new int[]{3, 10, 7, 2}, 13, SoundEvents.ARMOR_EQUIP_NETHERITE,
+            3.7F, 0.17F, () -> Ingredient.of(CAAItemsClass.ENDERIUM.get()));
 
 
 

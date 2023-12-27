@@ -1,13 +1,7 @@
 package net.marquito.caa.item;
 
 import net.marquito.caa.ChaosAndAbyss;
-import net.marquito.mcm.item.MCMArmorMaterials;
-import net.marquito.mcm.item.MCMToolTiers;
-import net.minecraft.client.model.TridentModel;
-import net.minecraft.world.effect.MobEffect;
-import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.item.*;
-import net.minecraftforge.common.ToolActions;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -33,13 +27,13 @@ public class CAAItemsClass {
             () -> new Item(new Item.Properties()));
 
 
-
+/*
     public static final RegistryObject<Item> SHADOW_SCALE = ITEMS.register("shadow_scale",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> TISSUE_SAMPLE = ITEMS.register("tissue_sample",
             () -> new Item(new Item.Properties()));
-
+*/
 
 
 
@@ -58,7 +52,7 @@ public class CAAItemsClass {
     public static final RegistryObject<Item> RAW_PALLADIUM = ITEMS.register("raw_palladium",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> RAW_NETHERIUM = ITEMS.register("raw_netherium",
+    public static final RegistryObject<Item> RAW_ENDERIUM = ITEMS.register("raw_enderium",
             () -> new Item(new Item.Properties()));
 
 
@@ -72,7 +66,7 @@ public class CAAItemsClass {
     public static final RegistryObject<Item> PALLADIUM_CHUNK = ITEMS.register("palladium_chunk",
             () -> new Item(new Item.Properties()));
 
-     public static final RegistryObject<Item> NETHERIUM_CHUNK = ITEMS.register("netherium_chunk",
+     public static final RegistryObject<Item> ENDERIUM_CHUNK = ITEMS.register("enderium_chunk",
             () -> new Item(new Item.Properties()));
 
 
@@ -86,7 +80,7 @@ public class CAAItemsClass {
     public static final RegistryObject<Item> COBALT = ITEMS.register("palladium",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> NETHERIUM = ITEMS.register("netherium",
+    public static final RegistryObject<Item> ENDERIUM = ITEMS.register("enderium",
             () -> new Item(new Item.Properties()));
 
 
@@ -114,17 +108,18 @@ public class CAAItemsClass {
 
 
     public static final RegistryObject<Item> FLAME_SPEAR = ITEMS.register("flame_spear",
-            () -> new SwordItem(CAAToolTiers.VANADIUM,  4, -2.3F, new  Item.Properties()));
+            () -> new SwordItem(CAAToolTiers.VANADIUM,  5, -2.3F, new  Item.Properties()));
 
     public static final RegistryObject<Item> WATER_SPEAR = ITEMS.register("water_spear",
-            () -> new SwordItem(CAAToolTiers.VANADIUM, 4, -2.8F, new  Item.Properties()));
+            () -> new SwordItem(CAAToolTiers.VANADIUM, 5, -2.8F, new  Item.Properties()));
 
     public static final RegistryObject<Item> THUNDER_SPEAR = ITEMS.register("thunder_spear",
-            () -> new SwordItem(CAAToolTiers.VANADIUM, 4, -2.8F, new  Item.Properties()));
+            () -> new SwordItem(CAAToolTiers.VANADIUM, 5, -2.8F, new  Item.Properties()));
 
 
-    public static final RegistryObject<Item> ARKHALIS = ITEMS.register("arkhalis",
-            () -> new SwordItem(CAAToolTiers.VANADIUM, 3, 5F, new  Item.Properties()));
+    public static final RegistryObject<Item> SKULK_BLADE = ITEMS.register("skulk_blade",
+            () -> new SwordItem(CAAToolTiers.VANADIUM, 4, -0.3F, new  Item.Properties()));
+            //damagew value is 4
 
     /*
 
@@ -174,8 +169,8 @@ public class CAAItemsClass {
     public static final RegistryObject<Item> PALLADIUM_SPEAR = ITEMS.register("palladium_spear",
             () -> new SwordItem(CAAToolTiers.PALLADIUM, 2, -2.8F, new  Item.Properties()));
 
-    public static final RegistryObject<Item> NETHERIUM_SPEAR = ITEMS.register("netherium_spear",
-            () -> new SwordItem(CAAToolTiers.NETHERIUM, 2, -2.8F, new  Item.Properties()));
+    public static final RegistryObject<Item> ENDERIUM_SPEAR = ITEMS.register("enderium_spear",
+            () -> new SwordItem(CAAToolTiers.ENDERIUM, 2, -2.8F, new  Item.Properties()));
 
 
 
@@ -188,8 +183,12 @@ public class CAAItemsClass {
     public static final RegistryObject<Item> PALLADIUM_BATTLEAXE = ITEMS.register("palladium_ba",
             () -> new SwordItem(CAAToolTiers.PALLADIUM, 5, -3.1F, new  Item.Properties()));
 
-    public static final RegistryObject<Item> NETHERIUM_BATTLEAXE = ITEMS.register("netherium_ba",
-            () -> new SwordItem(CAAToolTiers.NETHERIUM, 5, -3.1F, new  Item.Properties()));
+    public static final RegistryObject<Item> ENDERIUM_BATTLEAXE = ITEMS.register("enderium_ba",
+            () -> new SwordItem(CAAToolTiers.ENDERIUM, 5, -3.1F, new  Item.Properties()));
+
+
+    public static final RegistryObject<Item> THE_BUTCHER = ITEMS.register("the_butcher",
+            () -> new SwordItem(CAAToolTiers.VANADIUM, 6, -2.9F, new  Item.Properties()));
 
 
 
@@ -206,8 +205,8 @@ public class CAAItemsClass {
             () -> new SwordItem(CAAToolTiers.PALLADIUM, 3, -2.3F, new  Item.Properties()));
 
 
-    public static final RegistryObject<Item> NETHERIUM_SWORD = ITEMS.register("netherium_sword",
-            () -> new SwordItem(CAAToolTiers.NETHERIUM, 3, -2.3F, new  Item.Properties()));
+    public static final RegistryObject<Item> ENDERIUM_SWORD = ITEMS.register("enderium_sword",
+            () -> new SwordItem(CAAToolTiers.ENDERIUM, 3, -2.3F, new  Item.Properties()));
 
 
 
@@ -225,8 +224,8 @@ public class CAAItemsClass {
             () -> new SwordItem(CAAToolTiers.PALLADIUM, 2, -1.9F, new  Item.Properties()));
 
 
-    public static final RegistryObject<Item> NETHERIUM_DAGGER = ITEMS.register("netherium_dagger",
-            () -> new SwordItem(CAAToolTiers.NETHERIUM, 2, -1.9F, new  Item.Properties()));
+    public static final RegistryObject<Item> ENDERIUM_DAGGER = ITEMS.register("enderium_dagger",
+            () -> new SwordItem(CAAToolTiers.ENDERIUM, 2, -1.9F, new  Item.Properties()));
 
 
 
@@ -238,7 +237,10 @@ public class CAAItemsClass {
             () -> new BowItem(new Item.Properties().durability(680)));
 
 
-    public static final RegistryObject<Item> NETHERIUM_BOW = ITEMS.register("netherium_bow",
+    public static final RegistryObject<Item> ENDERIUM_BOW = ITEMS.register("enderium_bow",
+            () -> new BowItem(new Item.Properties().durability(730)));
+
+    public static final RegistryObject<Item> FOREST_BOW = ITEMS.register("forest_bow",
             () -> new BowItem(new Item.Properties().durability(730)));
 
 
@@ -271,8 +273,8 @@ public class CAAItemsClass {
             () -> new PickaxeItem(CAAToolTiers.PALLADIUM, 1, -2.75f, new  Item.Properties()));
 
 
-    public static final RegistryObject<Item> NETHERIUM_PICKAXE = ITEMS.register("netherium_pickaxe",
-            () -> new PickaxeItem(CAAToolTiers.NETHERIUM, 1, -2.75f, new  Item.Properties()));
+    public static final RegistryObject<Item> ENDERIUM_PICKAXE = ITEMS.register("enderium_pickaxe",
+            () -> new PickaxeItem(CAAToolTiers.ENDERIUM, 1, -2.75f, new  Item.Properties()));
 
 
 
@@ -291,8 +293,8 @@ public class CAAItemsClass {
             () -> new AxeItem(CAAToolTiers.PALLADIUM, 4.8F, -2.85F, new  Item.Properties()));
 
 
-    public static final RegistryObject<Item> NETHERIUM_AXE = ITEMS.register("netherium_axe",
-            () -> new AxeItem(CAAToolTiers.NETHERIUM, 4.7F, -2.8f, new  Item.Properties()));
+    public static final RegistryObject<Item> ENDERIUM_AXE = ITEMS.register("enderium_axe",
+            () -> new AxeItem(CAAToolTiers.ENDERIUM, 4.7F, -2.8f, new  Item.Properties()));
 
 
 
@@ -311,7 +313,7 @@ public class CAAItemsClass {
             () -> new HoeItem(CAAToolTiers.CAA_HOE, 1, 0.1f, new  Item.Properties()));
 
 
-    public static final RegistryObject<Item> NETHERIUM_HOE = ITEMS.register("netherium_hoe",
+    public static final RegistryObject<Item> ENDERIUM_HOE = ITEMS.register("enderium_hoe",
             () -> new HoeItem(CAAToolTiers.CAA_HOE,  1, 0.15f, new  Item.Properties()));
 
 
@@ -331,7 +333,7 @@ public class CAAItemsClass {
             () -> new ShovelItem(CAAToolTiers.CAA_SHOVEL, 6.3F, -2.95f, new  Item.Properties()));
 
 
-    public static final RegistryObject<Item> NETHERIUM_SHOVEL = ITEMS.register("netherium_shovel",
+    public static final RegistryObject<Item> ENDERIUM_SHOVEL = ITEMS.register("enderium_shovel",
             () -> new ShovelItem(CAAToolTiers.CAA_SHOVEL,6.5F, -2.85f, new  Item.Properties()));
 
 
@@ -347,8 +349,8 @@ public class CAAItemsClass {
             () -> new PickaxeItem(CAAToolTiers.PALLADIUM, 0, -1.5f, new  Item.Properties()));
 
 
-    public static final RegistryObject<Item> NETHERIUM_DRILL = ITEMS.register("netherium_drill",
-            () -> new PickaxeItem(CAAToolTiers.NETHERIUM, 0, -1.2f, new  Item.Properties()));
+    public static final RegistryObject<Item> ENDERIUM_DRILL = ITEMS.register("enderium_drill",
+            () -> new PickaxeItem(CAAToolTiers.ENDERIUM, 0, -1.2f, new  Item.Properties()));
 
 
 
@@ -389,20 +391,20 @@ public class CAAItemsClass {
 
 
 
-    public static final RegistryObject<Item> NETHERIUM_HELMET = ITEMS.register("netherium_helmet",
-            () -> new ArmorItem(CAAArmorMaterial.NETHERIUM, ArmorItem.Type.HELMET,
+    public static final RegistryObject<Item> ENDERIUM_HELMET = ITEMS.register("enderium_helmet",
+            () -> new ArmorItem(CAAArmorMaterial.ENDERIUM, ArmorItem.Type.HELMET,
                     new Item.Properties()));
 
-    public static final RegistryObject<Item> NETHERIUM_CHESTPLATE = ITEMS.register("netherium_chestplate",
-            () -> new ArmorItem(CAAArmorMaterial.NETHERIUM, ArmorItem.Type.CHESTPLATE,
+    public static final RegistryObject<Item> ENDERIUM_CHESTPLATE = ITEMS.register("enderium_chestplate",
+            () -> new ArmorItem(CAAArmorMaterial.ENDERIUM, ArmorItem.Type.CHESTPLATE,
                     new Item.Properties()));
 
-    public static final RegistryObject<Item> NETHERIUM_LEGGINGS = ITEMS.register("netherium_leggings",
-            () -> new ArmorItem(CAAArmorMaterial.NETHERIUM, ArmorItem.Type.LEGGINGS,
+    public static final RegistryObject<Item> ENDERIUM_LEGGINGS = ITEMS.register("enderium_leggings",
+            () -> new ArmorItem(CAAArmorMaterial.ENDERIUM, ArmorItem.Type.LEGGINGS,
                     new Item.Properties()));
 
-    public static final RegistryObject<Item> NETHERIUM_BOOTS = ITEMS.register("netherium_boots",
-            () -> new ArmorItem(CAAArmorMaterial.NETHERIUM, ArmorItem.Type.BOOTS,
+    public static final RegistryObject<Item> ENDERIUM_BOOTS = ITEMS.register("enderium_boots",
+            () -> new ArmorItem(CAAArmorMaterial.ENDERIUM, ArmorItem.Type.BOOTS,
                     new Item.Properties()));
 
 

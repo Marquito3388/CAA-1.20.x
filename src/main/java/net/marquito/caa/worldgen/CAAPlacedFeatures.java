@@ -19,7 +19,7 @@ public class CAAPlacedFeatures {
     public static final ResourceKey<PlacedFeature> VANADIUM_ORE_PLACED_KEY = registerKey("vanadiumore_placed");
     public static final ResourceKey<PlacedFeature> COBALT_ORE_PLACED_KEY = registerKey("cobaltore_placed");
     public static final ResourceKey<PlacedFeature> PALLADIUM_ORE_PLACED_KEY = registerKey("palladiumore_placed");
-    public static final ResourceKey<PlacedFeature> NETHERIUM_ORE_PLACED_KEY = registerKey("netheriumore_placed");
+    public static final ResourceKey<PlacedFeature> ENDERIUM_ORE_PLACED_KEY = registerKey("enderiumore_placed");
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
@@ -36,7 +36,7 @@ public class CAAPlacedFeatures {
                 CAAOrePlacement.commonOrePlacement(10,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(55))));
 
-        register(context, NETHERIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(CAAConfiguredFeatures.NETHERIUM_ORE_KEY),
+        register(context, ENDERIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(CAAConfiguredFeatures.ENDERIUM_ORE_KEY),
                 CAAOrePlacement.commonOrePlacement(10,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(70))));
     }

@@ -30,17 +30,17 @@ public class CAABlockTagGenerator extends BlockTagsProvider {
          .add(CAABlocksClass.VANADIUM_ORE.get(),
               CAABlocksClass.COBALT_ORE.get(),
               CAABlocksClass.PALLADIUM_ORE.get(),
-              CAABlocksClass.NETHERIUM_ORE.get(),
+              CAABlocksClass.ENDERIUM_ORE.get(),
 
                  CAABlocksClass.VANADIUM_BLOCK.get(),
                  CAABlocksClass.COBALT_BLOCK.get(),
                  CAABlocksClass.PALLADIUM_BLOCK.get(),
-                 CAABlocksClass.NETHERIUM_BLOCK.get(),
+                 CAABlocksClass.ENDERIUM_BLOCK.get(),
 
                  CAABlocksClass.VANADIUM_BRICK.get(),
                  CAABlocksClass.COBALT_BRICK.get(),
                  CAABlocksClass.PALLADIUM_BRICK.get(),
-                 CAABlocksClass.NETHERIUM_BRICK.get(),
+                 CAABlocksClass.ENDERIUM_BRICK.get(),
 
                  CAABlocksClass.BROWN_LAMP.get(),
                  CAABlocksClass.LIME_LAMP.get(),
@@ -56,7 +56,9 @@ public class CAABlockTagGenerator extends BlockTagsProvider {
                  CAABlocksClass.GREY_LAMP.get(),
                  CAABlocksClass.GREEN_LAMP.get(),
                  CAABlocksClass.CYAN_LAMP.get(),
-                 CAABlocksClass.BLACK_LAMP.get()
+                 CAABlocksClass.BLACK_LAMP.get(),
+
+                 CAABlocksClass.SWORD_SHRINE.get()
 
 
 
@@ -86,12 +88,12 @@ public class CAABlockTagGenerator extends BlockTagsProvider {
                 .add(CAABlocksClass.VANADIUM_BLOCK.get())
                 .add(CAABlocksClass.COBALT_BLOCK.get())
                 .add(CAABlocksClass.PALLADIUM_BLOCK.get())
-                .add(CAABlocksClass.NETHERIUM_BLOCK.get())
+                .add(CAABlocksClass.ENDERIUM_BLOCK.get())
 
                 .add(CAABlocksClass.VANADIUM_BRICK.get())
                 .add(CAABlocksClass.COBALT_BRICK.get())
                 .add(CAABlocksClass.PALLADIUM_BRICK.get())
-                .add(CAABlocksClass.NETHERIUM_BRICK.get())
+                .add(CAABlocksClass.ENDERIUM_BRICK.get())
 
                 .add(CAABlocksClass.BLUE_LAMP.get())
                 .add(CAABlocksClass.BLACK_LAMP.get())
@@ -107,7 +109,9 @@ public class CAABlockTagGenerator extends BlockTagsProvider {
                 .add(CAABlocksClass.PURPLE_LAMP.get())
                 .add(CAABlocksClass.RED_LAMP.get())
                 .add(CAABlocksClass.YELLOW_LAMP.get())
-                .add(CAABlocksClass.BROWN_LAMP.get());
+                .add(CAABlocksClass.BROWN_LAMP.get())
+
+                .add(CAABlocksClass.SWORD_SHRINE.get());
 
 
 
@@ -123,7 +127,7 @@ public class CAABlockTagGenerator extends BlockTagsProvider {
                 .add(CAABlocksClass.PALLADIUM_ORE.get());
 
         this.tag(CAATag.Blocks.NEEDS_PALLADIUM_TOOL)
-                .add(CAABlocksClass.NETHERIUM_ORE.get());
+                .add(CAABlocksClass.ENDERIUM_ORE.get());
 
 
 

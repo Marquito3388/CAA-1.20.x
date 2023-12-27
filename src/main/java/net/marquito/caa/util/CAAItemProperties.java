@@ -10,7 +10,9 @@ public class CAAItemProperties {
     public static void addCustomItemProperties() {
         makeBow(CAAItemsClass.COBALT_BOW.get());
         makeBow(CAAItemsClass.PALLADIUM_BOW.get());
-        makeBow(CAAItemsClass.NETHERIUM_BOW.get());
+        makeBow(CAAItemsClass.ENDERIUM_BOW.get());
+        makeBow(CAAItemsClass.FOREST_BOW.get());
+
     }
 
     private static void makeBow(Item item) {
@@ -26,5 +28,7 @@ public class CAAItemProperties {
         ItemProperties.register(item, new ResourceLocation("pulling"), (p_174630_, p_174631_, p_174632_, p_174633_) -> {
             return p_174632_ != null && p_174632_.isUsingItem() && p_174632_.getUseItem() == p_174630_ ? 1.0F : 0.0F;
         });
+
+        //ItemProperties
     }
 }

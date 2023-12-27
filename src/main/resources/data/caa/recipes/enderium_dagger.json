@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " N ",
+    " E "
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:netherite_ingot"
+    },
+
+    "N": {
+      "item": "caa:enderium"
+    }
+
+  },
+  "result": {
+    "item": "caa:enderium_dagger",
+    "count": 1
+  }
+}

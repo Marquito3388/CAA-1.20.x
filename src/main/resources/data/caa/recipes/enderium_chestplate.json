@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  ",
+    "N N",
+    "N N"
+  ],
+  "key": {
+    "N": {
+      "item": "caa:enderium"
+    }
+
+  },
+  "result": {
+    "item": "caa:enderium_chestplate",
+    "count": 1
+  }
+}

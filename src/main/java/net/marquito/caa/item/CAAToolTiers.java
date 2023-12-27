@@ -46,10 +46,10 @@ public class CAAToolTiers {
 
 
 
-    public static final Tier NETHERIUM = TierSortingRegistry.registerTier(
+    public static final Tier ENDERIUM = TierSortingRegistry.registerTier(
             new ForgeTier(7, 2523, 9.5F, 5.0F, 15,
-                    CAATag.Blocks.NEEDS_NETHERIUM_TOOL, () -> Ingredient.of(CAAItemsClass.NETHERIUM.get())),
-            new ResourceLocation(MarquitosCoreMod.MODID, "netherium"), List.of(CAAToolTiers.PALLADIUM), List.of());
+                    CAATag.Blocks.NEEDS_ENDERIUM_TOOL, () -> Ingredient.of(CAAItemsClass.ENDERIUM.get())),
+            new ResourceLocation(MarquitosCoreMod.MODID, "enderium"), List.of(CAAToolTiers.PALLADIUM), List.of());
 
 
 
@@ -69,10 +69,10 @@ public class CAAToolTiers {
 
 
 
-    public static final Tier NETHERIUM_DRILL = TierSortingRegistry.registerTier(
+    public static final Tier ENDERIUM_DRILL = TierSortingRegistry.registerTier(
             new ForgeTier(7, 2523, 10F, 3.6F, 15,
-                    CAATag.Blocks.NEEDS_NETHERIUM_TOOL, () -> Ingredient.of(CAAItemsClass.NETHERIUM.get())),
-            new ResourceLocation(MarquitosCoreMod.MODID, "netheriumd"), List.of(CAAToolTiers.PALLADIUM), List.of());
+                    CAATag.Blocks.NEEDS_ENDERIUM_TOOL, () -> Ingredient.of(CAAItemsClass.ENDERIUM.get())),
+            new ResourceLocation(MarquitosCoreMod.MODID, "enderiumd"), List.of(CAAToolTiers.PALLADIUM), List.of());
 
 
      */

@@ -1,13 +1,13 @@
-// 1.20.1	2023-12-16T15:22:53.2731103	Registries
+// 1.20.1	2023-12-26T23:55:36.3776468	Registries
 e09c10b56dde1a2c36626b59f742848bedc0c83f data/caa/forge/biome_modifier/add_cobaltore.json
-30c1be96ebcea6b205c4bd566fb75c6fc1d5a924 data/caa/forge/biome_modifier/add_netheriumore.json
+2b7f4583287dcadaedd39794c501727097c249c5 data/caa/forge/biome_modifier/add_enderiumore.json
 c330cd170a5ee9b082a2bc2891f0715b06b9bd48 data/caa/forge/biome_modifier/add_palladiumore.json
 58b2ff91dafae89e2a86dcd77e4551b68f27d7e9 data/caa/forge/biome_modifier/add_vanadiumoreds.json
 3857655bb620b9cc40d0770bac9103f15419e38d data/caa/worldgen/configured_feature/cobaltore.json
-fda9f84acec9af5799ee829d958231e4fc3ba6b4 data/caa/worldgen/configured_feature/netheriumore.json
+a1b6af963dadf93a08c79664a1696650dce9f4dc data/caa/worldgen/configured_feature/enderiumore.json
 14e56aa59f662a708c4b435207eb453f15c989dd data/caa/worldgen/configured_feature/palladiumore.json
 dec3fc363f6b64f1a040dfa02f1279e210a2f674 data/caa/worldgen/configured_feature/vanadiumoreds.json
 1b7654e8cdab6e7acd93e44a45a4cfd5746b4651 data/caa/worldgen/placed_feature/cobaltore_placed.json
-743c425e44e09f00a83adc2efa683b0bbedf43b9 data/caa/worldgen/placed_feature/netheriumore_placed.json
+88864f77ac29ebe99a75740e0222a7a849a73289 data/caa/worldgen/placed_feature/enderiumore_placed.json
 c486f80da145ee143fd07b85e4a03ba05e35c37e data/caa/worldgen/placed_feature/palladiumore_placed.json
 6e88e99835586c4d16f3462848f4f567f9585d36 data/caa/worldgen/placed_feature/vanadiumore_placed.json
