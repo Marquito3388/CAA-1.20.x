@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "caa:block/sword_shrine"
+    },
+    "facing=south": {
+      "model": "caa:block/sword_shrine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "caa:block/sword_shrine",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "caa:block/sword_shrine",
+      "y": 90
+    }
+  }
+}

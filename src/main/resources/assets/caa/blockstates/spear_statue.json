@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "caa:block/ba_statue"
+    },
+    "facing=south": {
+      "model": "caa:block/ba_statue",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "caa:block/ba_statue",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "caa:block/ba_statue",
+      "y": 90
+    }
+  }
+}

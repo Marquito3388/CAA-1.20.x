@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "caa:block/sword_statue"
+    },
+    "facing=south": {
+      "model": "caa:block/sword_statue",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "caa:block/sword_statue",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "caa:block/sword_statue",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  V",
+    " C ",
+    "V  "
+  ],
+  "key": {
+    "V": {
+      "item": "caa:cobalt"
+    },
+    
+     "C": {
+      "item": "caa:vanadium"
+    }
+    
+  },
+  "result": {
+    "item": "caa:cobalt_axe",
+    "count": 1
+  }
+}
