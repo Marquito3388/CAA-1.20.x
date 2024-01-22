@@ -48,10 +48,33 @@ public class CAAItemModelProvider extends ItemModelProvider {
         simpleItem(CAAItemsClass.BASILISK_SCALE);
         simpleItem(CAAItemsClass.DARK_BRICK);
 
-        simpleItem(CAAItemsClass.DARK_MATTER);
+        //simpleItem(CAAItemsClass.DARK_MATTER);
+
+        simpleItem(CAAItemsClass.NETHERITE_ROD);
+        simpleItem(CAAItemsClass.VANADIUM_ROD);
+
+        /*
+        simpleItem(CAAItemsClass.WARDENS_BONE);
+        simpleItem(CAAItemsClass.WARDENS_HORN);
+        simpleItem(CAAItemsClass.WARDENS_WILL);
+
+        simpleItem(CAAItemsClass.GUARDIANS_EYE);
+        simpleItem(CAAItemsClass.GUARDIANS_SKIN);
+        simpleItem(CAAItemsClass.GUARDIANS_WILL);
+
+        simpleItem(CAAItemsClass.WITHERS_BONE);
+        simpleItem(CAAItemsClass.WITHERS_WILL);
+
+         */
 
 
         //ORES
+
+
+        simpleItem(CAAItemsClass.RUBY);
+        simpleItem(CAAItemsClass.SAPPHIRE);
+
+
         simpleItem(CAAItemsClass.RAW_VANADIUM);
         simpleItem(CAAItemsClass.VANADIUM_CHUNK);
         simpleItem(CAAItemsClass.VANADIUM);
@@ -67,6 +90,27 @@ public class CAAItemModelProvider extends ItemModelProvider {
         simpleItem(CAAItemsClass.RAW_ENDERIUM);
         simpleItem(CAAItemsClass.ENDERIUM_CHUNK);
         simpleItem(CAAItemsClass.ENDERIUM);
+
+
+        simpleItem(CAAItemsClass.VANADIUM_HELMET);
+        simpleItem(CAAItemsClass.VANADIUM_CHESTPLATE);
+        simpleItem(CAAItemsClass.VANADIUM_LEGGINGS);
+        simpleItem(CAAItemsClass.VANADIUM_BOOTS);
+
+        simpleItem(CAAItemsClass.RUBY_HELMET);
+        simpleItem(CAAItemsClass.RUBY_CHESTPLATE);
+        simpleItem(CAAItemsClass.RUBY_LEGGINGS);
+        simpleItem(CAAItemsClass.RUBY_BOOTS);
+
+        simpleItem(CAAItemsClass.SAPPHIRE_HELMET);
+        simpleItem(CAAItemsClass.SAPPHIRE_CHESTPLATE);
+        simpleItem(CAAItemsClass.SAPPHIRE_LEGGINGS);
+        simpleItem(CAAItemsClass.SAPPHIRE_BOOTS);
+
+        simpleItem(CAAItemsClass.EMERALD_HELMET);
+        simpleItem(CAAItemsClass.EMERALD_CHESTPLATE);
+        simpleItem(CAAItemsClass.EMERALD_LEGGINGS);
+        simpleItem(CAAItemsClass.EMERALD_BOOTS);
 
 
 
@@ -88,71 +132,85 @@ public class CAAItemModelProvider extends ItemModelProvider {
 
         //EXTRA ORES
 
-        /*
-        simpleItem(CAAItemsClass.CRIMTANE_ORE);
-        simpleItem(CAAItemsClass.CRIMTANE_BAR);
-        simpleItem(CAAItemsClass.DEMONITE_ORE);
-        simpleItem(CAAItemsClass.DEMONITE_BAR);
-        simpleItem(CAAItemsClass.ZANITE_GEMSTONE);
-        */
 
 
         //WEAPONS AND TOOLS
 
+        handheldItem(CAAItemsClass.RUBY_SWORD);
+        handheldItem(CAAItemsClass.RUBY_PICKAXE);
+        handheldItem(CAAItemsClass.RUBY_AXE);
+        handheldItem(CAAItemsClass.RUBY_HOE);
+        handheldItem(CAAItemsClass.RUBY_SHOVEL);
+
+        handheldItem(CAAItemsClass.SAPPHIRE_SWORD);
+        handheldItem(CAAItemsClass.SAPPHIRE_PICKAXE);
+        handheldItem(CAAItemsClass.SAPPHIRE_AXE);
+        handheldItem(CAAItemsClass.SAPPHIRE_HOE);
+        handheldItem(CAAItemsClass.SAPPHIRE_SHOVEL);
+
+        handheldItem(CAAItemsClass.EMERALD_SWORD);
+        handheldItem(CAAItemsClass.EMERALD_PICKAXE);
+        handheldItem(CAAItemsClass.EMERALD_AXE);
+        handheldItem(CAAItemsClass.EMERALD_HOE);
+        handheldItem(CAAItemsClass.EMERALD_SHOVEL);
+
+
+
         handheldItem(CAAItemsClass.VANADIUM_SWORD);
-        handheldItem(CAAItemsClass.VANADIUM_PICKAXE);
+        handheldItem(CAAItemsClass.VANADIUM_DAGGER);
+        handheldItem(CAAItemsClass.VANADIUM_SYTHE);
+        handheldItem(CAAItemsClass.VANADIUM_SPEAR);
         handheldItem(CAAItemsClass.VANADIUM_AXE);
         handheldItem(CAAItemsClass.VANADIUM_HOE);
+        handheldItem(CAAItemsClass.VANADIUM_PICKAXE);
         handheldItem(CAAItemsClass.VANADIUM_SHOVEL);
 
+
         handheldItem(CAAItemsClass.COBALT_SWORD);
+        handheldItem(CAAItemsClass.COBALT_DAGGER);
+        handheldItem(CAAItemsClass.COBALT_SYTHE);
+        handheldItem(CAAItemsClass.COBALT_SPEAR);
         handheldItem(CAAItemsClass.COBALT_PICKAXE);
         handheldItem(CAAItemsClass.COBALT_AXE);
         handheldItem(CAAItemsClass.COBALT_HOE);
         handheldItem(CAAItemsClass.COBALT_SHOVEL);
         handheldItem(CAAItemsClass.COBALT_DRILL);
 
+
         handheldItem(CAAItemsClass.PALLADIUM_SWORD);
+        handheldItem(CAAItemsClass.PALLADIUM_DAGGER);
+        handheldItem(CAAItemsClass.PALLADIUM_SPEAR);
+        handheldItem(CAAItemsClass.PALLADIUM_SYTHE);
         handheldItem(CAAItemsClass.PALLADIUM_PICKAXE);
         handheldItem(CAAItemsClass.PALLADIUM_AXE);
         handheldItem(CAAItemsClass.PALLADIUM_HOE);
         handheldItem(CAAItemsClass.PALLADIUM_SHOVEL);
         handheldItem(CAAItemsClass.PALLADIUM_DRILL);
 
+
         handheldItem(CAAItemsClass.ENDERIUM_SWORD);
-        handheldItem(CAAItemsClass.ENDERIUM_PICKAXE);
+        handheldItem(CAAItemsClass.ENDERIUM_DAGGER);
+        handheldItem(CAAItemsClass.ENDERIUM_SYTHE);
+        handheldItem(CAAItemsClass.ENDERIUM_SPEAR);
         handheldItem(CAAItemsClass.ENDERIUM_AXE);
         handheldItem(CAAItemsClass.ENDERIUM_HOE);
         handheldItem(CAAItemsClass.ENDERIUM_SHOVEL);
         handheldItem(CAAItemsClass.ENDERIUM_DRILL);
-
-
+        handheldItem(CAAItemsClass.ENDERIUM_PICKAXE);
 
         handheldItem(CAAItemsClass.SKULK_BLADE);
-
-        handheldItem(CAAItemsClass.VANADIUM_DAGGER);
-        handheldItem(CAAItemsClass.COBALT_DAGGER);
-        handheldItem(CAAItemsClass.PALLADIUM_DAGGER);
-        handheldItem(CAAItemsClass.ENDERIUM_DAGGER);
-
-        handheldItem(CAAItemsClass.VANADIUM_SPEAR);
-        handheldItem(CAAItemsClass.COBALT_SPEAR);
-        handheldItem(CAAItemsClass.PALLADIUM_SPEAR);
-        handheldItem(CAAItemsClass.ENDERIUM_SPEAR);
-
-        handheldItem(CAAItemsClass.VANADIUM_BATTLEAXE);
-        handheldItem(CAAItemsClass.COBALT_BATTLEAXE);
-        handheldItem(CAAItemsClass.PALLADIUM_BATTLEAXE);
-        handheldItem(CAAItemsClass.ENDERIUM_BATTLEAXE);
-
-
-        handheldItem(CAAItemsClass.THE_BUTCHER);
-
-
 
         handheldItem(CAAItemsClass.FLAME_SPEAR);
         handheldItem(CAAItemsClass.WATER_SPEAR);
         handheldItem(CAAItemsClass.THUNDER_SPEAR);
+        handheldItem(CAAItemsClass.BONE_DAGGER);
+
+        handheldItem(CAAItemsClass.OLD_DAGGER);
+        handheldItem(CAAItemsClass.OLD_SPEAR);
+        handheldItem(CAAItemsClass.OLD_SWORD);
+
+
+
 
         /*
 

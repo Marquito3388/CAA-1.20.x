@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "spear_statue",
-		"particle": "spear_statue"
+		"0": "caa:block/spear_statue",
+		"particle": "caa:block/spear_statue"
 	},
 	"elements": [
 		{

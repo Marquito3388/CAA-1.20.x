@@ -23,6 +23,6 @@
         }
     },
     "textures": {
-        "layer0": "caa:weapons/battle_axe/palladium_ba"
+        "layer0": "caa:item/palladium_ba"
     }
 }

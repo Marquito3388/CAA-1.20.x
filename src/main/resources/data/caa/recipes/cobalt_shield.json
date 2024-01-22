@@ -7,7 +7,7 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:oak_planks"
+      "item": "caa:cobalt"
     },
 
     "V": {
@@ -16,7 +16,7 @@
     
   },
   "result": {
-    "item": "caa:vanadium_shield",
+    "item": "caa:cobalt_shield",
     "count": 1
   }
 }

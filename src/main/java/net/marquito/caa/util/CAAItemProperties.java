@@ -11,6 +11,8 @@ public class CAAItemProperties {
         makeBow(CAAItemsClass.COBALT_BOW.get());
         makeBow(CAAItemsClass.PALLADIUM_BOW.get());
         makeBow(CAAItemsClass.ENDERIUM_BOW.get());
+
+        makeBow(CAAItemsClass.OLD_BOW.get());
         makeBow(CAAItemsClass.FOREST_BOW.get());
 
     }

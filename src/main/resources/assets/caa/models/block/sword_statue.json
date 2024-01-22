@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "sword_statue",
-		"particle": "sword_statue"
+		"0": "caa:block/sword_statue",
+		"particle": "caa:block/sword_statue"
 	},
 	"elements": [
 		{

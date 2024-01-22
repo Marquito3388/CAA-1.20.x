@@ -23,6 +23,6 @@
         }
     },
     "textures": {
-        "layer0": "caa:item/vanadium_shield"
+        "layer0": "caa:item/cobalt_shield"
     }
 }

@@ -1,9 +1,13 @@
 {
   "values": [
+    "caa:rubyoreds",
+    "caa:sapphireoreds",
     "caa:vanadiumoreds",
     "caa:cobaltore",
     "caa:palladiumore",
     "caa:enderiumore",
+    "caa:rubyblock",
+    "caa:sapphireblock",
     "caa:vanadiumblock",
     "caa:cobaltblock",
     "caa:palladiumblock",
@@ -27,6 +31,20 @@
     "caa:green_lamp_on",
     "caa:cyan_lamp_on",
     "caa:black_lamp_on",
-    "caa:sword_shrine"
+    "caa:sword_shrine",
+    "caa:pharoahs_block",
+    "caa:c_sandstone_bricks",
+    "caa:c_sandstone_pillar",
+    "caa:cracked_dt_bricks",
+    "caa:dt_bricks",
+    "caa:sandstone_bricks",
+    "caa:sandstone_pillar",
+    "caa:dagger_statue",
+    "caa:bow_statue",
+    "caa:glaive_statue",
+    "caa:ba_statue",
+    "caa:spear_statue",
+    "caa:shield_statue",
+    "caa:sword_statue"
   ]
 }

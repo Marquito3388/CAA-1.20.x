@@ -1,22 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " CV",
-    "C V",
-    " CV"
+    " EV",
+    "E V",
+    " EV"
   ],
   "key": {
-    "V": {
-      "item": "caa:vanadium"
+
+    "E": {
+      "item": "caa:enderium"
     },
 
-    "C": {
-      "item": "caa:cobalt"
+    "V": {
+      "item": "caa:netherite_rod"
     }
 
   },
   "result": {
-    "item": "caa:cobalt_bow",
+    "item": "caa:enderium_bow",
     "count": 1
   }
 }

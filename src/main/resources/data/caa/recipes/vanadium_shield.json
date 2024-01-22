@@ -1,22 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "   ",
-    " V ",
+    " S ",
+    "SVS",
     " S "
   ],
   "key": {
     "S": {
-      "item": "minecraft:stick"
+      "item": "caa:vanadium"
     },
 
     "V": {
-      "item": "caa:vanadium"
+      "item": "minecraft:oak_planks"
     }
     
   },
   "result": {
-    "item": "caa:vanadium_dagger",
+    "item": "caa:vanadium_shield",
     "count": 1
   }
 }

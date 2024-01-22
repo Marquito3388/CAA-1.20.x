@@ -2,21 +2,21 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "  V",
-    " S ",
+    " C ",
     "V  "
   ],
   "key": {
     "V": {
-      "item": "caa:vanadium"
+      "item": "caa:cobalt"
     },
     
      "C": {
-      "item": "minecraft:stick"
+      "item": "caa:vanadium_rod"
     }
     
   },
   "result": {
-    "item": "caa:cobalt_axe",
+    "item": "caa:cobalt_glaive",
     "count": 1
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "caa:item/old_bow",
   "textures": {
-    "layer0": "caa:item/old_bow_pulling_0"
+    "layer0": "caa:item/old_bow_pulling_2"
   }
 }

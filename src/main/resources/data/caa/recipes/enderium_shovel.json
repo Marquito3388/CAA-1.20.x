@@ -3,19 +3,15 @@
   "pattern": [
     " A ",
     " N ",
-    " V "
+    " N "
   ],
   "key": {
-    "V": {
-      "item": "caa:vanadium"
-    },
-    
      "A": {
       "item": "caa:enderium"
     },
     
      "N": {
-      "item": "minecraft:netherite_ingot"
+      "item": "caa:netherite_rod"
     }
     
   },

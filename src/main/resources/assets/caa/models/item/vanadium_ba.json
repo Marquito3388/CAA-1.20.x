@@ -23,6 +23,6 @@
         }
     },
     "textures": {
-        "layer0": "caa:weapons/battle_axe/vanadium_ba"
+        "layer0": "caa:item/vanadium_ba"
     }
 }

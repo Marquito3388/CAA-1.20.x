@@ -2,20 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "  N",
-    " E ",
+    " V ",
     "V  "
   ],
   "key": {
     "N": {
       "item": "caa:enderium"
     },
-
-    "E": {
-      "item": "minecraft:netherite_ingot"
-    },
-
     "V": {
-      "item": "caa:vanadium"
+      "item": "caa:netherite_rod"
     }
 
   },

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CC ",
+    " V ",
+    " V "
+  ],
+  "key": {
+    "V": {
+      "item": "minecraft:stick"
+    },
+
+    "C": {
+      "item": "minecraft:emerald"
+    }
+
+  },
+  "result": {
+    "item": "caa:emerald_hoe",
+    "count": 1
+  }
+}

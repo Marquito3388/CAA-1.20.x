@@ -4,6 +4,15 @@
   "item.caa.basilisk_scale": "Basilisk Scale",
   "item.caa.dark_brick": "Dark Brick",
 
+  "item.caa.wardens_bone": "Warden's Bone",
+  "item.caa.wardens_horn": "Warden's Horn",
+  "item.caa.wardens_will": "Warden's Will",
+
+
+
+  "item.caa.ruby": "Ruby",
+  "item.caa.sapphire": "Sapphire",
+
   "item.caa.raw_vanadium": "Raw Vanadium",
   "item.caa.raw_cobalt": "Raw Cobalt",
   "item.caa.raw_palladium": "Raw Palladium",
@@ -19,41 +28,30 @@
   "item.caa.palladium": "Palladium",
   "item.caa.enderium": "Enderium",
 
-
-
-  "item.caa.tissue_sample": "Tissue Sample",
-  "item.caa.shadow_scale": "Shadow Scale",
-
   "item.caa.dark_matter": "Dark Matter",
 
 
-  "item.caa.crimtane_ore": "Crimtane Ore",
-  "item.caa.demonite_ore": "Demonite Ore",
-  "item.caa.crimtane_bar": "Crimtane Bar",
-  "item.caa.demonite_bar": "Demonite Bar",
+  "item.caa.vanadium_rod": "Vanadium Rod",
+  "item.caa.netherite_rod": "Netherite Rod",
 
-  "item.caa.zanite_gemstone": "Zanite Gemstone",
-  "block.caa.enchanted_gravitite": "§EEnchanted Gravitite",
 
-  "item.caa.zanite_sword": "Zanite Sword",
-  "item.caa.gravitite_sword": "Gravitite Sword",
+  "item.caa.ruby_axe": "Ruby Axe",
+  "item.caa.ruby_pickaxe": "Ruby Pickaxe",
+  "item.caa.ruby_hoe": "Ruby Hoe",
+  "item.caa.ruby_shovel": "Ruby Shovel",
+  "item.caa.ruby_sword": "Ruby Sword",
 
-  "item.caa.zanite_pickaxe": "Zanite Pickaxe",
-  "item.caa.gravitite_pickaxe": "Gravitite Pickaxe",
+  "item.caa.sapphire_axe": "Sapphire Axe",
+  "item.caa.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.caa.sapphire_hoe": "Sapphire Hoe",
+  "item.caa.sapphire_shovel": "Sapphire Shovel",
+  "item.caa.sapphire_sword": "Sapphire Sword",
 
-  "item.caa.zanite_axe": "Zanite Axe",
-  "item.caa.gravitite_axe": "Gravitite Axe",
-
-  "item.caa.zanite_shovel": "Zanite Shovel",
-  "item.caa.gravitite_shovel": "Gravitite Shovel",
-
-  "item.caa.crimtane_axe": "Blood Lust Cluster",
-  "item.caa.blood_butcherer": "Blood Butcherer",
-  "item.caa.crimtane_pickaxe": "Deathbringer Pickaxe",
-
-  "item.caa.demonite_axe": "War Axe of the Night",
-  "item.caa.lights_bane": "Light's Bane",
-  "item.caa.demonite_pickaxe": "Nightmare Pickaxe",
+  "item.caa.emerald_axe": "Emerald Axe",
+  "item.caa.emerald_pickaxe": "Emerald Pickaxe",
+  "item.caa.emerald_hoe": "Emerald Hoe",
+  "item.caa.emerald_shovel": "Emerald Shovel",
+  "item.caa.emerald_sword": "Emerald Sword",
 
 
 
@@ -103,21 +101,66 @@
   "item.caa.palladium_dagger": "Palladium Dagger",
   "item.caa.enderium_dagger": "Enderium Dagger",
 
+
+  "item.caa.vanadium_glaive": "Vanadium Glaive",
+  "item.caa.cobalt_glaive": "Cobalt Glaive",
+  "item.caa.palladium_glaive": "Palladium Glaive",
+  "item.caa.enderium_glaive": "Enderium Glaive",
+
+  "item.caa.vanadium_shield": "Vanadium Shield",
+  "item.caa.cobalt_shield": "Cobalt Shield",
+  "item.caa.palladium_shield": "Palladium Shield",
+  "item.caa.enderium_shield": "Enderium Shield",
+
+  "item.caa.vanadium_sythe": "Vanadium Sythe",
+  "item.caa.cobalt_sythe": "Cobalt Sythe",
+  "item.caa.palladium_sythe": "Palladium Sythe",
+  "item.caa.enderium_sythe": "Enderium Sythe",
+
+
   "item.caa.cobalt_bow": "Cobalt Bow",
   "item.caa.palladium_bow": "Palladium Bow",
   "item.caa.enderium_bow": "Enderium Bow",
 
   "item.caa.forest_bow": "Forest Bow",
-
   "item.caa.flame_spear": "Flame Spear",
   "item.caa.water_spear": "Water Spear",
   "item.caa.thunder_spear": "Thunder Spear",
-
-
-
+  "item.caa.frost_glaive": "Frost Glaive",
+  "item.caa.bone_dagger": "Bone Dagger",
   "item.caa.skulk_blade": "Skulk Blade",
-
   "item.caa.the_butcher": "The Butcher",
+
+
+  "item.caa.old_ba": "Old Battle Axe",
+  "item.caa.old_sword": "Old Sword",
+  "item.caa.old_dagger": "Old Dagger",
+  "item.caa.old_shield": "Old Shield",
+  "item.caa.old_glaive": "Old Glaive",
+  "item.caa.old_bow": "Old Bow",
+  "item.caa.old_spear": "Old Spear",
+
+
+  "item.caa.vanadium_helmet": "Vanadium Helmet",
+  "item.caa.vanadium_chestplate": "Vanadium Chestplate",
+  "item.caa.vanadium_leggings": "Vanadium Leggings",
+  "item.caa.vanadium_boots": "Vanadium Boots",
+
+  "item.caa.ruby_helmet": "Ruby Helmet",
+  "item.caa.ruby_chestplate": "Ruby Chestplate",
+  "item.caa.ruby_leggings": "Ruby Leggings",
+  "item.caa.ruby_boots": "Ruby Boots",
+
+  "item.caa.sapphire_helmet": "Sapphire Helmet",
+  "item.caa.sapphire_chestplate": "Sapphire Chestplate",
+  "item.caa.sapphire_leggings": "Sapphire Leggings",
+  "item.caa.sapphire_boots": "Sapphire Boots",
+
+  "item.caa.emerald_helmet": "Emerald Helmet",
+  "item.caa.emerald_chestplate": "Emerald Chestplate",
+  "item.caa.emerald_leggings": "Emerald Leggings",
+  "item.caa.emerald_boots": "Emerald Boots",
+
 
 
   "item.caa.cobalt_helmet": "Cobalt Helmet",
@@ -144,6 +187,9 @@
   "creativetab.caaarmor_tab": "CaA Armors",
 
 
+  "block.caa.rubyoreds": "Ruby Ore",
+  "block.caa.sapphireoreds": "Sapphire Ore",
+
   "block.caa.vanadiumoreds": "Vanadium Ore",
   "block.caa.cobaltore": "Cobalt Ore",
   "block.caa.palladiumore": "Palladium Ore",
@@ -151,6 +197,8 @@
 
   "block.caa.sword_shrine": "Sword Shrine",
 
+  "block.caa.rubyblock": "Ruby Block",
+  "block.caa.sapphireblock": "Sapphire Block",
   "block.caa.vanadiumblock": "Vanadium Block",
   "block.caa.cobaltblock": "Cobalt Block",
   "block.caa.palladiumblock": "Palladium Block",
@@ -177,5 +225,23 @@
   "block.caa.orange_lamp_on": "Orange Lamp",
   "block.caa.pink_lamp_on": "Pink Lamp",
   "block.caa.purple_lamp_on": "Pruple Lamp",
-  "block.caa.yellow_lamp_on": "Yellow Lamp"
+  "block.caa.yellow_lamp_on": "Yellow Lamp",
+
+  "block.caa.pharoahs_block": "Pharoah's Block",
+
+  "block.caa.c_sandstone_bricks": "Cracked Sandstone Bricks",
+  "block.caa.sandstone_bricks": "Sandstone Bricks",
+  "block.caa.sandstone_pillar": "Sandstone Pillar",
+  "block.caa.c_sandstone_pillar": "Cracked Sandstone Pillar",
+  "block.caa.cracked_dt_bricks": "Cracked Desert Temple Bricks",
+  "block.caa.dt_bricks": "Desert Temple Bricks",
+
+
+  "block.caa.ba_statue": "Battle Axe Statue",
+  "block.caa.sword_statue": "Sword Statue",
+  "block.caa.bow_statue": "Bow Statue",
+  "block.caa.shield_statue": "Shield Statue",
+  "block.caa.glaive_statue": "Glaive Statue",
+  "block.caa.spear_statue": "Spear Statue",
+  "block.caa.dagger_statue": "Dagger Statue"
 }

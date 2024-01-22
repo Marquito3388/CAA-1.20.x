@@ -7,16 +7,16 @@
   ],
   "key": {
     "V": {
-      "item": "caa:cobalt"
+      "item": "caa:enderium"
     },
     
      "C": {
-      "item": "caa:vanadium"
+      "item": "caa:netherite_rod"
     }
     
   },
   "result": {
-    "item": "caa:cobalt_axe",
+    "item": "caa:enderium_glaive",
     "count": 1
   }
 }

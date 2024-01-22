@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "shield_statue",
-		"particle": "shield_statue"
+		"0": "caa:block/shield_statue",
+		"particle": "caa:block/shield_statue"
 	},
 	"elements": [
 		{

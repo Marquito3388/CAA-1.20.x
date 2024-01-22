@@ -24,9 +24,15 @@ public class CAAToolTiers {
             BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(CAAItemsClass.VANADIUM.get()));
 
 
+    public static final Tier GEMS = TierSortingRegistry.registerTier(
+            new ForgeTier(2, 500, 7.0F, 2.5F, 13,
+                    BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(CAAItemsClass.RUBY.get())),
+            new ResourceLocation(MarquitosCoreMod.MODID, "gems"), List.of(Tiers.IRON), List.of());
+
+
 
     public static final Tier VANADIUM = TierSortingRegistry.registerTier(
-            new ForgeTier(3, 900, 8.0F, 2.0F, 10,
+            new ForgeTier(3, 900, 8.0F, 3.3F, 12,
                     BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(CAAItemsClass.VANADIUM.get())),
             new ResourceLocation(MarquitosCoreMod.MODID, "vanadium"), List.of(Tiers.IRON), List.of());
 

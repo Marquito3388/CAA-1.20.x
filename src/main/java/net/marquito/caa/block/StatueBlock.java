@@ -14,10 +14,10 @@ import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-public class SwordShrineBlock  extends HorizontalDirectionalBlock {
+public class StatueBlock extends HorizontalDirectionalBlock {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
 
-    public SwordShrineBlock(Properties properties) {
+    public StatueBlock(Properties properties) {
         super(properties);
     }
 

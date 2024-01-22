@@ -23,6 +23,6 @@
         }
     },
     "textures": {
-        "layer0": "caa:weapons/battle_axe/cobalt_ba"
+        "layer0": "caa:item/cobalt_ba"
     }
 }

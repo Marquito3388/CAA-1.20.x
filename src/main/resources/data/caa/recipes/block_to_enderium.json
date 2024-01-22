@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "caa:netheriumblock"
+      "item": "caa:enderiumblock"
     }
   ],
   "result": {
-    "item": "caa:netherium",
+    "item": "caa:enderium",
     "count": 9
   }
 }

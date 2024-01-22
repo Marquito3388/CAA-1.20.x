@@ -17,11 +17,16 @@ public class CAABlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
 
 
+
+        blockWithItem(CAABlocksClass.RUBY_ORE);
+        blockWithItem(CAABlocksClass.SAPPHIRE_ORE);
         blockWithItem(CAABlocksClass.VANADIUM_ORE);
         blockWithItem(CAABlocksClass.COBALT_ORE);
         blockWithItem(CAABlocksClass.PALLADIUM_ORE);
         blockWithItem(CAABlocksClass.ENDERIUM_ORE);
 
+        blockWithItem(CAABlocksClass.RUBY_BLOCK);
+        blockWithItem(CAABlocksClass.SAPPHIRE_BLOCK);
         blockWithItem(CAABlocksClass.VANADIUM_BLOCK);
         blockWithItem(CAABlocksClass.COBALT_BLOCK);
         blockWithItem(CAABlocksClass.PALLADIUM_BLOCK);
@@ -50,6 +55,16 @@ public class CAABlockStateProvider extends BlockStateProvider {
         blockWithItem(CAABlocksClass.RED_LAMP);
         blockWithItem(CAABlocksClass.PINK_LAMP);
         blockWithItem(CAABlocksClass.ORANGE_LAMP);
+
+        blockWithItem(CAABlocksClass.C_SANDSTONE_BRICKS);
+        blockWithItem(CAABlocksClass.C_SANDSTONE_PILLAR);
+        blockWithItem(CAABlocksClass.C_DT_BRICKS);
+        blockWithItem(CAABlocksClass.DT_BRICKS);
+        blockWithItem(CAABlocksClass.SANDSTONE_BRICKS);
+        blockWithItem(CAABlocksClass.SANDSTONE_PILLAR);
+
+
+        blockWithItem(CAABlocksClass.PHAROAS_BLOCK);
 
     }
 

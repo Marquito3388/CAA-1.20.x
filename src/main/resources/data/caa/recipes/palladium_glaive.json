@@ -7,16 +7,16 @@
   ],
   "key": {
     "V": {
-      "item": "caa:cobalt"
+      "item": "caa:palladium"
     },
     
      "C": {
-      "item": "caa:vanadium"
+      "item": "caa:vanadium_rod"
     }
     
   },
   "result": {
-    "item": "caa:cobalt_axe",
+    "item": "caa:palladium_glaive",
     "count": 1
   }
 }

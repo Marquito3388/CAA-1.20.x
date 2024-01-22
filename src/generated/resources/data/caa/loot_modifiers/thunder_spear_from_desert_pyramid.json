@@ -6,9 +6,9 @@
       "loot_table_id": "minecraft:chests/desert_pyramid"
     },
     {
-      "chance": 0.25,
+      "chance": 0.7,
       "condition": "minecraft:random_chance"
     }
   ],
-  "item": "caa:skulk_blade"
+  "item": "caa:thunder_spear"
 }

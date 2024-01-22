@@ -85,11 +85,20 @@ minecraft {
         client {
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             property 'forge.enabledGameTestNamespaces', mod_id
+
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
+
+
         }
 
         server {
             property 'forge.enabledGameTestNamespaces', mod_id
             args '--nogui'
+
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
+
         }
 
         // This run config launches GameTestServer and runs all registered gametests, then exits.
@@ -115,13 +124,18 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 repositories {
     maven {
         url "https://cursemaven.com"
-
-        maven {
-            // location of the maven that hosts JEI files since January 2023
-            name = "Jared's maven"
-            url = "https://maven.blamejared.com/"
-        }
     }
+    maven {
+        // location of the maven that hosts JEI files since January 2023
+        name = "Jared's maven"
+        url = "https://maven.blamejared.com/"
+    }
+
+   // maven {
+   //     url = "https://maven.theillusivec4.top/"
+   // }
+
+
     // Put repositories for dependencies here
     // ForgeGradle automatically adds the Forge maven and Maven Central for you
 
@@ -140,6 +154,10 @@ dependencies {
     // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
     implementation fg.deobf("curse.maven:marquitos-core-863560:4950963")
+
+
+    //runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:5.4.7+1.20.1")
+    //compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:5.4.7+1.20.1:api")
 
 
     compileOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}"))

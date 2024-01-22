@@ -23,15 +23,18 @@ public class CAABlockTagGenerator extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
 
 
-      //  this.tag(CAATags.Blocks.METAL_DETECTOR_VALUABLES)
-       //         .add(CAABlocks.SAPPHIRE_ORE.get()).addTag(Tags.Blocks.ORES);
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
-         .add(CAABlocksClass.VANADIUM_ORE.get(),
-              CAABlocksClass.COBALT_ORE.get(),
-              CAABlocksClass.PALLADIUM_ORE.get(),
-              CAABlocksClass.ENDERIUM_ORE.get(),
+         .add(CAABlocksClass.RUBY_ORE.get(),
 
+                 CAABlocksClass.SAPPHIRE_ORE.get(),
+                 CAABlocksClass.VANADIUM_ORE.get(),
+                 CAABlocksClass.COBALT_ORE.get(),
+                 CAABlocksClass.PALLADIUM_ORE.get(),
+                 CAABlocksClass.ENDERIUM_ORE.get(),
+
+                 CAABlocksClass.RUBY_BLOCK.get(),
+                 CAABlocksClass.SAPPHIRE_BLOCK.get(),
                  CAABlocksClass.VANADIUM_BLOCK.get(),
                  CAABlocksClass.COBALT_BLOCK.get(),
                  CAABlocksClass.PALLADIUM_BLOCK.get(),
@@ -58,7 +61,25 @@ public class CAABlockTagGenerator extends BlockTagsProvider {
                  CAABlocksClass.CYAN_LAMP.get(),
                  CAABlocksClass.BLACK_LAMP.get(),
 
-                 CAABlocksClass.SWORD_SHRINE.get()
+                 CAABlocksClass.SWORD_SHRINE.get(),
+
+
+                 CAABlocksClass.PHAROAS_BLOCK.get(),
+
+                 CAABlocksClass.C_SANDSTONE_BRICKS.get(),
+                 CAABlocksClass.C_SANDSTONE_PILLAR.get(),
+                 CAABlocksClass.C_DT_BRICKS.get(),
+                 CAABlocksClass.DT_BRICKS.get(),
+                 CAABlocksClass.SANDSTONE_BRICKS.get(),
+                 CAABlocksClass.SANDSTONE_PILLAR.get(),
+
+                 CAABlocksClass.DAGGER_STATUE.get(),
+                 CAABlocksClass.BOW_STATUE.get(),
+                 CAABlocksClass.GLAIVE_STATUE.get(),
+                 CAABlocksClass.BA_STATUE.get(),
+                 CAABlocksClass.SPEAR_STATUE.get(),
+                 CAABlocksClass.SHIELD_STATUE.get(),
+                 CAABlocksClass.SWORD_STATUE.get()
 
 
 
@@ -66,18 +87,24 @@ public class CAABlockTagGenerator extends BlockTagsProvider {
 
          );
 
-        /*
-                .add(CAABlocks.SAPPHIRE_BLOCK.get(),
-                        CAABlocks.RAW_SAPPHIRE_BLOCK.get(),
-                        CAABlocks.SAPPHIRE_ORE.get(),
-                        CAABlocks.DEEPSLATE_SAPPHIRE_ORE.get(),
-                        CAABlocks.NETHER_SAPPHIRE_ORE.get(),
-                        CAABlocks.END_STONE_SAPPHIRE_ORE.get(),
-                        CAABlocks.SOUND_BLOCK.get());
+        this.tag(BlockTags.NEEDS_STONE_TOOL)
 
-         */
+                .add(CAABlocksClass.C_SANDSTONE_BRICKS.get())
+                .add(CAABlocksClass.C_SANDSTONE_PILLAR.get())
+                .add(CAABlocksClass.C_DT_BRICKS.get())
+                .add(CAABlocksClass.DT_BRICKS.get())
+                .add(CAABlocksClass.SANDSTONE_BRICKS.get())
+                .add(CAABlocksClass.SANDSTONE_PILLAR.get())
 
-        this.tag(BlockTags.NEEDS_STONE_TOOL);
+                .add(CAABlocksClass.SHIELD_STATUE.get())
+                .add(CAABlocksClass.SPEAR_STATUE.get())
+                .add(CAABlocksClass.SWORD_STATUE.get())
+                .add(CAABlocksClass.BA_STATUE.get())
+                .add(CAABlocksClass.GLAIVE_STATUE.get())
+                .add(CAABlocksClass.BOW_STATUE.get())
+                .add(CAABlocksClass.DAGGER_STATUE.get());
+
+
 
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
@@ -85,6 +112,12 @@ public class CAABlockTagGenerator extends BlockTagsProvider {
 
                 //.add(CAABlocksClass.ENCHANTED_GRAVITITE.get())
 
+                .add(CAABlocksClass.RUBY_ORE.get())
+                .add(CAABlocksClass.SAPPHIRE_ORE.get())
+
+
+                .add(CAABlocksClass.RUBY_BLOCK.get())
+                .add(CAABlocksClass.SAPPHIRE_BLOCK.get())
                 .add(CAABlocksClass.VANADIUM_BLOCK.get())
                 .add(CAABlocksClass.COBALT_BLOCK.get())
                 .add(CAABlocksClass.PALLADIUM_BLOCK.get())
@@ -94,6 +127,8 @@ public class CAABlockTagGenerator extends BlockTagsProvider {
                 .add(CAABlocksClass.COBALT_BRICK.get())
                 .add(CAABlocksClass.PALLADIUM_BRICK.get())
                 .add(CAABlocksClass.ENDERIUM_BRICK.get())
+
+                .add(CAABlocksClass.PHAROAS_BLOCK.get())
 
                 .add(CAABlocksClass.BLUE_LAMP.get())
                 .add(CAABlocksClass.BLACK_LAMP.get())

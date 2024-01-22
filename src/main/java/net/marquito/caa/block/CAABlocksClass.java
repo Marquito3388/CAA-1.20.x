@@ -23,6 +23,23 @@ public class CAABlocksClass {
             DeferredRegister.create(ForgeRegistries.BLOCKS, ChaosAndAbyss.MODID);
 
 
+
+    public static final RegistryObject<Block> RUBY_ORE =
+            registerBlock("rubyoreds", () -> new Block(BlockBehaviour.Properties
+                    .copy(Blocks.DEEPSLATE_DIAMOND_ORE)
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(value -> 3)
+                    .sound(SoundType.DEEPSLATE)));
+
+    public static final RegistryObject<Block> SAPPHIRE_ORE =
+            registerBlock("sapphireoreds", () -> new Block(BlockBehaviour.Properties
+                    .copy(Blocks.DEEPSLATE_DIAMOND_ORE)
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(value -> 3)
+                    .sound(SoundType.DEEPSLATE)));
+
+
+
     public static final RegistryObject<Block> VANADIUM_ORE =
             registerBlock("vanadiumoreds", () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.DEEPSLATE_GOLD_ORE)
@@ -51,29 +68,42 @@ public class CAABlocksClass {
     // METAL BLOCKS ==========================================
 
 
+    public static final RegistryObject<Block> RUBY_BLOCK =
+            registerBlock("rubyblock", () -> new Block(BlockBehaviour.Properties
+                    .copy(Blocks.DIAMOND_BLOCK)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> SAPPHIRE_BLOCK =
+            registerBlock("sapphireblock", () -> new Block(BlockBehaviour.Properties
+                    .copy(Blocks.DIAMOND_BLOCK)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+
     public static final RegistryObject<Block> VANADIUM_BLOCK =
             registerBlock("vanadiumblock", () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.GOLD_BLOCK)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.DEEPSLATE)));
+                    .sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> COBALT_BLOCK =
             registerBlock("cobaltblock", () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.GOLD_BLOCK)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.DEEPSLATE)));
+                    .sound(SoundType.ANCIENT_DEBRIS)));
 
     public static final RegistryObject<Block> PALLADIUM_BLOCK =
             registerBlock("palladiumblock", () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.GOLD_BLOCK)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.DEEPSLATE)));
+                    .sound(SoundType.ANCIENT_DEBRIS)));
 
     public static final RegistryObject<Block> ENDERIUM_BLOCK =
             registerBlock("enderiumblock", () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.GOLD_BLOCK)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.DEEPSLATE)));
+                    .sound(SoundType.ANCIENT_DEBRIS)));
     
 
 
@@ -108,6 +138,54 @@ public class CAABlocksClass {
                     .copy(Blocks.GLOWSTONE)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)));
+
+
+    //SAND BRICKS
+
+    public static final RegistryObject<Block> C_SANDSTONE_BRICKS =
+            registerBlock("c_sandstone_bricks", () -> new Block(BlockBehaviour.Properties
+                    .copy(Blocks.BRICKS)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> SANDSTONE_BRICKS =
+            registerBlock("sandstone_bricks", () -> new Block(BlockBehaviour.Properties
+                    .copy(Blocks.BRICKS)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> SANDSTONE_PILLAR =
+            registerBlock("sandstone_pillar", () -> new Block(BlockBehaviour.Properties
+                    .copy(Blocks.BRICKS)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> C_SANDSTONE_PILLAR =
+            registerBlock("c_sandstone_pillar", () -> new Block(BlockBehaviour.Properties
+                    .copy(Blocks.BRICKS)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> C_DT_BRICKS =
+            registerBlock("cracked_dt_bricks", () -> new Block(BlockBehaviour.Properties
+                    .copy(Blocks.BRICKS)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> DT_BRICKS =
+            registerBlock("dt_bricks", () -> new Block(BlockBehaviour.Properties
+                    .copy(Blocks.BRICKS)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+
+    public static final RegistryObject<Block> PHAROAS_BLOCK =
+            registerBlock("pharoahs_block", () -> new Block(BlockBehaviour.Properties
+                    .copy(Blocks.STONE)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+
 
     //WardenAnimation
 
@@ -205,6 +283,58 @@ public class CAABlocksClass {
                     .requiresCorrectToolForDrops()
                     .noOcclusion()
                     .sound(SoundType.STONE)));
+
+
+
+    public static final RegistryObject<Block> BA_STATUE =
+            registerBlock("ba_statue", () -> new StatueBlock(BlockBehaviour.Properties
+                    .copy(Blocks.SANDSTONE)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .sound(SoundType.SAND)));
+
+    public static final RegistryObject<Block> DAGGER_STATUE =
+            registerBlock("dagger_statue", () -> new StatueBlock(BlockBehaviour.Properties
+                    .copy(Blocks.SANDSTONE)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .sound(SoundType.SAND)));
+
+    public static final RegistryObject<Block> BOW_STATUE =
+            registerBlock("bow_statue", () -> new StatueBlock(BlockBehaviour.Properties
+                    .copy(Blocks.SANDSTONE)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .sound(SoundType.SAND)));
+
+    public static final RegistryObject<Block> GLAIVE_STATUE =
+            registerBlock("glaive_statue", () -> new StatueBlock(BlockBehaviour.Properties
+                    .copy(Blocks.SANDSTONE)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .sound(SoundType.SAND)));
+
+    public static final RegistryObject<Block> SHIELD_STATUE =
+            registerBlock("shield_statue", () -> new StatueBlock(BlockBehaviour.Properties
+                    .copy(Blocks.SANDSTONE)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .sound(SoundType.SAND)));
+
+    public static final RegistryObject<Block> SWORD_STATUE =
+            registerBlock("sword_statue", () -> new StatueBlock(BlockBehaviour.Properties
+                    .copy(Blocks.SANDSTONE)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .sound(SoundType.SAND)));
+
+    public static final RegistryObject<Block> SPEAR_STATUE =
+            registerBlock("spear_statue", () -> new StatueBlock(BlockBehaviour.Properties
+                    .copy(Blocks.SANDSTONE)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .sound(SoundType.SAND)));
+
 
 
 

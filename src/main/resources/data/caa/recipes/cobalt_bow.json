@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "CCC",
-    "CVC",
-    " V "
+    " CV",
+    "C V",
+    " CV"
   ],
   "key": {
     "V": {
-      "item": "caa:vanadium"
+      "item": "caa:vanadium_rod"
     },
 
     "C": {
@@ -16,7 +16,7 @@
 
   },
   "result": {
-    "item": "caa:cobalt_ba",
+    "item": "caa:cobalt_bow",
     "count": 1
   }
 }

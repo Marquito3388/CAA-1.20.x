@@ -25,10 +25,30 @@ public class CAATabs {
                     .displayItems((pParameters, pOutput) -> {
 
 
-                        pOutput.accept(CAAItemsClass.DARK_MATTER.get());
+                        //pOutput.accept(CAAItemsClass.DARK_MATTER.get());
 
-                       // pOutput.accept(CAAItemsClass.SHADOW_SCALE.get());
-                      //  pOutput.accept(CAAItemsClass.TISSUE_SAMPLE.get());
+
+                        pOutput.accept(CAAItemsClass.VANADIUM_ROD.get());
+                        pOutput.accept(CAAItemsClass.NETHERITE_ROD.get());
+
+                        /*
+                        pOutput.accept(CAAItemsClass.WARDENS_HORN.get());
+                        pOutput.accept(CAAItemsClass.WARDENS_BONE.get());
+                        pOutput.accept(CAAItemsClass.WARDENS_WILL.get());
+
+                        pOutput.accept(CAAItemsClass.GUARDIANS_SKIN.get());
+                        pOutput.accept(CAAItemsClass.GUARDIANS_EYE.get());
+                        pOutput.accept(CAAItemsClass.GUARDIANS_WILL.get());
+
+                        pOutput.accept(CAAItemsClass.WITHERS_BONE.get());
+                        pOutput.accept(CAAItemsClass.WITHERS_WILL.get());
+
+                         */
+
+
+                        pOutput.accept(CAAItemsClass.RUBY.get());
+                        pOutput.accept(CAAItemsClass.SAPPHIRE.get());
+
                         pOutput.accept(CAAItemsClass.RAW_VANADIUM.get());
                         pOutput.accept(CAAItemsClass.VANADIUM_CHUNK.get());
                         pOutput.accept(CAAItemsClass.VANADIUM.get());
@@ -47,16 +67,6 @@ public class CAATabs {
 
 
 
-                        /*
-                        pOutput.accept(CAAItemsClass.ZANITE_GEMSTONE.get());
-                        pOutput.accept(CAABlocksClass.ENCHANTED_GRAVITITE.get());
-                        pOutput.accept(CAAItemsClass.CRIMTANE_ORE.get());
-                        pOutput.accept(CAAItemsClass.DEMONITE_ORE.get());
-
-                        pOutput.accept(CAAItemsClass.CRIMTANE_BAR.get());
-                        pOutput.accept(CAAItemsClass.DEMONITE_BAR.get());
-
-                         */
 
 
 
@@ -71,6 +81,12 @@ public class CAATabs {
                     .icon(() -> new ItemStack(CAAItemsClass.ENDERIUM_SWORD.get()))
                     .title(Component.translatable("creativetab.caaweapons_tab"))
                     .displayItems((pParameters, pOutput) -> {
+
+
+                        pOutput.accept(CAAItemsClass.RUBY_SWORD.get());
+                        pOutput.accept(CAAItemsClass.SAPPHIRE_SWORD.get());
+                        pOutput.accept(CAAItemsClass.EMERALD_SWORD.get());
+
 
                         pOutput.accept(CAAItemsClass.VANADIUM_SWORD.get());
                         pOutput.accept(CAAItemsClass.COBALT_SWORD.get());
@@ -92,36 +108,53 @@ public class CAATabs {
                         pOutput.accept(CAAItemsClass.PALLADIUM_DAGGER.get());
                         pOutput.accept(CAAItemsClass.ENDERIUM_DAGGER.get());
 
+                        pOutput.accept(CAAItemsClass.VANADIUM_GLAIVE.get());
+                        pOutput.accept(CAAItemsClass.COBALT_GLAIVE.get());
+                        pOutput.accept(CAAItemsClass.PALLADIUM_GLAIVE.get());
+                        pOutput.accept(CAAItemsClass.ENDERIUM_GLAIVE.get());
 
                         pOutput.accept(CAAItemsClass.COBALT_BOW.get());
                         pOutput.accept(CAAItemsClass.PALLADIUM_BOW.get());
                         pOutput.accept(CAAItemsClass.ENDERIUM_BOW.get());
 
+                        pOutput.accept(CAAItemsClass.VANADIUM_SHIELD.get());
+                        pOutput.accept(CAAItemsClass.COBALT_SHIELD.get());
+                        pOutput.accept(CAAItemsClass.PALLADIUM_SHIELD.get());
+                        pOutput.accept(CAAItemsClass.ENDERIUM_SHIELD.get());
+
+                        pOutput.accept(CAAItemsClass.VANADIUM_SYTHE.get());
+                        pOutput.accept(CAAItemsClass.COBALT_SYTHE.get());
+                        pOutput.accept(CAAItemsClass.PALLADIUM_SYTHE.get());
+                        pOutput.accept(CAAItemsClass.ENDERIUM_SYTHE.get());
+
+
                         pOutput.accept(CAAItemsClass.FOREST_BOW.get());
-
-
                         pOutput.accept(CAAItemsClass.FLAME_SPEAR.get());
                         pOutput.accept(CAAItemsClass.WATER_SPEAR.get());
                         pOutput.accept(CAAItemsClass.THUNDER_SPEAR.get());
-
                         pOutput.accept(CAAItemsClass.SKULK_BLADE.get());
-
-
                         pOutput.accept(CAAItemsClass.THE_BUTCHER.get());
+                        pOutput.accept(CAAItemsClass.BONE_DAGGER.get());
+                        pOutput.accept(CAAItemsClass.FROST_GLAIVE.get());
 
-                        /*
-                        pOutput.accept(CAAItemsClass.ZANITE_SWORD.get());
-                        pOutput.accept(CAAItemsClass.GRAVITITE_SWORD.get());
 
-                        pOutput.accept(CAAItemsClass.LIGHTS_BANE.get());
-                        pOutput.accept(CAAItemsClass.BLOOD_BUTCHERER.get());
+                        pOutput.accept(CAAItemsClass.OLD_GLAIVE.get());
+                        pOutput.accept(CAAItemsClass.OLD_BOW.get());
+                        pOutput.accept(CAAItemsClass.OLD_SPEAR.get());
+                        pOutput.accept(CAAItemsClass.OLD_BA.get());
+                        pOutput.accept(CAAItemsClass.OLD_SHIELD.get());
+                        pOutput.accept(CAAItemsClass.OLD_SWORD.get());
 
-                         */
+
+
+
+
 
 
 
 
                     })
+                    .withSearchBar()
                     .build());
 
 
@@ -131,6 +164,23 @@ public class CAATabs {
                     .icon(() -> new ItemStack(CAAItemsClass.COBALT_PICKAXE.get()))
                     .title(Component.translatable("creativetab.caatools_tab"))
                     .displayItems((pParameters, pOutput) -> {
+
+
+                        pOutput.accept(CAAItemsClass.RUBY_PICKAXE.get());
+                        pOutput.accept(CAAItemsClass.RUBY_AXE.get());
+                        pOutput.accept(CAAItemsClass.RUBY_HOE.get());
+                        pOutput.accept(CAAItemsClass.RUBY_SHOVEL.get());
+
+                        pOutput.accept(CAAItemsClass.SAPPHIRE_PICKAXE.get());
+                        pOutput.accept(CAAItemsClass.SAPPHIRE_AXE.get());
+                        pOutput.accept(CAAItemsClass.SAPPHIRE_HOE.get());
+                        pOutput.accept(CAAItemsClass.SAPPHIRE_SHOVEL.get());
+
+                        pOutput.accept(CAAItemsClass.EMERALD_PICKAXE.get());
+                        pOutput.accept(CAAItemsClass.EMERALD_AXE.get());
+                        pOutput.accept(CAAItemsClass.EMERALD_HOE.get());
+                        pOutput.accept(CAAItemsClass.EMERALD_SHOVEL.get());
+
 
                         pOutput.accept(CAAItemsClass.VANADIUM_PICKAXE.get());
                         pOutput.accept(CAAItemsClass.VANADIUM_AXE.get());
@@ -155,22 +205,6 @@ public class CAATabs {
                         pOutput.accept(CAAItemsClass.ENDERIUM_SHOVEL.get());
                         pOutput.accept(CAAItemsClass.ENDERIUM_DRILL.get());
 
-                        /*
-                        pOutput.accept(CAAItemsClass.DEMONITE_PICKAXE.get());
-                        pOutput.accept(CAAItemsClass.DEMONITE_AXE.get());
-
-                        pOutput.accept(CAAItemsClass.CRIMTANE_PICKAXE.get());
-                        pOutput.accept(CAAItemsClass.CRIMTANE_AXE.get());
-
-                        pOutput.accept(CAAItemsClass.ZANITE_PICKAXE.get());
-                        pOutput.accept(CAAItemsClass.ZANITE_AXE.get());
-                        pOutput.accept(CAAItemsClass.ZANITE_SHOVEL.get());
-
-                        pOutput.accept(CAAItemsClass.GRAVITITE_PICKAXE.get());
-                        pOutput.accept(CAAItemsClass.GRAVITITE_AXE.get());
-                        pOutput.accept(CAAItemsClass.GRAVITITE_SHOVEL.get());
-
-                         */
 
 
 
@@ -185,11 +219,17 @@ public class CAATabs {
                     .title(Component.translatable("creativetab.caablocks_tab"))
                     .displayItems((pParameters, pOutput) -> {
 
+
+
+                        pOutput.accept(CAABlocksClass.RUBY_ORE.get());
+                        pOutput.accept(CAABlocksClass.SAPPHIRE_ORE.get());
                         pOutput.accept(CAABlocksClass.VANADIUM_ORE.get());
                         pOutput.accept(CAABlocksClass.COBALT_ORE.get());
                         pOutput.accept(CAABlocksClass.PALLADIUM_ORE.get());
                         pOutput.accept(CAABlocksClass.ENDERIUM_ORE.get());
 
+                        pOutput.accept(CAABlocksClass.RUBY_BLOCK.get());
+                        pOutput.accept(CAABlocksClass.SAPPHIRE_BLOCK.get());
                         pOutput.accept(CAABlocksClass.VANADIUM_BLOCK.get());
                         pOutput.accept(CAABlocksClass.COBALT_BLOCK.get());
                         pOutput.accept(CAABlocksClass.PALLADIUM_BLOCK.get());
@@ -199,6 +239,15 @@ public class CAATabs {
                         pOutput.accept(CAABlocksClass.COBALT_BRICK.get());
                         pOutput.accept(CAABlocksClass.PALLADIUM_BRICK.get());
                         pOutput.accept(CAABlocksClass.ENDERIUM_BRICK.get());
+
+
+                        pOutput.accept(CAABlocksClass.C_SANDSTONE_BRICKS.get());
+                        pOutput.accept(CAABlocksClass.C_SANDSTONE_PILLAR.get());
+                        pOutput.accept(CAABlocksClass.C_DT_BRICKS.get());
+                        pOutput.accept(CAABlocksClass.DT_BRICKS.get());
+                        pOutput.accept(CAABlocksClass.SANDSTONE_BRICKS.get());
+                        pOutput.accept(CAABlocksClass.SANDSTONE_PILLAR.get());
+
 
                         pOutput.accept(CAABlocksClass.BLUE_LAMP.get());
                         pOutput.accept(CAABlocksClass.BLACK_LAMP.get());
@@ -219,6 +268,19 @@ public class CAATabs {
                         pOutput.accept(CAABlocksClass.SWORD_SHRINE.get());
 
 
+                        pOutput.accept(CAABlocksClass.PHAROAS_BLOCK.get());
+
+
+
+                        pOutput.accept(CAABlocksClass.SWORD_STATUE.get());
+                        pOutput.accept(CAABlocksClass.SHIELD_STATUE.get());
+                        pOutput.accept(CAABlocksClass.BA_STATUE.get());
+                        pOutput.accept(CAABlocksClass.SPEAR_STATUE.get());
+                        pOutput.accept(CAABlocksClass.GLAIVE_STATUE.get());
+                        pOutput.accept(CAABlocksClass.BOW_STATUE.get());
+                        pOutput.accept(CAABlocksClass.DAGGER_STATUE.get());
+
+
 
 
 
@@ -228,9 +290,31 @@ public class CAATabs {
 
     public static final RegistryObject<CreativeModeTab> ARMORS_TAB = CREATIVE_MODE_TABS.register("caaarmor_tab",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(CAAItemsClass.COBALT_HELMET.get()))
+                    .icon(() -> new ItemStack(CAAItemsClass.COBALT_CHESTPLATE.get()))
                     .title(Component.translatable("creativetab.caaarmor_tab"))
                     .displayItems((pParameters, pOutput) -> {
+
+                        pOutput.accept(CAAItemsClass.RUBY_HELMET.get());
+                        pOutput.accept(CAAItemsClass.RUBY_CHESTPLATE.get());
+                        pOutput.accept(CAAItemsClass.RUBY_LEGGINGS.get());
+                        pOutput.accept(CAAItemsClass.RUBY_BOOTS.get());
+
+                        pOutput.accept(CAAItemsClass.SAPPHIRE_HELMET.get());
+                        pOutput.accept(CAAItemsClass.SAPPHIRE_CHESTPLATE.get());
+                        pOutput.accept(CAAItemsClass.SAPPHIRE_LEGGINGS.get());
+                        pOutput.accept(CAAItemsClass.SAPPHIRE_BOOTS.get());
+
+                        pOutput.accept(CAAItemsClass.EMERALD_HELMET.get());
+                        pOutput.accept(CAAItemsClass.EMERALD_CHESTPLATE.get());
+                        pOutput.accept(CAAItemsClass.EMERALD_LEGGINGS.get());
+                        pOutput.accept(CAAItemsClass.EMERALD_BOOTS.get());
+
+                        pOutput.accept(CAAItemsClass.VANADIUM_HELMET.get());
+                        pOutput.accept(CAAItemsClass.VANADIUM_CHESTPLATE.get());
+                        pOutput.accept(CAAItemsClass.VANADIUM_LEGGINGS.get());
+                        pOutput.accept(CAAItemsClass.VANADIUM_BOOTS.get());
+
+
 
                         pOutput.accept(CAAItemsClass.COBALT_HELMET.get());
                         pOutput.accept(CAAItemsClass.COBALT_CHESTPLATE.get());
@@ -250,7 +334,7 @@ public class CAATabs {
 
 
                     })
-                    .withSearchBar().build());
+                    .build());
 
 
 

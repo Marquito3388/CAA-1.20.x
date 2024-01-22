@@ -20,6 +20,8 @@ import java.util.List;
 
 public class CAAConfiguredFeatures {
 
+    public static final ResourceKey<ConfiguredFeature<?, ?>> RUBY_ORE_KEY = registerKey("rubyoreds");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> SAPPHIRE_ORE_KEY = registerKey("sapphireoreds");
     public static final ResourceKey<ConfiguredFeature<?, ?>> VANADIUM_ORE_KEY = registerKey("vanadiumoreds");
     public static final ResourceKey<ConfiguredFeature<?, ?>> COBALT_ORE_KEY = registerKey("cobaltore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> PALLADIUM_ORE_KEY = registerKey("palladiumore");
@@ -34,10 +36,18 @@ public class CAAConfiguredFeatures {
         List<OreConfiguration.TargetBlockState> overworldvanadiumOres = List.of(OreConfiguration.target(deepslateReplaceables,
                         CAABlocksClass.VANADIUM_ORE.get().defaultBlockState()));
 
+        List<OreConfiguration.TargetBlockState> overworldrubyOres = List.of(OreConfiguration.target(deepslateReplaceables,
+                CAABlocksClass.RUBY_ORE.get().defaultBlockState()));
+
+        List<OreConfiguration.TargetBlockState> overworldsapphireOres = List.of(OreConfiguration.target(deepslateReplaceables,
+                CAABlocksClass.SAPPHIRE_ORE.get().defaultBlockState()));
 
 
+        register(context, RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(overworldrubyOres, 6));
 
-        register(context, VANADIUM_ORE_KEY, Feature.ORE, new OreConfiguration(overworldvanadiumOres, 9));
+        register(context, SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(overworldsapphireOres, 6));
+
+        register(context, VANADIUM_ORE_KEY, Feature.ORE, new OreConfiguration(overworldvanadiumOres, 3));
 
         register(context, COBALT_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplacables,
                 CAABlocksClass.COBALT_ORE.get().defaultBlockState(), 9));

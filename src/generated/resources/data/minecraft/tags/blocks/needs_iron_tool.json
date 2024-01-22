@@ -1,6 +1,10 @@
 {
   "values": [
     "caa:vanadiumoreds",
+    "caa:rubyoreds",
+    "caa:sapphireoreds",
+    "caa:rubyblock",
+    "caa:sapphireblock",
     "caa:vanadiumblock",
     "caa:cobaltblock",
     "caa:palladiumblock",
@@ -9,6 +13,7 @@
     "caa:cobaltbricks",
     "caa:palladiumbricks",
     "caa:enderiumbricks",
+    "caa:pharoahs_block",
     "caa:blue_lamp_on",
     "caa:black_lamp_on",
     "caa:cyan_lamp_on",

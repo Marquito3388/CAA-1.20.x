@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
+    "   ",
     "N N",
-    "NNN",
-    "NNN"
+    "N N"
   ],
   "key": {
     "N": {
@@ -12,7 +12,7 @@
 
   },
   "result": {
-    "item": "caa:enderium_chestplate",
+    "item": "caa:enderium_boots",
     "count": 1
   }
 }

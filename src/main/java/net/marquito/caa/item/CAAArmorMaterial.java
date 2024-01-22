@@ -6,20 +6,40 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.ArmorMaterials;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
 
 public enum CAAArmorMaterial implements ArmorMaterial {
 
-    COBALT("cobalt", 30, new int[]{3, 9, 6, 3}, 11, SoundEvents.ARMOR_EQUIP_NETHERITE,
-            3.3F, 0.1F, () -> Ingredient.of(CAAItemsClass.COBALT.get())),
 
-    PALLADIUM("palladium", 33, new int[]{3, 10, 6, 3}, 12, SoundEvents.ARMOR_EQUIP_NETHERITE,
+
+
+
+    RUBY("ruby", 30, new int[]{2, 7, 6, 2}, 9, SoundEvents.ARMOR_EQUIP_DIAMOND,
+            0F, 0.1F, () -> Ingredient.of(CAAItemsClass.RUBY.get())),
+
+    SAPPHIRE("sapphire", 30, new int[]{2, 7, 6, 2}, 11, SoundEvents.ARMOR_EQUIP_DIAMOND,
+            0F, 0.1F, () -> Ingredient.of(CAAItemsClass.SAPPHIRE.get())),
+
+    EMERALD("emerald", 30, new int[]{2, 7, 6, 2}, 9, SoundEvents.ARMOR_EQUIP_DIAMOND,
+            0F, 0.1F, () -> Ingredient.of(Items.EMERALD)),
+
+    VANADIUM("vanadium", 34, new int[]{3, 8, 6, 3}, 11, SoundEvents.ARMOR_EQUIP_IRON,
+            2.1F, 0.05F, () -> Ingredient.of(CAAItemsClass.VANADIUM.get())),
+
+
+
+    COBALT("cobalt", 38, new int[]{3, 9, 6, 3}, 17, SoundEvents.ARMOR_EQUIP_NETHERITE,
+            3.2F, 0.1F, () -> Ingredient.of(CAAItemsClass.COBALT.get())),
+
+    PALLADIUM("palladium", 39, new int[]{3, 10, 6, 3}, 18, SoundEvents.ARMOR_EQUIP_NETHERITE,
             3.5F, 0.12F, () -> Ingredient.of(CAAItemsClass.PALLADIUM.get())),
 
-    ENDERIUM("enderium", 36, new int[]{3, 10, 7, 2}, 13, SoundEvents.ARMOR_EQUIP_NETHERITE,
-            3.7F, 0.17F, () -> Ingredient.of(CAAItemsClass.ENDERIUM.get()));
+    ENDERIUM("enderium", 41, new int[]{3, 10, 7, 2}, 20, SoundEvents.ARMOR_EQUIP_NETHERITE,
+            3.8F, 0.17F, () -> Ingredient.of(CAAItemsClass.ENDERIUM.get()));
 
 
 

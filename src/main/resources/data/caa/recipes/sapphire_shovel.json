@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    " V ",
+    " V "
+  ],
+  "key": {
+    "V": {
+      "item": "minecraft:stick"
+    },
+
+    "C": {
+      "item": "caa:sapphire"
+    }
+
+  },
+  "result": {
+    "item": "caa:sapphire_shovel",
+    "count": 1
+  }
+}

@@ -23,6 +23,6 @@
         }
     },
     "textures": {
-        "layer0": "caa:item/cobalt_shield"
+        "layer0": "caa:item/old_shield"
     }
 }

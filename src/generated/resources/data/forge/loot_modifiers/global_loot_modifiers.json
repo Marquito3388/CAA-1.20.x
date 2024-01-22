@@ -1,5 +1,12 @@
 {
   "entries": [
+    "caa:thunder_spear_from_desert_pyramid",
+    "caa:bone_dagger_from_woodland_mansion",
+    "caa:flame_spear_from_ruined_portal",
+    "caa:frost_glave_from_pillager_post",
+    "caa:forest_bow_from_woodland_mansion",
+    "caa:water_spear_from_pillager_post",
+    "caa:the_butcher_from_bastion",
     "caa:skulk_blade_from_ancient_city"
   ],
   "replace": false

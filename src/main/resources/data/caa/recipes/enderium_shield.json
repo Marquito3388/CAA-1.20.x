@@ -7,16 +7,16 @@
   ],
   "key": {
     "S": {
-      "item": "caa:vanadium"
+      "item": "caa:enderium"
     },
 
     "V": {
-      "item": "minecraft:oak_planks"
+      "item": "caa:palladium"
     }
     
   },
   "result": {
-    "item": "caa:vanadium_shield",
+    "item": "caa:enderium_shield",
     "count": 1
   }
 }

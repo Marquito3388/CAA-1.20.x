@@ -3,24 +3,21 @@
   "pattern": [
     " N ",
     " N ",
-    "VEV"
+    " E "
   ],
   "key": {
-    "E": {
-      "item": "minecraft:netherite_ingot"
-    },
     
      "N": {
-      "item": "caa:netherium"
+      "item": "caa:enderium"
     },
 
-    "V": {
-      "item": "caa:vanadium"
+    "E": {
+      "item": "caa:netherite_rod"
     }
     
   },
   "result": {
-    "item": "caa:netherium_sword",
+    "item": "caa:enderium_sword",
     "count": 1
   }
 }

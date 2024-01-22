@@ -2,11 +2,11 @@
 	"type": "minecraft:block",
 	"pools": [
 		{
-			"rolls": 3.3,
+			"rolls": 1.0,
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "caa:raw_palladium"
+					"name": "caa:old_sword"
 				}
 			]
 		}

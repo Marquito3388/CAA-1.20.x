@@ -7,7 +7,7 @@
   ],
   "key": {
     "S": {
-      "item": "caa:vanadium"
+      "item": "caa:palladium"
     },
 
     "V": {
@@ -16,7 +16,7 @@
     
   },
   "result": {
-    "item": "caa:cobalt_shield",
+    "item": "caa:palladium_shield",
     "count": 1
   }
 }

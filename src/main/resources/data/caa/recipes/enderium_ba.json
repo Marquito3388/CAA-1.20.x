@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "NNN",
-    " V ",
+    "NVN",
     " V "
   ],
   "key": {
     "V": {
-      "item": "minecraft:netherite_ingot"
+      "item": "caa:netherite_rod"
     },
 
     "N": {

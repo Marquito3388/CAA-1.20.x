@@ -7,12 +7,12 @@
   ],
   "key": {
     "I": {
-      "item": "caa:netherium"
+      "item": "caa:enderium"
     }
     
   },
   "result": {
-    "item": "caa:netheriumblock",
+    "item": "caa:enderiumblock",
     "count": 1
   }
 }

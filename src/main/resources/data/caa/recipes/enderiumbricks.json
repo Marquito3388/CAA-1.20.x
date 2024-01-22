@@ -7,12 +7,12 @@
   ],
   "key": {
     "G": {
-      "item": "caa:raw_netherium"
+      "item": "caa:raw_enderium"
     }
     
   },
   "result": {
-    "item": "caa:netheriumbricks",
+    "item": "caa:enderiumbricks",
     "count": 1
   }
 }

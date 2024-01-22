@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CV ",
+    " V "
+  ],
+  "key": {
+    "V": {
+      "item": "caa:vanadium_rod"
+    },
+
+    "C": {
+      "item": "caa:palladium"
+    }
+
+  },
+  "result": {
+    "item": "caa:palladium_sythe",
+    "count": 1
+  }
+}

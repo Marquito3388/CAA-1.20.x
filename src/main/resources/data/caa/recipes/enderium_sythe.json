@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CV ",
+    " V "
+  ],
+  "key": {
+    "V": {
+      "item": "caa:netherite_rod"
+    },
+
+    "C": {
+      "item": "caa:enderium"
+    }
+
+  },
+  "result": {
+    "item": "caa:enderium_sythe",
+    "count": 1
+  }
+}

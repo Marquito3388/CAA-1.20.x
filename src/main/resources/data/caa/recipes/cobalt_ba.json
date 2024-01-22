@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "CCC",
-    " V ",
+    "CVC",
     " V "
   ],
   "key": {
     "V": {
-      "item": "caa:vanadium"
+      "item": "caa:vanadium_rod"
     },
 
     "C": {

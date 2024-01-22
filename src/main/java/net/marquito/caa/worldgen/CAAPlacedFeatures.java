@@ -16,6 +16,9 @@ import net.minecraft.world.level.levelgen.placement.PlacementModifier;
 import java.util.List;
 
 public class CAAPlacedFeatures {
+
+    public static final ResourceKey<PlacedFeature> RUBY_ORE_PLACED_KEY = registerKey("rubyoreds_placed");
+    public static final ResourceKey<PlacedFeature> SAPPHIRE_ORE_PLACED_KEY = registerKey("sapphireoreds_placed");
     public static final ResourceKey<PlacedFeature> VANADIUM_ORE_PLACED_KEY = registerKey("vanadiumore_placed");
     public static final ResourceKey<PlacedFeature> COBALT_ORE_PLACED_KEY = registerKey("cobaltore_placed");
     public static final ResourceKey<PlacedFeature> PALLADIUM_ORE_PLACED_KEY = registerKey("palladiumore_placed");
@@ -24,8 +27,18 @@ public class CAAPlacedFeatures {
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
+        register(context, RUBY_ORE_PLACED_KEY, configuredFeatures.getOrThrow(CAAConfiguredFeatures.RUBY_ORE_KEY),
+                CAAOrePlacement.commonOrePlacement(9,
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(70))));
+
+        register(context, SAPPHIRE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(CAAConfiguredFeatures.SAPPHIRE_ORE_KEY),
+                CAAOrePlacement.commonOrePlacement(9,
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(70))));
+
+
+
         register(context, VANADIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(CAAConfiguredFeatures.VANADIUM_ORE_KEY),
-                CAAOrePlacement.commonOrePlacement(7,
+                CAAOrePlacement.commonOrePlacement(8,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(70))));
 
         register(context, COBALT_ORE_PLACED_KEY, configuredFeatures.getOrThrow(CAAConfiguredFeatures.COBALT_ORE_KEY),

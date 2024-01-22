@@ -13,6 +13,9 @@ import net.minecraftforge.common.world.ForgeBiomeModifiers;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class CAABiomeModifiers {
+
+    public static final ResourceKey<BiomeModifier> ADD_RUBY_ORE = registerKey("add_rubyoreds");
+    public static final ResourceKey<BiomeModifier> ADD_SAPPHIRE_ORE = registerKey("add_sapphireoreds");
     public static final ResourceKey<BiomeModifier> ADD_VANADIUM_ORE = registerKey("add_vanadiumoreds");
     public static final ResourceKey<BiomeModifier> ADD_COBALT_ORE = registerKey("add_cobaltore");
     public static final ResourceKey<BiomeModifier> ADD_PALLADIUM_ORE = registerKey("add_palladiumore");
@@ -26,6 +29,16 @@ public class CAABiomeModifiers {
         context.register(ADD_VANADIUM_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
                 HolderSet.direct(placedFeatures.getOrThrow(CAAPlacedFeatures.VANADIUM_ORE_PLACED_KEY)),
+                GenerationStep.Decoration.UNDERGROUND_ORES));
+
+        context.register(ADD_RUBY_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
+                HolderSet.direct(placedFeatures.getOrThrow(CAAPlacedFeatures.RUBY_ORE_PLACED_KEY)),
+                GenerationStep.Decoration.UNDERGROUND_ORES));
+
+        context.register(ADD_SAPPHIRE_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
+                HolderSet.direct(placedFeatures.getOrThrow(CAAPlacedFeatures.SAPPHIRE_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
 
         context.register(ADD_COBALT_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(

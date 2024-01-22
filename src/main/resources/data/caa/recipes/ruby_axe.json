@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CC ",
+    "CV ",
+    " V "
+  ],
+  "key": {
+    "V": {
+      "item": "minecraft:stick"
+    },
+
+    "C": {
+      "item": "caa:ruby"
+    }
+
+  },
+  "result": {
+    "item": "caa:ruby_axe",
+    "count": 1
+  }
+}
