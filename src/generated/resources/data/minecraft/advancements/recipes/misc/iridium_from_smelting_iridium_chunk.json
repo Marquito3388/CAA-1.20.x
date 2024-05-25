@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_iridium_chunk": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caa:iridium_chunk"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:iridium_from_smelting_iridium_chunk"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_iridium_chunk",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:iridium_from_smelting_iridium_chunk"
+    ]
+  },
+  "sends_telemetry_event": false
+}

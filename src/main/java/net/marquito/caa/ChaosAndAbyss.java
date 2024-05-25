@@ -3,9 +3,15 @@ package net.marquito.caa;
 import com.mojang.logging.LogUtils;
 import net.marquito.caa.block.CAABlocksClass;
 import net.marquito.caa.creativetabs.CAATabs;
+import net.marquito.caa.entities.blocks.CAABlockEntities;
 import net.marquito.caa.item.CAAItemsClass;
+import net.marquito.caa.recipe.CAARecipes;
+import net.marquito.caa.screen.MetalManipulatorScreen;
+import net.marquito.caa.screen.menu.CAAMenuTypes;
+import net.marquito.caa.screen.menu.MetalManipulatorMenu;
 import net.marquito.caa.util.CAAItemProperties;
 import net.marquito.caa.loot.CAALootModifier;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -36,8 +42,16 @@ public class ChaosAndAbyss {
         CAABlocksClass.register(modEventBus);
         CAALootModifier.register(modEventBus);
 
+        CAABlockEntities.register(modEventBus);
+
+        CAAMenuTypes.register(modEventBus);
+
+        CAARecipes.register(modEventBus);
+
 
         modEventBus.addListener(this::commonSetup);
+
+
 
 
 
@@ -78,8 +92,15 @@ public class ChaosAndAbyss {
     @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event) {
+        public static void onclientSetup( final FMLClientSetupEvent event) {
 
+            event.enqueueWork(() -> {
+
+                MenuScreens.register(CAAMenuTypes.METAL_MANIPULATOR_MENU.get(), MetalManipulatorScreen::new);
+
+
+            });
         }
     }
 }
+

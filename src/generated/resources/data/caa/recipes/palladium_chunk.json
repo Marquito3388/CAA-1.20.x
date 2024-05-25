@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "caa:nether_stone"
+    },
+    "R": {
+      "item": "caa:raw_palladium"
+    }
+  },
+  "pattern": [
+    " R ",
+    "RCR",
+    " R "
+  ],
+  "result": {
+    "item": "caa:palladium_chunk"
+  },
+  "show_notification": true
+}

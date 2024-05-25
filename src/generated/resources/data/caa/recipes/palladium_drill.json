@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "caa:drill"
+    },
+    "S": {
+      "item": "caa:palladium"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SDS",
+    "   "
+  ],
+  "result": {
+    "item": "caa:palladium_drill"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:cobalt"
+    },
+    "W": {
+      "item": "caa:vanadium"
+    }
+  },
+  "pattern": [
+    "WMW",
+    "WWW",
+    " W "
+  ],
+  "result": {
+    "item": "caa:cobalt_shield"
+  },
+  "show_notification": true
+}

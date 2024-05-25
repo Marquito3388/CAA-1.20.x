@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "caa:block/c_sandstone_pillar"
-  }
-}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:adamantina"
+    },
+    "R": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  M",
+    " R ",
+    "M  "
+  ],
+  "result": {
+    "item": "caa:adamantina_glaive"
+  },
+  "show_notification": true
+}

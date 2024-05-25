@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:adamantina"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "M M",
+    "   "
+  ],
+  "result": {
+    "item": "caa:adamantina_helmet"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:palladium"
+    },
+    "R": {
+      "item": "caa:vanadium_rod"
+    }
+  },
+  "pattern": [
+    "  M",
+    " R ",
+    "M  "
+  ],
+  "result": {
+    "item": "caa:palladium_glaive"
+  },
+  "show_notification": true
+}

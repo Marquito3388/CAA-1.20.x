@@ -18,12 +18,23 @@ public class CAABlockStateProvider extends BlockStateProvider {
 
 
 
+        //blockWithItem(CAABlocksClass.REINFORCED_SMITHING_TABLE);
+
         blockWithItem(CAABlocksClass.RUBY_ORE);
         blockWithItem(CAABlocksClass.SAPPHIRE_ORE);
+        blockWithItem(CAABlocksClass.NETHER_STONE_ORE);
+        blockWithItem(CAABlocksClass.END_STONE_ORE);
+        blockWithItem(CAABlocksClass.ADAMANTINA_ORE);
+        blockWithItem(CAABlocksClass.IRIDIUM_ORE);
+        blockWithItem(CAABlocksClass.VIOLITE_STONE_ORE);
         blockWithItem(CAABlocksClass.VANADIUM_ORE);
         blockWithItem(CAABlocksClass.COBALT_ORE);
         blockWithItem(CAABlocksClass.PALLADIUM_ORE);
         blockWithItem(CAABlocksClass.ENDERIUM_ORE);
+
+        blockWithItem(CAABlocksClass.ADAMANTINA_BLOCK);
+        blockWithItem(CAABlocksClass.IRIDIUM_BLOCK);
+        blockWithItem(CAABlocksClass.VIOLITE_STONE_BLOCK);
 
         blockWithItem(CAABlocksClass.RUBY_BLOCK);
         blockWithItem(CAABlocksClass.SAPPHIRE_BLOCK);
@@ -32,12 +43,10 @@ public class CAABlockStateProvider extends BlockStateProvider {
         blockWithItem(CAABlocksClass.PALLADIUM_BLOCK);
         blockWithItem(CAABlocksClass.ENDERIUM_BLOCK);
 
-        //blockWithItem(CAABlocksClass.ENCHANTED_GRAVITITE);
-
-        blockWithItem(CAABlocksClass.VANADIUM_BRICK);
-        blockWithItem(CAABlocksClass.COBALT_BRICK);
-        blockWithItem(CAABlocksClass.PALLADIUM_BRICK);
-        blockWithItem(CAABlocksClass.ENDERIUM_BRICK);
+        blockWithItem(CAABlocksClass.VANADIUM_BRICKS);
+        blockWithItem(CAABlocksClass.COBALT_BRICKS);
+        blockWithItem(CAABlocksClass.PALLADIUM_BRICKS);
+        blockWithItem(CAABlocksClass.ENDERIUM_BRICKS);
 
 
         blockWithItem(CAABlocksClass.BLUE_LAMP);
@@ -56,15 +65,15 @@ public class CAABlockStateProvider extends BlockStateProvider {
         blockWithItem(CAABlocksClass.PINK_LAMP);
         blockWithItem(CAABlocksClass.ORANGE_LAMP);
 
+        /*
         blockWithItem(CAABlocksClass.C_SANDSTONE_BRICKS);
         blockWithItem(CAABlocksClass.C_SANDSTONE_PILLAR);
         blockWithItem(CAABlocksClass.C_DT_BRICKS);
         blockWithItem(CAABlocksClass.DT_BRICKS);
         blockWithItem(CAABlocksClass.SANDSTONE_BRICKS);
         blockWithItem(CAABlocksClass.SANDSTONE_PILLAR);
-
-
         blockWithItem(CAABlocksClass.PHAROAS_BLOCK);
+        */
 
     }
 

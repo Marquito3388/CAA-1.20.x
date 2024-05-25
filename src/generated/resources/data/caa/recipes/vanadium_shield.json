@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:vanadium"
+    },
+    "W": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "pattern": [
+    "WMW",
+    "WWW",
+    " W "
+  ],
+  "result": {
+    "item": "caa:vanadium_shield"
+  },
+  "show_notification": true
+}

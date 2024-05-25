@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:iridium"
+    },
+    "R": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  M",
+    " R ",
+    "M  "
+  ],
+  "result": {
+    "item": "caa:iridium_glaive"
+  },
+  "show_notification": true
+}

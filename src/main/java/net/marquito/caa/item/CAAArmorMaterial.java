@@ -30,6 +30,18 @@ public enum CAAArmorMaterial implements ArmorMaterial {
     VANADIUM("vanadium", 34, new int[]{3, 8, 6, 3}, 11, SoundEvents.ARMOR_EQUIP_IRON,
             2.1F, 0.05F, () -> Ingredient.of(CAAItemsClass.VANADIUM.get())),
 
+    GALLIUM("gallium", 34, new int[]{3, 8, 6, 3}, 11, SoundEvents.ARMOR_EQUIP_IRON,
+            2.1F, 0.05F, () -> Ingredient.of(CAAItemsClass.VANADIUM.get())),
+
+    ADAMANTINA("adamantina", 34, new int[]{3, 8, 6, 3}, 11, SoundEvents.ARMOR_EQUIP_IRON,
+            2.1F, 0.05F, () -> Ingredient.of(CAAItemsClass.VANADIUM.get())),
+
+    IRIDIUM("iridium", 34, new int[]{3, 8, 6, 3}, 11, SoundEvents.ARMOR_EQUIP_IRON,
+            2.1F, 0.05F, () -> Ingredient.of(CAAItemsClass.VANADIUM.get())),
+    VIOLITE_STONE("violite_stone", 34, new int[]{3, 8, 6, 3}, 11, SoundEvents.ARMOR_EQUIP_IRON,
+            2.1F, 0.05F, () -> Ingredient.of(CAAItemsClass.VANADIUM.get())),
+
+
 
 
     COBALT("cobalt", 38, new int[]{3, 9, 6, 3}, 17, SoundEvents.ARMOR_EQUIP_NETHERITE,

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:iridium"
+    },
+    "R": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MR ",
+    " R "
+  ],
+  "result": {
+    "item": "caa:iridium_sythe"
+  },
+  "show_notification": true
+}

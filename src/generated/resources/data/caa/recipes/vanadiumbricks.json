@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:raw_vanadium"
+    }
+  },
+  "pattern": [
+    "MM ",
+    "MM ",
+    "   "
+  ],
+  "result": {
+    "item": "caa:vanadiumbricks"
+  },
+  "show_notification": true
+}

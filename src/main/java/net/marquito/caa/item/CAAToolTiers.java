@@ -6,6 +6,7 @@ import net.marquito.mcm.item.MCMItemsClass;
 import net.marquito.mcm.util.MCMTags;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Tiers;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -24,10 +25,31 @@ public class CAAToolTiers {
             BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(CAAItemsClass.VANADIUM.get()));
 
 
-    public static final Tier GEMS = TierSortingRegistry.registerTier(
-            new ForgeTier(2, 500, 7.0F, 2.5F, 13,
-                    BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(CAAItemsClass.RUBY.get())),
-            new ResourceLocation(MarquitosCoreMod.MODID, "gems"), List.of(Tiers.IRON), List.of());
+    public static final Tier DRILL_IRON = TierSortingRegistry.registerTier(
+            new ForgeTier(3, 250, 6.5F, 3.3F, 12,
+                    BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(Items.IRON_INGOT)),
+            new ResourceLocation(MarquitosCoreMod.MODID, "iron_ingot"), List.of(Tiers.STONE), List.of());
+
+    public static final Tier DRILL_VIOLITE_STONE = TierSortingRegistry.registerTier(
+            new ForgeTier(3, 500, 9.5F, 3.3F, 12,
+                    BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(CAAItemsClass.VIOLITE_STONE.get())),
+            new ResourceLocation(MarquitosCoreMod.MODID, "violet_stone"), List.of(Tiers.IRON), List.of());
+
+
+    public static final Tier DRILL_COBALT = TierSortingRegistry.registerTier(
+            new ForgeTier(5, 900, 10.1F, 4.3F, 15,
+                    CAATag.Blocks.NEEDS_COBALT_TOOL, () -> Ingredient.of(CAAItemsClass.COBALT.get())),
+            new ResourceLocation(MarquitosCoreMod.MODID, "cobalt_drill"), List.of(Tiers.NETHERITE), List.of());
+
+    public static final Tier DRILL_PALLADIUM = TierSortingRegistry.registerTier(
+            new ForgeTier(6, 900, 10.1F, 4.7F, 15,
+                    CAATag.Blocks.NEEDS_PALLADIUM_TOOL, () -> Ingredient.of(CAAItemsClass.PALLADIUM.get())),
+            new ResourceLocation(MarquitosCoreMod.MODID, "palladium_drill"), List.of(CAAToolTiers.DRILL_COBALT), List.of());
+
+    public static final Tier DRILL_ENDERIUM = TierSortingRegistry.registerTier(
+            new ForgeTier(7, 900, 11.1F, 5.0F, 15,
+                    CAATag.Blocks.NEEDS_ENDERIUM_TOOL, () -> Ingredient.of(CAAItemsClass.ENDERIUM.get())),
+            new ResourceLocation(MarquitosCoreMod.MODID, "enderium_drill"), List.of(CAAToolTiers.DRILL_PALLADIUM), List.of());
 
 
 
@@ -39,21 +61,21 @@ public class CAAToolTiers {
 
 
     public static final Tier COBALT = TierSortingRegistry.registerTier(
-            new ForgeTier(5, 2300, 9.2F, 4.3F, 15,
+            new ForgeTier(5, 2300, 9.1F, 4.3F, 15,
                     CAATag.Blocks.NEEDS_COBALT_TOOL, () -> Ingredient.of(CAAItemsClass.COBALT.get())),
             new ResourceLocation(MarquitosCoreMod.MODID, "cobalt"), List.of(Tiers.NETHERITE), List.of());
 
 
 
     public static final Tier PALLADIUM = TierSortingRegistry.registerTier(
-            new ForgeTier(6, 2450, 9.3F, 4.7F, 15,
+            new ForgeTier(6, 2450, 9.1F, 4.7F, 15,
                     CAATag.Blocks.NEEDS_PALLADIUM_TOOL, () -> Ingredient.of(CAAItemsClass.PALLADIUM.get())),
             new ResourceLocation(MarquitosCoreMod.MODID, "palladium"), List.of(CAAToolTiers.COBALT), List.of());
 
 
 
     public static final Tier ENDERIUM = TierSortingRegistry.registerTier(
-            new ForgeTier(7, 2523, 9.5F, 5.0F, 15,
+            new ForgeTier(7, 2523, 9.2F, 5.0F, 15,
                     CAATag.Blocks.NEEDS_ENDERIUM_TOOL, () -> Ingredient.of(CAAItemsClass.ENDERIUM.get())),
             new ResourceLocation(MarquitosCoreMod.MODID, "enderium"), List.of(CAAToolTiers.PALLADIUM), List.of());
 

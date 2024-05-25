@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "caa:vanadium_chunk"
-  },
-  "result": "caa:vanadium",
-  "experience": 0.9,
-  "cookingtime": 400
-}

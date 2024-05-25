@@ -12,17 +12,31 @@
 
   "item.caa.ruby": "Ruby",
   "item.caa.sapphire": "Sapphire",
+  "item.caa.ruby_mineral": "Ruby Mineral",
+  "item.caa.sapphire_mineral": "Sapphire Mineral",
+  "item.caa.violite_stone": "Violite Stone",
+  "item.caa.nether_stone": "Nether Stone",
+  "item.caa.end_stone": "End Stone",
 
+  "item.caa.raw_gallium": "Raw Gallium",
+  "item.caa.raw_adamantina": "Raw Adamantina",
+  "item.caa.raw_iridium": "Raw Iridium",
   "item.caa.raw_vanadium": "Raw Vanadium",
   "item.caa.raw_cobalt": "Raw Cobalt",
   "item.caa.raw_palladium": "Raw Palladium",
   "item.caa.raw_enderium": "Raw Enderium",
 
+  "item.caa.gallium_chunk": "Gallium Chunk",
+  "item.caa.adamantina_chunk": "Adamantina Chunk",
+  "item.caa.iridium_chunk": "Iridium Chunk",
   "item.caa.vanadium_chunk": "Vanadium Chunk",
   "item.caa.cobalt_chunk": "Cobalt Chunk",
   "item.caa.palladium_chunk": "Palladium Chunk",
   "item.caa.enderium_chunk": "Enderium Chunk",
 
+  "item.caa.gallium": "Gallium",
+  "item.caa.adamantina": "Adamantina",
+  "item.caa.iridium": "Iridium",
   "item.caa.vanadium": "Vanadium",
   "item.caa.cobalt": "Cobalt",
   "item.caa.palladium": "Palladium",
@@ -53,6 +67,28 @@
   "item.caa.emerald_shovel": "Emerald Shovel",
   "item.caa.emerald_sword": "Emerald Sword",
 
+  "item.caa.violite_stone_axe": "Violite Stone Axe",
+  "item.caa.violite_stone_pickaxe": "Violite Stone Pickaxe",
+  "item.caa.violite_stone_hoe": "Violite Stone Hoe",
+  "item.caa.violite_stone_shovel": "Violite Stone Shovel",
+
+  "item.caa.adamantina_axe": "Adamantina Axe",
+  "item.caa.adamantina_pickaxe": "Adamantina Pickaxe",
+  "item.caa.adamantina_hoe": "Adamantina Hoe",
+  "item.caa.adamantina_shovel": "Adamantina Shovel",
+
+  "item.caa.iridium_axe": "Iridium Axe",
+  "item.caa.iridium_pickaxe": "Iridium Pickaxe",
+  "item.caa.iridium_hoe": "Iridium Hoe",
+  "item.caa.iridium_shovel": "Iridium Shovel",
+
+  "item.caa.gallium_axe": "Gallium Axe",
+  "item.caa.gallium_pickaxe": "Gallium Pickaxe",
+  "item.caa.gallium_hoe": "Gallium Hoe",
+  "item.caa.gallium_shovel": "Gallium Shovel",
+
+  "item.caa.drill": "Drill",
+  "item.caa.violite_stone_drill": "Violite Stone Drill",
 
 
   "item.caa.vanadium_axe": "Vanadium Axe",
@@ -79,43 +115,69 @@
   "item.caa.palladium_shovel": "Palladium Shovel",
   "item.caa.enderium_shovel": "Enderium Shovel",
 
+  "item.caa.gallium_sword": "Gallium Sword",
+  "item.caa.adamantina_sword": "Adamantina Sword",
+  "item.caa.iridium_sword": "Iridium Sword",
+  "item.caa.violite_stone_sword": "Violite Stone Sword",
   "item.caa.vanadium_sword": "Vanadium Sword",
   "item.caa.cobalt_sword": "Cobalt Sword",
   "item.caa.palladium_sword": "Palladium Sword",
   "item.caa.enderium_sword": "Enderium Sword",
 
-  "item.caa.vanadium_spear": "Vanadium Spear",
+  "item.caa.gallium_spear": "Gallium Spear",
+  "item.caa.adamantina_spear": "Adamantina Spear",
+  "item.caa.iridium_spear": "Iridium Spear",
+  "item.caa.violite_stone_spear": "Violite Stone Spear",
   "item.caa.cobalt_spear": "Cobalt Spear",
   "item.caa.palladium_spear": "Palladium Spear",
   "item.caa.enderium_spear": "Enderium Spear",
 
 
+  "item.caa.gallium_ba": "Gallium Battle Axe",
+  "item.caa.adamantina_ba": "Adamantina Battle Axe",
+  "item.caa.iridium_ba": "Iridium Battle Axe",
+  "item.caa.violite_stone_ba": "Violite Stone Battle Axe",
   "item.caa.vanadium_ba": "Vanadium Battle Axe",
   "item.caa.cobalt_ba": "Cobalt Battle Axe",
   "item.caa.palladium_ba": "Palladium Battle Axe",
   "item.caa.enderium_ba": "Enderium Battle Axe",
 
-
+  "item.caa.gallium_dagger": "Gallium Dagger",
+  "item.caa.adamantina_dagger": "Adamantina Dagger",
+  "item.caa.iridium_dagger": "Iridium Dagger",
+  "item.caa.violite_stone_dagger": "Violite Stone Dagger",
   "item.caa.vanadium_dagger": "Vanadium Dagger",
   "item.caa.cobalt_dagger": "Cobalt Dagger",
   "item.caa.palladium_dagger": "Palladium Dagger",
   "item.caa.enderium_dagger": "Enderium Dagger",
 
-
+  "item.caa.gallium_glaive": "Gallium Glaive",
+  "item.caa.adamantina_glaive": "Adamantina Glaive",
+  "item.caa.iridium_glaive": "Iridium Glaive",
+  "item.caa.violite_stone_glaive": "Violite Stone Glaive",
   "item.caa.vanadium_glaive": "Vanadium Glaive",
   "item.caa.cobalt_glaive": "Cobalt Glaive",
   "item.caa.palladium_glaive": "Palladium Glaive",
   "item.caa.enderium_glaive": "Enderium Glaive",
 
+  "item.caa.gallium_shield": "Gallium Shield",
+  "item.caa.adamantina_shield": "Adamantina Shield",
+  "item.caa.iridium_shield": "Iridium Shield",
+  "item.caa.violite_stone_shield": "Violite Stone Shield",
   "item.caa.vanadium_shield": "Vanadium Shield",
   "item.caa.cobalt_shield": "Cobalt Shield",
   "item.caa.palladium_shield": "Palladium Shield",
   "item.caa.enderium_shield": "Enderium Shield",
 
+  "item.caa.gallium_sythe": "Gallium Sythe",
+  "item.caa.adamantina_sythe": "Adamantina Sythe",
+  "item.caa.iridium_sythe": "Iridium Sythe",
+  "item.caa.violite_stone_sythe": "Violite Stone Sythe",
   "item.caa.vanadium_sythe": "Vanadium Sythe",
   "item.caa.cobalt_sythe": "Cobalt Sythe",
   "item.caa.palladium_sythe": "Palladium Sythe",
   "item.caa.enderium_sythe": "Enderium Sythe",
+
 
 
   "item.caa.cobalt_bow": "Cobalt Bow",
@@ -162,6 +224,25 @@
   "item.caa.emerald_boots": "Emerald Boots",
 
 
+  "item.caa.gallium_helmet": "Gallium Helmet",
+  "item.caa.gallium_chestplate": "Gallium Chestplate",
+  "item.caa.gallium_leggings": "Gallium Leggings",
+  "item.caa.gallium_boots": "Gallium Boots",
+
+  "item.caa.adamantina_helmet": "Adamantina Helmet",
+  "item.caa.adamantina_chestplate": "Adamantina Chestplate",
+  "item.caa.adamantina_leggings": "Adamantina Leggings",
+  "item.caa.adamantina_boots": "Adamantina Boots",
+
+  "item.caa.iridium_helmet": "Iridium Helmet",
+  "item.caa.iridium_chestplate": "Iridium Chestplate",
+  "item.caa.iridium_leggings": "Iridium Leggings",
+  "item.caa.iridium_boots": "Iridium Boots",
+
+  "item.caa.violite_stone_helmet": "Violite Stone Helmet",
+  "item.caa.violite_stone_chestplate": "Violite Stone Chestplate",
+  "item.caa.violite_stone_leggings": "Violite Stone Leggings",
+  "item.caa.violite_stone_boots": "Violite Stone Boots",
 
   "item.caa.cobalt_helmet": "Cobalt Helmet",
   "item.caa.cobalt_chestplate": "Cobalt Chestplate",
@@ -189,6 +270,12 @@
 
   "block.caa.rubyoreds": "Ruby Ore",
   "block.caa.sapphireoreds": "Sapphire Ore",
+  "block.caa.nether_stoneore": "Nether Stone Ore",
+  "block.caa.end_stoneore": "End Stone Ore",
+
+  "block.caa.adamantinaoreds": "Adamantina Ore",
+  "block.caa.iridiumoreds": "Iridium Ore",
+  "block.caa.violite_stoneoreds": "Violite Stone Ore",
 
   "block.caa.vanadiumoreds": "Vanadium Ore",
   "block.caa.cobaltore": "Cobalt Ore",
@@ -197,9 +284,15 @@
 
   "block.caa.sword_shrine": "Sword Shrine",
 
+
+  "block.caa.reinforced_smithing_table": "Reinforced Smithing Table",
+
   "block.caa.rubyblock": "Ruby Block",
   "block.caa.sapphireblock": "Sapphire Block",
   "block.caa.vanadiumblock": "Vanadium Block",
+  "block.caa.adamantinablock": "Adamantina Block",
+  "block.caa.iridiumblock": "Iridium Block",
+  "block.caa.violite_stoneblock": "Violite Stone Block",
   "block.caa.cobaltblock": "Cobalt Block",
   "block.caa.palladiumblock": "Palladium Block",
   "block.caa.enderiumblock": "Enderium Block",
@@ -209,6 +302,8 @@
   "block.caa.cobaltbricks": "Cobalt Brick",
   "block.caa.palladiumbricks": "Palladium Brick",
   "block.caa.enderiumbricks": "Enderium Brick",
+
+  "block.caa.metalmanipulator": "Metal Manipulator",
 
 
   "block.caa.red_lamp_on": "Red Lamp",

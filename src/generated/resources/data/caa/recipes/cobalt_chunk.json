@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "caa:nether_stone"
+    },
+    "R": {
+      "item": "caa:raw_cobalt"
+    }
+  },
+  "pattern": [
+    " R ",
+    "RCR",
+    " R "
+  ],
+  "result": {
+    "item": "caa:cobalt_chunk"
+  },
+  "show_notification": true
+}

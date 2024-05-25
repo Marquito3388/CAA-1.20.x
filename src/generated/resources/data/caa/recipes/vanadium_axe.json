@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:vanadium"
+    },
+    "R": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "MM ",
+    "MR ",
+    " R "
+  ],
+  "result": {
+    "item": "caa:vanadium_axe"
+  },
+  "show_notification": true
+}

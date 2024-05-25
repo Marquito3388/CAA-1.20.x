@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:coal"
+    },
+    "R": {
+      "item": "caa:raw_iridium"
+    }
+  },
+  "pattern": [
+    " R ",
+    "RCR",
+    " R "
+  ],
+  "result": {
+    "item": "caa:iridium_chunk"
+  },
+  "show_notification": true
+}

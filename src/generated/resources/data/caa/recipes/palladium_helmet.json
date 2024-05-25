@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:palladium"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "M M",
+    "   "
+  ],
+  "result": {
+    "item": "caa:palladium_helmet"
+  },
+  "show_notification": true
+}

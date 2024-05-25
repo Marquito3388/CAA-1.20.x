@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "caa:end_stone"
+    },
+    "R": {
+      "item": "caa:raw_enderium"
+    }
+  },
+  "pattern": [
+    " R ",
+    "RCR",
+    " R "
+  ],
+  "result": {
+    "item": "caa:enderium_chunk"
+  },
+  "show_notification": true
+}

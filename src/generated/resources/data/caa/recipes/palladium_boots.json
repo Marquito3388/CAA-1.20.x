@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:palladium"
+    }
+  },
+  "pattern": [
+    "M M",
+    "M M",
+    "   "
+  ],
+  "result": {
+    "item": "caa:palladium_boots"
+  },
+  "show_notification": true
+}

@@ -3,17 +3,23 @@
     "caa:vanadiumoreds",
     "caa:rubyoreds",
     "caa:sapphireoreds",
+    "caa:adamantinaoreds",
+    "caa:iridiumoreds",
+    "caa:violite_stoneoreds",
     "caa:rubyblock",
     "caa:sapphireblock",
     "caa:vanadiumblock",
     "caa:cobaltblock",
     "caa:palladiumblock",
     "caa:enderiumblock",
+    "caa:adamantinablock",
+    "caa:iridiumblock",
+    "caa:violite_stoneblock",
     "caa:vanadiumbricks",
     "caa:cobaltbricks",
     "caa:palladiumbricks",
     "caa:enderiumbricks",
-    "caa:pharoahs_block",
+    "caa:metalmanipulator",
     "caa:blue_lamp_on",
     "caa:black_lamp_on",
     "caa:cyan_lamp_on",
@@ -28,7 +34,6 @@
     "caa:purple_lamp_on",
     "caa:red_lamp_on",
     "caa:yellow_lamp_on",
-    "caa:brown_lamp_on",
-    "caa:sword_shrine"
+    "caa:brown_lamp_on"
   ]
 }

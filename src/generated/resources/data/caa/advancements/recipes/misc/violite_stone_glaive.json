@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "caa:violite_stone_glaive"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_violite_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caa:violite_stone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_violite_stone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "caa:violite_stone_glaive"
+    ]
+  },
+  "sends_telemetry_event": false
+}

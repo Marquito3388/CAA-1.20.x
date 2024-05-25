@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:palladium"
+    },
+    "W": {
+      "item": "caa:cobalt"
+    }
+  },
+  "pattern": [
+    "WMW",
+    "WWW",
+    " W "
+  ],
+  "result": {
+    "item": "caa:palladium_shield"
+  },
+  "show_notification": true
+}

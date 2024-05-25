@@ -24,6 +24,16 @@ public class CAABlocksClass {
 
 
 
+    public static final RegistryObject<Block> METAL_MANIPULATOR =
+            registerBlock("metalmanipulator", () -> new MetalManipulator(BlockBehaviour.Properties
+                    .copy(Blocks.DEEPSLATE_DIAMOND_ORE)
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(value -> 3)
+                    .sound(SoundType.DEEPSLATE)));
+
+
+
+
     public static final RegistryObject<Block> RUBY_ORE =
             registerBlock("rubyoreds", () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.DEEPSLATE_DIAMOND_ORE)
@@ -38,13 +48,42 @@ public class CAABlocksClass {
                     .lightLevel(value -> 3)
                     .sound(SoundType.DEEPSLATE)));
 
+    public static final RegistryObject<Block> NETHER_STONE_ORE =
+            registerBlock("nether_stoneore", () -> new Block(BlockBehaviour.Properties
+                    .copy(Blocks.DEEPSLATE_GOLD_ORE)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.DEEPSLATE)));
 
+    public static final RegistryObject<Block> END_STONE_ORE =
+            registerBlock("end_stoneore", () -> new Block(BlockBehaviour.Properties
+                    .copy(Blocks.END_STONE)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.DEEPSLATE)));
+
+
+    public static final RegistryObject<Block> ADAMANTINA_ORE =
+            registerBlock("adamantinaoreds", () -> new Block(BlockBehaviour.Properties
+                    .copy(Blocks.DEEPSLATE_GOLD_ORE)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.DEEPSLATE)));
+
+    public static final RegistryObject<Block> IRIDIUM_ORE =
+            registerBlock("iridiumoreds", () -> new Block(BlockBehaviour.Properties
+                    .copy(Blocks.DEEPSLATE_GOLD_ORE)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.DEEPSLATE)));
+
+    public static final RegistryObject<Block> VIOLITE_STONE_ORE =
+            registerBlock("violite_stoneoreds", () -> new Block(BlockBehaviour.Properties
+                    .copy(Blocks.DEEPSLATE_DIAMOND_ORE)
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(value -> 3)
+                    .sound(SoundType.DEEPSLATE)));
 
     public static final RegistryObject<Block> VANADIUM_ORE =
             registerBlock("vanadiumoreds", () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.DEEPSLATE_GOLD_ORE)
                     .requiresCorrectToolForDrops()
-                    .lightLevel(value -> 3)
                     .sound(SoundType.DEEPSLATE)));
 
     public static final RegistryObject<Block> COBALT_ORE =
@@ -80,6 +119,24 @@ public class CAABlocksClass {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)));
 
+    public static final RegistryObject<Block> ADAMANTINA_BLOCK =
+            registerBlock("adamantinablock", () -> new Block(BlockBehaviour.Properties
+                    .copy(Blocks.GOLD_BLOCK)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> IRIDIUM_BLOCK =
+            registerBlock("iridiumblock", () -> new Block(BlockBehaviour.Properties
+                    .copy(Blocks.GOLD_BLOCK)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> VIOLITE_STONE_BLOCK =
+            registerBlock("violite_stoneblock", () -> new Block(BlockBehaviour.Properties
+                    .copy(Blocks.DIAMOND_BLOCK)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
 
     public static final RegistryObject<Block> VANADIUM_BLOCK =
             registerBlock("vanadiumblock", () -> new Block(BlockBehaviour.Properties
@@ -108,25 +165,25 @@ public class CAABlocksClass {
 
 
 
-    public static final RegistryObject<Block> VANADIUM_BRICK =
+    public static final RegistryObject<Block> VANADIUM_BRICKS =
             registerBlock("vanadiumbricks", () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.BRICKS)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)));
 
-    public static final RegistryObject<Block> COBALT_BRICK =
+    public static final RegistryObject<Block> COBALT_BRICKS =
             registerBlock("cobaltbricks", () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.BRICKS)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)));
 
-    public static final RegistryObject<Block> PALLADIUM_BRICK =
+    public static final RegistryObject<Block> PALLADIUM_BRICKS =
             registerBlock("palladiumbricks", () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.BRICKS)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)));
 
-    public static final RegistryObject<Block> ENDERIUM_BRICK =
+    public static final RegistryObject<Block> ENDERIUM_BRICKS =
             registerBlock("enderiumbricks", () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.BRICKS)
                     .requiresCorrectToolForDrops()
@@ -142,6 +199,7 @@ public class CAABlocksClass {
 
     //SAND BRICKS
 
+    /*
     public static final RegistryObject<Block> C_SANDSTONE_BRICKS =
             registerBlock("c_sandstone_bricks", () -> new Block(BlockBehaviour.Properties
                     .copy(Blocks.BRICKS)
@@ -184,7 +242,7 @@ public class CAABlocksClass {
                     .copy(Blocks.STONE)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)));
-
+        */
 
 
     //WardenAnimation
@@ -276,6 +334,7 @@ public class CAABlocksClass {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)));
 
+    /*
 
     public static final RegistryObject<Block> SWORD_SHRINE =
             registerBlock("sword_shrine", () -> new SwordShrineBlock(BlockBehaviour.Properties
@@ -335,18 +394,7 @@ public class CAABlocksClass {
                     .noOcclusion()
                     .sound(SoundType.SAND)));
 
-
-
-
-
-
-
-
-
-
-
-
-
+     */
 
 
 

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "S": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+    "SGS",
+    "GDG",
+    "SGS"
+  ],
+  "result": {
+    "item": "caa:lightblue_lamp_on"
+  },
+  "show_notification": true
+}

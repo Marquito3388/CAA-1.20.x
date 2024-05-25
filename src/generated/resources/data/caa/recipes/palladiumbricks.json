@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:raw_palladium"
+    }
+  },
+  "pattern": [
+    "MM ",
+    "MM ",
+    "   "
+  ],
+  "result": {
+    "item": "caa:palladiumbricks"
+  },
+  "show_notification": true
+}

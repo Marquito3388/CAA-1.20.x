@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:enderium"
+    },
+    "W": {
+      "item": "caa:palladium"
+    }
+  },
+  "pattern": [
+    "WMW",
+    "WWW",
+    " W "
+  ],
+  "result": {
+    "item": "caa:enderium_shield"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "caa:vanadiumblock"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vanadium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "caa:vanadium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_vanadium",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "caa:vanadiumblock"
+    ]
+  },
+  "sends_telemetry_event": false
+}

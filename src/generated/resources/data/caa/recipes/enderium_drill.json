@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "caa:drill"
+    },
+    "S": {
+      "item": "caa:enderium"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SDS",
+    "   "
+  ],
+  "result": {
+    "item": "caa:enderium_drill"
+  },
+  "show_notification": true
+}

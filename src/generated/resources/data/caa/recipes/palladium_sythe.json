@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:palladium"
+    },
+    "R": {
+      "item": "caa:vanadium_rod"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MR ",
+    " R "
+  ],
+  "result": {
+    "item": "caa:palladium_sythe"
+  },
+  "show_notification": true
+}

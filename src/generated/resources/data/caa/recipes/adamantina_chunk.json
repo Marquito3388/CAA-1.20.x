@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:coal"
+    },
+    "R": {
+      "item": "caa:raw_adamantina"
+    }
+  },
+  "pattern": [
+    " R ",
+    "RCR",
+    " R "
+  ],
+  "result": {
+    "item": "caa:adamantina_chunk"
+  },
+  "show_notification": true
+}

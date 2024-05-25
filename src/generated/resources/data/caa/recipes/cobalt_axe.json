@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:cobalt"
+    },
+    "R": {
+      "item": "caa:vanadium_rod"
+    }
+  },
+  "pattern": [
+    "MM ",
+    "MR ",
+    " R "
+  ],
+  "result": {
+    "item": "caa:cobalt_axe"
+  },
+  "show_notification": true
+}

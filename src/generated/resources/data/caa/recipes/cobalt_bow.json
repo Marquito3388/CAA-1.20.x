@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:cobalt"
+    },
+    "R": {
+      "item": "caa:vanadium_rod"
+    }
+  },
+  "pattern": [
+    " MR",
+    "M R",
+    " MR"
+  ],
+  "result": {
+    "item": "caa:cobalt_bow"
+  },
+  "show_notification": true
+}

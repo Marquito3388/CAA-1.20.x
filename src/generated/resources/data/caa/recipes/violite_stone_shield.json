@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:violite_stone"
+    },
+    "W": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "pattern": [
+    "WMW",
+    "WWW",
+    " W "
+  ],
+  "result": {
+    "item": "caa:violite_stone_shield"
+  },
+  "show_notification": true
+}

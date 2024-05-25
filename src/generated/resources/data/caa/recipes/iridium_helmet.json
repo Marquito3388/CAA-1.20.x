@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:iridium"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "M M",
+    "   "
+  ],
+  "result": {
+    "item": "caa:iridium_helmet"
+  },
+  "show_notification": true
+}

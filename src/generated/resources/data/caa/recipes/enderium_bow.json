@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:enderium"
+    },
+    "R": {
+      "item": "caa:netherite_rod"
+    }
+  },
+  "pattern": [
+    " MR",
+    "M R",
+    " MR"
+  ],
+  "result": {
+    "item": "caa:enderium_bow"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:violite_stone"
+    },
+    "R": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  M",
+    " R ",
+    "R  "
+  ],
+  "result": {
+    "item": "caa:violite_stone_spear"
+  },
+  "show_notification": true
+}

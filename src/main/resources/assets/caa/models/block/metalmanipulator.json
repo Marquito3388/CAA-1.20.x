@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "caa:block/metalmanipulator_front",
+    "side": "caa:block/metalmanipulator_side",
+    "top": "caa:block/metalmanipulator_top",
+    "bottom": "caa:block/metalmanipulator_bot"
+  }
+}

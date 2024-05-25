@@ -1,6 +1,8 @@
 package net.marquito.caa.item;
 
 import net.marquito.caa.ChaosAndAbyss;
+import net.marquito.caa.item.custom.DrillItem;
+import net.marquito.caa.item.custom.FuelItem;
 import net.minecraft.client.gui.screens.inventory.FurnaceScreen;
 import net.minecraft.data.recipes.SmithingTransformRecipeBuilder;
 import net.minecraft.util.datafix.fixes.FurnaceRecipeFix;
@@ -24,14 +26,12 @@ public class CAAItemsClass {
 
 
 
+
+
+
     //Materials
 
     /*
-    public static final RegistryObject<Item> BASILISK_SCALE = ITEMS.register("basilisk_scale",
-            () -> new Item(new Item.Properties()));
-
-    public static final RegistryObject<Item> DARK_BRICK = ITEMS.register("dark_brick",
-            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> DARK_MATTER = ITEMS.register("dark_matter",
             () -> new Item(new Item.Properties().stacksTo(1)));
@@ -39,8 +39,8 @@ public class CAAItemsClass {
     //DARK MATTER CLASS IS UNDER OtherFiles > ExtraClasses
      */
 
-    public static final RegistryObject<Item> MAGIC_LEATHER = ITEMS.register("netherite_rod",
-            () -> new Item(new Item.Properties()));
+    //public static final RegistryObject<Item> MAGIC_LEATHER = ITEMS.register("magic_leather",
+    //        () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> NETHERITE_ROD = ITEMS.register("netherite_rod",
             () -> new Item(new Item.Properties()));
@@ -87,6 +87,18 @@ public class CAAItemsClass {
 
 
         //RAW ================
+
+
+
+    public static final RegistryObject<Item> RAW_GALLIUM = ITEMS.register("raw_gallium",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RAW_ADAMANTINA = ITEMS.register("raw_adamantina",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RAW_IRIDIUM = ITEMS.register("raw_iridium",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> RAW_VANADIUM = ITEMS.register("raw_vanadium",
             () -> new Item(new Item.Properties()));
 
@@ -101,6 +113,17 @@ public class CAAItemsClass {
 
 
         //CHUNK ================
+
+
+    public static final RegistryObject<Item> GALLIUM_CHUNK = ITEMS.register("gallium_chunk",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ADAMANTINA_CHUNK = ITEMS.register("adamantina_chunk",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> IRIDIUM_CHUNK = ITEMS.register("iridium_chunk",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> VANADIUM_CHUNK = ITEMS.register("vanadium_chunk",
             () -> new Item(new Item.Properties()));
 
@@ -115,13 +138,24 @@ public class CAAItemsClass {
 
 
         //INGOT ================
+
+
+    public static final RegistryObject<Item> GALLIUM = ITEMS.register("gallium",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ADAMANTINA = ITEMS.register("adamantina",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> IRIDIUM = ITEMS.register("iridium",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> VANADIUM = ITEMS.register("vanadium",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> PALLADIUM = ITEMS.register("cobalt",
+    public static final RegistryObject<Item> PALLADIUM = ITEMS.register("palladium",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> COBALT = ITEMS.register("palladium",
+    public static final RegistryObject<Item> COBALT = ITEMS.register("cobalt",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> ENDERIUM = ITEMS.register("enderium",
@@ -131,30 +165,29 @@ public class CAAItemsClass {
 
     //CRYSTALS =================
 
+    public static final RegistryObject<Item> VIOLITE_STONE = ITEMS.register("violite_stone",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> RUBY_MINERAL = ITEMS.register("ruby_mineral",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SAPPHIRE_MINERAL = ITEMS.register("sapphire_mineral",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> NETHER_STONE = ITEMS.register("nether_stone",
+            () -> new FuelItem(new Item.Properties(), 1800));
+
+    public static final RegistryObject<Item> END_STONE = ITEMS.register("end_stone",
+            () -> new FuelItem(new Item.Properties(), 2200));
+
 
     // EXTRA ORES =================================================================
-
-    /*
-    public static final RegistryObject<Item> CRIMTANE_ORE = ITEMS.register("crimtane_ore",
-            () -> new Item(new Item.Properties()));
-
-    public static final RegistryObject<Item> DEMONITE_ORE = ITEMS.register("demonite_ore",
-            () -> new Item(new Item.Properties()));
-
-
-    public static final RegistryObject<Item> CRIMTANE_BAR = ITEMS.register("crimtane_bar",
-            () -> new Item(new Item.Properties()));
-
-    public static final RegistryObject<Item> DEMONITE_BAR = ITEMS.register("demonite_bar",
-            () -> new Item(new Item.Properties()));
-
-     */
 
 
 
@@ -214,49 +247,18 @@ public class CAAItemsClass {
     public static final RegistryObject<Item> OLD_BOW = ITEMS.register("old_bow",
             () -> new BowItem(new Item.Properties().durability(20)));
 
-    /*
 
+    public static final RegistryObject<Item> ADAMANTINA_SPEAR = ITEMS.register("adamantina_spear",
+            () -> new SwordItem(CAAToolTiers.VANADIUM,  2, -2.8F, new  Item.Properties()));
 
-    public static final RegistryObject<Item> LIGHTS_BANE = ITEMS.register("lights_bane",
-            () -> new SwordItem(CAAToolTiers.VANADIUM, 3, -2.3F, new  Item.Properties()));
-
-
-    public static final RegistryObject<Item> BLOOD_BUTCHERER = ITEMS.register("blood_butcherer",
-            () -> new SwordItem(CAAToolTiers.VANADIUM, 3, -2.3F, new  Item.Properties()));
-
-
-
-
-
-
-    public static final RegistryObject<Item> CRIMTANE_AXE = ITEMS.register("crimtane_axe",
-            () -> new AxeItem(CAAToolTiers.VANADIUM,  4, -2.3F, new  Item.Properties()));
-
-
-    public static final RegistryObject<Item> DEMONITE_AXE = ITEMS.register("demonite_axe",
-            () -> new AxeItem(CAAToolTiers.VANADIUM, 3, -2.3f, new  Item.Properties()));
- () -> new AxeItem(CAAToolTiers.VANADIUM, 3, -2.3F, new  Item.Properties()));
-
-
-
-
-    public static final RegistryObject<Item> CRIMTANE_PICKAXE = ITEMS.register("crimtane_pickaxe",
-            () -> new SwordItem(CAAToolTiers.VANADIUM,  4, -2.3F, new  Item.Properties()));
-
-
-    public static final RegistryObject<Item> DEMONITE_PICKAXE = ITEMS.register("demonite_pickaxe",
-            () -> new SwordItem(CAAToolTiers.VANADIUM, 3, -2.3f, new  Item.Properties()));
-
-
-
-    */
-
-
-
-
+    public static final RegistryObject<Item> IRIDIUM_SPEAR = ITEMS.register("iridium_spear",
+            () -> new SwordItem(CAAToolTiers.VANADIUM,  2, -2.8F, new  Item.Properties()));
 
     public static final RegistryObject<Item> VANADIUM_SPEAR = ITEMS.register("vanadium_spear",
             () -> new SwordItem(CAAToolTiers.VANADIUM,  2, -2.8F, new  Item.Properties()));
+
+    public static final RegistryObject<Item> VIOLITE_STONE_SPEAR = ITEMS.register("violite_stone_spear",
+            () -> new SwordItem(CAAToolTiers.VANADIUM,  3, -2.8F, new  Item.Properties()));
 
     public static final RegistryObject<Item> COBALT_SPEAR = ITEMS.register("cobalt_spear",
             () -> new SwordItem(CAAToolTiers.COBALT, 2, -2.75F, new  Item.Properties()));
@@ -269,8 +271,19 @@ public class CAAItemsClass {
 
 
 
+
+
+    public static final RegistryObject<Item> ADAMANTINA_BATTLEAXE = ITEMS.register("adamantina_ba",
+            () -> new SwordItem(CAAToolTiers.VANADIUM, 5, -3.1F, new  Item.Properties()));
+
+    public static final RegistryObject<Item> IRIDIUM_BATTLEAXE = ITEMS.register("iridium_ba",
+            () -> new SwordItem(CAAToolTiers.VANADIUM, 5, -3.1F, new  Item.Properties()));
+
     public static final RegistryObject<Item> VANADIUM_BATTLEAXE = ITEMS.register("vanadium_ba",
             () -> new SwordItem(CAAToolTiers.VANADIUM, 5, -3.1F, new  Item.Properties()));
+
+    public static final RegistryObject<Item> VIOLITE_STONE_BATTLEAXE = ITEMS.register("violite_stone_ba",
+            () -> new SwordItem(CAAToolTiers.VANADIUM, 6, -3.1F, new  Item.Properties()));
 
     public static final RegistryObject<Item> COBALT_BATTLEAXE = ITEMS.register("cobalt_ba",
             () -> new SwordItem(CAAToolTiers.COBALT, 5, -3.1F, new  Item.Properties()));
@@ -282,19 +295,14 @@ public class CAAItemsClass {
             () -> new SwordItem(CAAToolTiers.ENDERIUM, 5, -3.1F, new  Item.Properties()));
 
 
+    public static final RegistryObject<Item> ADAMANTINA_SWORD = ITEMS.register("adamantina_sword",
+            () -> new SwordItem(CAAToolTiers.VANADIUM,  3, -2.3F, new  Item.Properties()));
 
+    public static final RegistryObject<Item> IRIDIUM_SWORD = ITEMS.register("iridium_sword",
+            () -> new SwordItem(CAAToolTiers.VANADIUM,  3, -2.3F, new  Item.Properties()));
 
-
-    public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword",
-            () -> new SwordItem(Tiers.DIAMOND,  3, -2.6F, new  Item.Properties()));
-
-
-    public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
-            () -> new SwordItem(Tiers.DIAMOND,  3, -2.6F, new  Item.Properties()));
-
-
-    public static final RegistryObject<Item> EMERALD_SWORD = ITEMS.register("emerald_sword",
-            () -> new SwordItem(Tiers.DIAMOND,  3, -2.6F, new  Item.Properties()));
+    public static final RegistryObject<Item> VIOLITE_STONE_SWORD = ITEMS.register("violite_stone_sword",
+            () -> new SwordItem(CAAToolTiers.VANADIUM,  4, -2.3F, new  Item.Properties()));
 
 
     public static final RegistryObject<Item> VANADIUM_SWORD = ITEMS.register("vanadium_sword",
@@ -315,6 +323,17 @@ public class CAAItemsClass {
 
     //GLAIVES
 
+
+    public static final RegistryObject<Item> ADAMANTINA_GLAIVE = ITEMS.register("adamantina_glaive",
+            () -> new SwordItem(CAAToolTiers.VANADIUM,  3, -2.3F, new  Item.Properties()));
+
+    public static final RegistryObject<Item> IRIDIUM_GLAIVE = ITEMS.register("iridium_glaive",
+            () -> new SwordItem(CAAToolTiers.VANADIUM,  3, -2.3F, new  Item.Properties()));
+
+    public static final RegistryObject<Item> VIOLITE_STONE_GLAIVE = ITEMS.register("violite_stone_glaive",
+            () -> new SwordItem(CAAToolTiers.VANADIUM,  4, -2.3F, new  Item.Properties()));
+
+
     public static final RegistryObject<Item> VANADIUM_GLAIVE = ITEMS.register("vanadium_glaive",
             () -> new SwordItem(CAAToolTiers.VANADIUM,  3, -2.3F, new  Item.Properties()));
 
@@ -332,38 +351,55 @@ public class CAAItemsClass {
 
 
 
+    public static final RegistryObject<Item> ADAMANTINA_SYTHE = ITEMS.register("adamantina_sythe",
+            () -> new SwordItem(CAAToolTiers.VANADIUM, 4, -3.1F, new  Item.Properties()));
+
+    public static final RegistryObject<Item> IRIDIUM_SYTHE = ITEMS.register("iridium_sythe",
+            () -> new SwordItem(CAAToolTiers.VANADIUM, 4, -3.1F, new  Item.Properties()));
+
     public static final RegistryObject<Item> VANADIUM_SYTHE = ITEMS.register("vanadium_sythe",
+            () -> new SwordItem(CAAToolTiers.VANADIUM, 4, -3.1F, new  Item.Properties()));
+
+    public static final RegistryObject<Item> VIOLITE_STONE_SYTHE = ITEMS.register("violite_stone_sythe",
             () -> new SwordItem(CAAToolTiers.VANADIUM, 5, -3.1F, new  Item.Properties()));
 
 
     public static final RegistryObject<Item> COBALT_SYTHE = ITEMS.register("cobalt_sythe",
-            () -> new SwordItem(CAAToolTiers.COBALT, 5, -3.1F, new  Item.Properties()));
+            () -> new SwordItem(CAAToolTiers.COBALT, 4, -3.1F, new  Item.Properties()));
 
 
     public static final RegistryObject<Item> PALLADIUM_SYTHE = ITEMS.register("palladium_sythe",
-            () -> new SwordItem(CAAToolTiers.PALLADIUM, 5, -3.1F, new  Item.Properties()));
+            () -> new SwordItem(CAAToolTiers.PALLADIUM, 4, -3.1F, new  Item.Properties()));
 
 
     public static final RegistryObject<Item> ENDERIUM_SYTHE = ITEMS.register("enderium_sythe",
-            () -> new SwordItem(CAAToolTiers.ENDERIUM, 5, -3.1F, new  Item.Properties()));
+            () -> new SwordItem(CAAToolTiers.ENDERIUM, 4, -3.1F, new  Item.Properties()));
 
 
 
+    public static final RegistryObject<Item> ADAMANTINA_DAGGER = ITEMS.register("adamantina_dagger",
+            () -> new SwordItem(CAAToolTiers.VANADIUM,  1, -1.9F, new  Item.Properties()));
+
+    public static final RegistryObject<Item> IRIDIUM_DAGGER = ITEMS.register("iridium_dagger",
+            () -> new SwordItem(CAAToolTiers.VANADIUM,  1, -1.9F, new  Item.Properties()));
 
     public static final RegistryObject<Item> VANADIUM_DAGGER = ITEMS.register("vanadium_dagger",
-            () -> new SwordItem(CAAToolTiers.VANADIUM,  2, -1.9F, new  Item.Properties()));
+            () -> new SwordItem(CAAToolTiers.VANADIUM,  1, -1.9F, new  Item.Properties()));
+
+    public static final RegistryObject<Item> VIOLITE_STONE_DAGGER = ITEMS.register("violite_stone_dagger",
+            () -> new SwordItem(CAAToolTiers.VANADIUM,  1, -1.9F, new  Item.Properties()));
 
 
     public static final RegistryObject<Item> COBALT_DAGGER = ITEMS.register("cobalt_dagger",
-            () -> new SwordItem(CAAToolTiers.COBALT, 2, -1.9F, new  Item.Properties()));
+            () -> new SwordItem(CAAToolTiers.COBALT, 1, -1.9F, new  Item.Properties()));
 
 
     public static final RegistryObject<Item> PALLADIUM_DAGGER = ITEMS.register("palladium_dagger",
-            () -> new SwordItem(CAAToolTiers.PALLADIUM, 2, -1.9F, new  Item.Properties()));
+            () -> new SwordItem(CAAToolTiers.PALLADIUM, 1, -1.9F, new  Item.Properties()));
 
 
     public static final RegistryObject<Item> ENDERIUM_DAGGER = ITEMS.register("enderium_dagger",
-            () -> new SwordItem(CAAToolTiers.ENDERIUM, 2, -1.9F, new  Item.Properties()));
+            () -> new SwordItem(CAAToolTiers.ENDERIUM, 1, -1.9F, new  Item.Properties()));
 
 
 
@@ -379,9 +415,18 @@ public class CAAItemsClass {
             () -> new BowItem(new Item.Properties().durability(730)));
 
 
+    public static final RegistryObject<Item> ADAMANTINA_SHIELD = ITEMS.register("adamantina_shield",
+            () -> new ShieldItem(new Item.Properties().durability(370)));
+
+    public static final RegistryObject<Item> IRIDIUM_SHIELD = ITEMS.register("iridium_shield",
+            () -> new ShieldItem(new Item.Properties().durability(370)));
 
     public static final RegistryObject<Item> VANADIUM_SHIELD = ITEMS.register("vanadium_shield",
             () -> new ShieldItem(new Item.Properties().durability(370)));
+
+
+    public static final RegistryObject<Item> VIOLITE_STONE_SHIELD = ITEMS.register("violite_stone_shield",
+            () -> new ShieldItem(new Item.Properties().durability(470)));
 
 
     public static final RegistryObject<Item> COBALT_SHIELD = ITEMS.register("cobalt_shield",
@@ -404,113 +449,142 @@ public class CAAItemsClass {
 
     // PICKAXE---------------------------
 
+        public static final RegistryObject<Item> ADAMANTINA_PICKAXE = ITEMS.register("adamantina_pickaxe",
+                () -> new PickaxeItem(CAAToolTiers.VANADIUM, 1, -2.8f, new  Item.Properties()));
 
-    public static final RegistryObject<Item> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe",
-            () -> new PickaxeItem(CAAToolTiers.GEMS, 1, -2.8f, new  Item.Properties()));
+        public static final RegistryObject<Item> IRIDIUM_PICKAXE = ITEMS.register("iridium_pickaxe",
+                () -> new PickaxeItem(CAAToolTiers.VANADIUM, 1, -2.8f, new  Item.Properties()));
 
-    public static final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe",
-            () -> new PickaxeItem(CAAToolTiers.GEMS, 1, -2.8f, new  Item.Properties()));
+        public static final RegistryObject<Item> VANADIUM_PICKAXE = ITEMS.register("vanadium_pickaxe",
+                () -> new PickaxeItem(CAAToolTiers.VANADIUM, 1, -2.8f, new  Item.Properties()));
 
-    public static final RegistryObject<Item> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe",
-            () -> new PickaxeItem(CAAToolTiers.GEMS, 1, -2.8f, new  Item.Properties()));
-
-
-    public static final RegistryObject<Item> VANADIUM_PICKAXE = ITEMS.register("vanadium_pickaxe",
-            () -> new PickaxeItem(CAAToolTiers.VANADIUM, 1, -2.8f, new  Item.Properties()));
+        public static final RegistryObject<Item> VIOLITE_STONE_PICKAXE = ITEMS.register("violite_stone_pickaxe",
+                () -> new PickaxeItem(CAAToolTiers.VANADIUM, 1, -2.5f, new  Item.Properties()));
 
 
-    public static final RegistryObject<Item> COBALT_PICKAXE = ITEMS.register("cobalt_pickaxe",
-            () -> new PickaxeItem(CAAToolTiers.COBALT, 1, -2.75f, new  Item.Properties()));
+        public static final RegistryObject<Item> COBALT_PICKAXE = ITEMS.register("cobalt_pickaxe",
+                () -> new PickaxeItem(CAAToolTiers.COBALT, 1, -2.74f, new  Item.Properties()));
 
 
-    public static final RegistryObject<Item> PALLADIUM_PICKAXE = ITEMS.register("palladium_pickaxe",
-            () -> new PickaxeItem(CAAToolTiers.PALLADIUM, 1, -2.75f, new  Item.Properties()));
+        public static final RegistryObject<Item> PALLADIUM_PICKAXE = ITEMS.register("palladium_pickaxe",
+                () -> new PickaxeItem(CAAToolTiers.PALLADIUM, 1, -2.72f, new  Item.Properties()));
 
 
-    public static final RegistryObject<Item> ENDERIUM_PICKAXE = ITEMS.register("enderium_pickaxe",
-            () -> new PickaxeItem(CAAToolTiers.ENDERIUM, 1, -2.75f, new  Item.Properties()));
+        public static final RegistryObject<Item> ENDERIUM_PICKAXE = ITEMS.register("enderium_pickaxe",
+                () -> new PickaxeItem(CAAToolTiers.ENDERIUM, 1, -2.70f, new  Item.Properties()));
 
 
 
 
-    //AXE-------------------------
+        //AXE-------------------------
 
+    /*
+        public static final RegistryObject<Item> RUBY_AXE = ITEMS.register("ruby_axe",
+                () -> new AxeItem(Tiers.DIAMOND,  4.6F, -3f, new  Item.Properties()));
 
-    public static final RegistryObject<Item> RUBY_AXE = ITEMS.register("ruby_axe",
-            () -> new AxeItem(Tiers.DIAMOND,  4.6F, -3f, new  Item.Properties()));
+        public static final RegistryObject<Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe",
+                () -> new AxeItem(Tiers.DIAMOND,  4.6F, -3f, new  Item.Properties()));
 
-    public static final RegistryObject<Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe",
-            () -> new AxeItem(Tiers.DIAMOND,  4.6F, -3f, new  Item.Properties()));
+        public static final RegistryObject<Item> EMERALD_AXE = ITEMS.register("emerald_axe",
+                () -> new AxeItem(Tiers.DIAMOND,  4.6F, -3f, new  Item.Properties()));
 
-    public static final RegistryObject<Item> EMERALD_AXE = ITEMS.register("emerald_axe",
-            () -> new AxeItem(Tiers.DIAMOND,  4.6F, -3f, new  Item.Properties()));
-
-
-    public static final RegistryObject<Item> VANADIUM_AXE = ITEMS.register("vanadium_axe",
-            () -> new AxeItem(Tiers.DIAMOND,  5.2F, -3f, new  Item.Properties()));
-
-
-    public static final RegistryObject<Item> COBALT_AXE = ITEMS.register("cobalt_axe",
-            () -> new AxeItem(CAAToolTiers.COBALT,  4.9F, -2.85f, new  Item.Properties()));
-
-
-    public static final RegistryObject<Item> PALLADIUM_AXE = ITEMS.register("palladium_axe",
-            () -> new AxeItem(CAAToolTiers.PALLADIUM, 4.8F, -2.85F, new  Item.Properties()));
-
-
-    public static final RegistryObject<Item> ENDERIUM_AXE = ITEMS.register("enderium_axe",
-            () -> new AxeItem(CAAToolTiers.ENDERIUM, 4.7F, -2.8f, new  Item.Properties()));
+     */
 
 
 
 
-    //HOE-------------------------------
+        public static final RegistryObject<Item> ADAMANTINA_AXE = ITEMS.register("adamantina_axe",
+                () -> new AxeItem(Tiers.DIAMOND,  5.2F, -3f, new  Item.Properties()));
+
+        public static final RegistryObject<Item> IRIDIUM_AXE = ITEMS.register("iridium_axe",
+                () -> new AxeItem(Tiers.DIAMOND,  5.2F, -3f, new  Item.Properties()));
+
+        public static final RegistryObject<Item> VANADIUM_AXE = ITEMS.register("vanadium_axe",
+                () -> new AxeItem(Tiers.DIAMOND,  5.2F, -3f, new  Item.Properties()));
+
+        public static final RegistryObject<Item> VIOLITE_STONE_AXE = ITEMS.register("violite_stone_axe",
+                () -> new AxeItem(Tiers.DIAMOND,  5.6F, -2.9f, new  Item.Properties()));
 
 
-    public static final RegistryObject<Item> RUBY_HOE = ITEMS.register("ruby_hoe",
-            () -> new HoeItem(Tiers.DIAMOND , -3, 0f, new  Item.Properties()));
-
-    public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe",
-            () -> new HoeItem(Tiers.DIAMOND , -3, 0f, new  Item.Properties()));
-
-    public static final RegistryObject<Item> EMERALD_HOE = ITEMS.register("emerald_hoe",
-            () -> new HoeItem(Tiers.DIAMOND , -3, 0f, new  Item.Properties()));
+        public static final RegistryObject<Item> COBALT_AXE = ITEMS.register("cobalt_axe",
+                () -> new AxeItem(CAAToolTiers.COBALT,  4.9F, -2.85f, new  Item.Properties()));
 
 
-
-    public static final RegistryObject<Item> VANADIUM_HOE = ITEMS.register("vanadium_hoe",
-            () -> new HoeItem(CAAToolTiers.CAA_HOE, 1, 0f, new  Item.Properties()));
-
-
-    public static final RegistryObject<Item> COBALT_HOE = ITEMS.register("cobalt_hoe",
-            () -> new HoeItem(CAAToolTiers.CAA_HOE, 1, 0.05f, new  Item.Properties()));
+        public static final RegistryObject<Item> PALLADIUM_AXE = ITEMS.register("palladium_axe",
+                () -> new AxeItem(CAAToolTiers.PALLADIUM, 4.8F, -2.85F, new  Item.Properties()));
 
 
-    public static final RegistryObject<Item> PALLADIUM_HOE = ITEMS.register("palladium_hoe",
-            () -> new HoeItem(CAAToolTiers.CAA_HOE, 1, 0.1f, new  Item.Properties()));
-
-
-    public static final RegistryObject<Item> ENDERIUM_HOE = ITEMS.register("enderium_hoe",
-            () -> new HoeItem(CAAToolTiers.CAA_HOE,  1, 0.15f, new  Item.Properties()));
+        public static final RegistryObject<Item> ENDERIUM_AXE = ITEMS.register("enderium_axe",
+                () -> new AxeItem(CAAToolTiers.ENDERIUM, 4.7F, -2.8f, new  Item.Properties()));
 
 
 
 
-    //SHOVEL-----------------------------------
+        //HOE-------------------------------
+
+    /*
+        public static final RegistryObject<Item> RUBY_HOE = ITEMS.register("ruby_hoe",
+                () -> new HoeItem(Tiers.DIAMOND , -3, 0f, new  Item.Properties()));
+
+        public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe",
+                () -> new HoeItem(Tiers.DIAMOND , -3, 0f, new  Item.Properties()));
+
+        public static final RegistryObject<Item> EMERALD_HOE = ITEMS.register("emerald_hoe",
+                () -> new HoeItem(Tiers.DIAMOND , -3, 0f, new  Item.Properties()));
+
+     */
 
 
-    public static final RegistryObject<Item> RUBY_SHOVEL = ITEMS.register("ruby_shovel",
-            () -> new ShovelItem(Tiers.DIAMOND, 5.2F, -3f, new  Item.Properties()));
+        public static final RegistryObject<Item> ADAMANTINA_HOE = ITEMS.register("adamantina_hoe",
+                () -> new HoeItem(CAAToolTiers.CAA_HOE, 1, 0f, new  Item.Properties()));
 
-    public static final RegistryObject<Item> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel",
-            () -> new ShovelItem(Tiers.DIAMOND, 5.2F, -3f, new  Item.Properties()));
+        public static final RegistryObject<Item> IRIDIUM_HOE = ITEMS.register("iridium_hoe",
+                () -> new HoeItem(CAAToolTiers.CAA_HOE, 1, 0f, new  Item.Properties()));
 
-    public static final RegistryObject<Item> EMERALD_SHOVEL = ITEMS.register("emerald_shovel",
-            () -> new ShovelItem(Tiers.DIAMOND, 5.2F, -3f, new  Item.Properties()));
+        public static final RegistryObject<Item> VANADIUM_HOE = ITEMS.register("vanadium_hoe",
+                () -> new HoeItem(CAAToolTiers.CAA_HOE, 1, 0f, new  Item.Properties()));
+
+        public static final RegistryObject<Item> VIOLITE_STONE_HOE = ITEMS.register("violite_stone_hoe",
+                () -> new HoeItem(CAAToolTiers.CAA_HOE, 1, 0f, new  Item.Properties()));
 
 
+        public static final RegistryObject<Item> COBALT_HOE = ITEMS.register("cobalt_hoe",
+                () -> new HoeItem(CAAToolTiers.CAA_HOE, 1, 0.05f, new  Item.Properties()));
+
+
+        public static final RegistryObject<Item> PALLADIUM_HOE = ITEMS.register("palladium_hoe",
+                () -> new HoeItem(CAAToolTiers.CAA_HOE, 1, 0.1f, new  Item.Properties()));
+
+
+        public static final RegistryObject<Item> ENDERIUM_HOE = ITEMS.register("enderium_hoe",
+                () -> new HoeItem(CAAToolTiers.CAA_HOE,  1, 0.15f, new  Item.Properties()));
+
+
+
+
+        //SHOVEL-----------------------------------
+
+        /*
+        public static final RegistryObject<Item> RUBY_SHOVEL = ITEMS.register("ruby_shovel",
+                () -> new ShovelItem(Tiers.DIAMOND, 5.2F, -3f, new  Item.Properties()));
+
+        public static final RegistryObject<Item> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel",
+                () -> new ShovelItem(Tiers.DIAMOND, 5.2F, -3f, new  Item.Properties()));
+
+        public static final RegistryObject<Item> EMERALD_SHOVEL = ITEMS.register("emerald_shovel",
+                () -> new ShovelItem(Tiers.DIAMOND, 5.2F, -3f, new  Item.Properties()));
+        */
+
+    public static final RegistryObject<Item> ADAMANTINA_SHOVEL = ITEMS.register("adamantina_shovel",
+            () -> new ShovelItem(CAAToolTiers.CAA_SHOVEL, 1.3F, -3f, new  Item.Properties()));
+
+    public static final RegistryObject<Item> IRIDIUM_SHOVEL = ITEMS.register("iridium_shovel",
+            () -> new ShovelItem(CAAToolTiers.CAA_SHOVEL, 1.3F, -3f, new  Item.Properties()));
 
     public static final RegistryObject<Item> VANADIUM_SHOVEL = ITEMS.register("vanadium_shovel",
+            () -> new ShovelItem(CAAToolTiers.CAA_SHOVEL, 1.3F, -3f, new  Item.Properties()));
+
+    public static final RegistryObject<Item> VIOLITE_STONE_SHOVEL = ITEMS.register("violite_stone_shovel",
             () -> new ShovelItem(CAAToolTiers.CAA_SHOVEL, 1.3F, -3f, new  Item.Properties()));
 
 
@@ -530,20 +604,65 @@ public class CAAItemsClass {
 
     //DRILL-------------------------------------------
 
+    public static final RegistryObject<Item> DRILL = ITEMS.register("drill",
+            () -> new DrillItem(CAAToolTiers.DRILL_IRON, 0, -2.1f, new  Item.Properties()));
+
+    public static final RegistryObject<Item> VIOLITE_STONE_DRILL = ITEMS.register("violite_stone_drill",
+            () -> new DrillItem(CAAToolTiers.DRILL_VIOLITE_STONE, -1, -2.1f, new  Item.Properties()));
+
     public static final RegistryObject<Item> COBALT_DRILL = ITEMS.register("cobalt_drill",
-            () -> new PickaxeItem(CAAToolTiers.COBALT, -1, -1.5f, new  Item.Properties()));
+            () -> new DrillItem(CAAToolTiers.DRILL_COBALT, -1, -2.1f, new  Item.Properties()));
 
 
     public static final RegistryObject<Item> PALLADIUM_DRILL = ITEMS.register("palladium_drill",
-            () -> new PickaxeItem(CAAToolTiers.PALLADIUM, 0, -1.5f, new  Item.Properties()));
+            () -> new DrillItem(CAAToolTiers.DRILL_PALLADIUM, 0, -2.1f, new  Item.Properties()));
 
 
     public static final RegistryObject<Item> ENDERIUM_DRILL = ITEMS.register("enderium_drill",
-            () -> new PickaxeItem(CAAToolTiers.ENDERIUM, 0, -1.2f, new  Item.Properties()));
+            () -> new DrillItem(CAAToolTiers.DRILL_ENDERIUM, 0, -2.1f, new  Item.Properties()));
 
 
 
     //ARMOR=====================================================
+
+
+
+    public static final RegistryObject<Item> ADAMANTINA_HELMET = ITEMS.register("adamantina_helmet",
+            () -> new ArmorItem(CAAArmorMaterial.ADAMANTINA, ArmorItem.Type.HELMET,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> ADAMANTINA_CHESTPLATE = ITEMS.register("adamantina_chestplate",
+            () -> new ArmorItem(CAAArmorMaterial.ADAMANTINA, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> ADAMANTINA_LEGGINGS = ITEMS.register("adamantina_leggings",
+            () -> new ArmorItem(CAAArmorMaterial.ADAMANTINA, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> ADAMANTINA_BOOTS = ITEMS.register("adamantina_boots",
+            () -> new ArmorItem(CAAArmorMaterial.ADAMANTINA, ArmorItem.Type.BOOTS,
+                    new Item.Properties()));
+
+
+
+    public static final RegistryObject<Item> IRIDIUM_HELMET = ITEMS.register("iridium_helmet",
+            () -> new ArmorItem(CAAArmorMaterial.IRIDIUM, ArmorItem.Type.HELMET,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> IRIDIUM_CHESTPLATE = ITEMS.register("iridium_chestplate",
+            () -> new ArmorItem(CAAArmorMaterial.IRIDIUM, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> IRIDIUM_LEGGINGS = ITEMS.register("iridium_leggings",
+            () -> new ArmorItem(CAAArmorMaterial.IRIDIUM, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> IRIDIUM_BOOTS = ITEMS.register("iridium_boots",
+            () -> new ArmorItem(CAAArmorMaterial.IRIDIUM, ArmorItem.Type.BOOTS,
+                    new Item.Properties()));
+
+
+
 
     public static final RegistryObject<Item> VANADIUM_HELMET = ITEMS.register("vanadium_helmet",
             () -> new ArmorItem(CAAArmorMaterial.VANADIUM, ArmorItem.Type.HELMET,
@@ -562,6 +681,25 @@ public class CAAItemsClass {
                     new Item.Properties()));
 
 
+
+
+    public static final RegistryObject<Item> VIOLITE_STONE_HELMET = ITEMS.register("violite_stone_helmet",
+            () -> new ArmorItem(CAAArmorMaterial.VIOLITE_STONE, ArmorItem.Type.HELMET,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> VIOLITE_STONE_CHESTPLATE = ITEMS.register("violite_stone_chestplate",
+            () -> new ArmorItem(CAAArmorMaterial.VIOLITE_STONE, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> VIOLITE_STONE_LEGGINGS = ITEMS.register("violite_stone_leggings",
+            () -> new ArmorItem(CAAArmorMaterial.VIOLITE_STONE, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> VIOLITE_STONE_BOOTS = ITEMS.register("violite_stone_boots",
+            () -> new ArmorItem(CAAArmorMaterial.VIOLITE_STONE, ArmorItem.Type.BOOTS,
+                    new Item.Properties()));
+
+/*
 
     public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet",
             () -> new ArmorItem(CAAArmorMaterial.RUBY, ArmorItem.Type.HELMET,
@@ -615,7 +753,7 @@ public class CAAItemsClass {
             () -> new ArmorItem(CAAArmorMaterial.EMERALD, ArmorItem.Type.BOOTS,
                     new Item.Properties()));
 
-
+*/
 
 
 

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "caa:raw_cobalt"
+    }
+  },
+  "pattern": [
+    "MM ",
+    "MM ",
+    "   "
+  ],
+  "result": {
+    "item": "caa:cobaltbricks"
+  },
+  "show_notification": true
+}

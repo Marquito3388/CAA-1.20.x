@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "V": {
+      "item": "caa:vanadium"
+    }
+  },
+  "pattern": [
+    "   ",
+    " V ",
+    " V "
+  ],
+  "result": {
+    "item": "caa:vanadium_rod"
+  },
+  "show_notification": true
+}

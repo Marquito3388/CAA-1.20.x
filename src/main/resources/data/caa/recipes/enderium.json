@@ -1,9 +1,10 @@
 {
-  "type": "minecraft:smelting",
+  "type": "caa:metalmanipulator",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 1.2,
   "ingredient": {
     "item": "caa:enderium_chunk"
   },
-  "result": "caa:enderium",
-  "experience": 0.9,
-  "cookingtime": 400
+  "result": "caa:enderium"
 }

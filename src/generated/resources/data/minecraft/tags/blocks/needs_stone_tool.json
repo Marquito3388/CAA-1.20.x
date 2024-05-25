@@ -1,17 +1,3 @@
 {
-  "values": [
-    "caa:c_sandstone_bricks",
-    "caa:c_sandstone_pillar",
-    "caa:cracked_dt_bricks",
-    "caa:dt_bricks",
-    "caa:sandstone_bricks",
-    "caa:sandstone_pillar",
-    "caa:shield_statue",
-    "caa:spear_statue",
-    "caa:sword_statue",
-    "caa:ba_statue",
-    "caa:glaive_statue",
-    "caa:bow_statue",
-    "caa:dagger_statue"
-  ]
+  "values": []
 }

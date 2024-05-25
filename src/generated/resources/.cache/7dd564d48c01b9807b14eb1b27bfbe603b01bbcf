@@ -1,8 +1,9 @@
-// 1.20.1	2024-01-18T14:16:56.2741947	Tags for minecraft:block mod id caa
+// 1.20.1	2024-05-25T14:23:22.0178762	Tags for minecraft:block mod id caa
+c2f6fb7224bd1e2fdb87249751113c4d66dbc21f data/caa/tags/blocks/mineable/drill.json
 a69a01e17d1c0f510096accdde641a2646510d78 data/caa/tags/blocks/needs_cobalt_tool.json
-daf6dd71813fb4f11d185a5037bee410f0978ed9 data/caa/tags/blocks/needs_palladium_tool.json
+5c51da4999888d649071730cfd7bb2eab719c1d0 data/caa/tags/blocks/needs_palladium_tool.json
 799110039e2768ba78d26a6d2720a4355958aeeb data/forge/tags/blocks/needs_netherite_tool.json
-95d0807423d7eaf4745a00a66a35825c5db2ff13 data/minecraft/tags/blocks/mineable/pickaxe.json
-35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_diamond_tool.json
-581c78375a3110e40604f9f91074bd1ea0d1783c data/minecraft/tags/blocks/needs_iron_tool.json
-6522805de65c59d3f5c4249ea06f6f14bf909bbd data/minecraft/tags/blocks/needs_stone_tool.json
+3d3a8172714407f0eebe936fd4823dc712443af7 data/minecraft/tags/blocks/mineable/pickaxe.json
+2efd22932bf952b213f20035945db67a25204a84 data/minecraft/tags/blocks/needs_diamond_tool.json
+de4d30577fb986ac1c7041ee6fada597f46847a8 data/minecraft/tags/blocks/needs_iron_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_stone_tool.json
