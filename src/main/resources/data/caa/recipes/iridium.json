@@ -1,0 +1,10 @@
+{
+  "type": "caa:metalmanipulator",
+  "category": "misc",
+  "cookingtime": 80,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "caa:iridium_chunk"
+  },
+  "result": "caa:iridium"
+}

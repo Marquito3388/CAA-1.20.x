@@ -4,6 +4,7 @@ import net.marquito.caa.item.CAAItemsClass;
 import net.marquito.caa.screen.MetalManipulatorScreen;
 import net.minecraft.client.gui.screens.recipebook.AbstractFurnaceRecipeBookComponent;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 
 import java.util.Set;
 

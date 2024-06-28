@@ -1,0 +1,10 @@
+{
+  "type": "caa:metalmanipulator",
+  "category": "misc",
+  "cookingtime": 80,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "mcm:silver_oreds"
+  },
+  "result": "mcm:silver"
+}

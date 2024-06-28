@@ -1,0 +1,10 @@
+{
+  "type": "caa:metalmanipulator",
+  "category": "misc",
+  "cookingtime": 80,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "minecraft:raw_iron"
+  },
+  "result": "minecraft:iron_ingot"
+}
