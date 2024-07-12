@@ -16,7 +16,8 @@ public enum CAAArmorMaterial implements ArmorMaterial {
 
 
 
-
+    MINING("mining", 30, new int[]{1, 1, 1, 1}, 6, SoundEvents.ARMOR_EQUIP_LEATHER,
+            0F, 0F, () -> Ingredient.of(Items.IRON_INGOT)),
 
     RUBY("ruby", 30, new int[]{2, 7, 6, 2}, 9, SoundEvents.ARMOR_EQUIP_DIAMOND,
             0F, 0.1F, () -> Ingredient.of(CAAItemsClass.RUBY.get())),

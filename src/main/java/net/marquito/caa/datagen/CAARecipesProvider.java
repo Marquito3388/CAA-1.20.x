@@ -1583,7 +1583,7 @@ public class CAARecipesProvider extends RecipeProvider implements IConditionBuil
         oreSmelting(pWriter, FURNACE_ADAMANTINA, RecipeCategory.MISC, CAAItemsClass.ADAMANTINA.get(), 0.25f, 200, "adamantina");
         oreSmelting(pWriter, FURNACE_IRIDIUM, RecipeCategory.MISC, CAAItemsClass.IRIDIUM.get(), 0.25f, 200, "iridium");
 
-        oreBlasting(pWriter, FURNACE_GALLIUM, RecipeCategory.MISC, CAAItemsClass.GALLIUM.get(), 0.25f, 100, "gallium");
+        oreBlasting(pWriter, FURNACE_GALLIUM, RecipeCategory.MISC, CAAItemsClass.IRIDIUM.get(), 0.25f, 200, "gallium");
         oreBlasting(pWriter, FURNACE_VANADIUM, RecipeCategory.MISC, CAAItemsClass.VANADIUM.get(), 0.25f, 100, "vanadium");
         oreBlasting(pWriter, FURNACE_ADAMANTINA, RecipeCategory.MISC, CAAItemsClass.ADAMANTINA.get(), 0.25f, 100, "adamantina");
         oreBlasting(pWriter, FURNACE_IRIDIUM, RecipeCategory.MISC, CAAItemsClass.IRIDIUM.get(), 0.25f, 100, "iridium");

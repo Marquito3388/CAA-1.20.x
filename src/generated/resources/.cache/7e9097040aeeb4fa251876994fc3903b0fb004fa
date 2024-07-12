@@ -1,4 +1,5 @@
-// 1.20.1	2024-01-17T21:49:58.5403293	Global Loot Modifiers : caa
+// 1.20.1	2024-06-01T00:34:10.390558	Global Loot Modifiers : caa
+f03c434a865658c0b21cf195002d95b4640820fb data/caa/loot_modifiers/azinite_from_ancient_city.json
 a3aaeaaecd7eb3f8a0664b69765fc11867ad19ae data/caa/loot_modifiers/bone_dagger_from_woodland_mansion.json
 5b958f700ac01d6f18774ec0c97a921eef96731e data/caa/loot_modifiers/flame_spear_from_ruined_portal.json
 f063e572b35eed8ba76746da1c1babce0474d9fb data/caa/loot_modifiers/forest_bow_from_woodland_mansion.json
@@ -7,4 +8,4 @@ f063e572b35eed8ba76746da1c1babce0474d9fb data/caa/loot_modifiers/forest_bow_from
 f397a3d1ad8c1442dae4f7bb647bb42677fb7d04 data/caa/loot_modifiers/the_butcher_from_bastion.json
 7425e52763b4a154cc7a590e6b6f313382ee8376 data/caa/loot_modifiers/thunder_spear_from_desert_pyramid.json
 64d9c01c3fe333bf73a304562ca90816d0754377 data/caa/loot_modifiers/water_spear_from_pillager_post.json
-42ca34ab12d466098c8d37c4f331e7d40da96d30 data/forge/loot_modifiers/global_loot_modifiers.json
+2b05cf3af07c0ce6fd11f2382804f6b3aff27f32 data/forge/loot_modifiers/global_loot_modifiers.json

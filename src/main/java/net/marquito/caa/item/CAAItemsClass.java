@@ -3,6 +3,7 @@ package net.marquito.caa.item;
 import net.marquito.caa.ChaosAndAbyss;
 import net.marquito.caa.item.custom.DrillItem;
 import net.marquito.caa.item.custom.FuelItem;
+import net.marquito.caa.item.custom.StarShield;
 import net.minecraft.client.gui.screens.inventory.FurnaceScreen;
 import net.minecraft.data.recipes.SmithingTransformRecipeBuilder;
 import net.minecraft.util.datafix.fixes.FurnaceRecipeFix;
@@ -207,6 +208,10 @@ public class CAAItemsClass {
     public static final RegistryObject<Item> SKULK_BLADE = ITEMS.register("skulk_blade",
             () -> new SwordItem(CAAToolTiers.VANADIUM, 4, -0.6F, new  Item.Properties()));
     //damagew value is 4
+
+    public static final RegistryObject<Item> STAR_SHIELD = ITEMS.register("star_shield",
+            () -> new StarShield(new  Item.Properties().durability(700)));
+
 
     public static final RegistryObject<Item> THE_BUTCHER = ITEMS.register("the_butcher",
             () -> new SwordItem(CAAToolTiers.VANADIUM, 6, -2.9F, new  Item.Properties()));
@@ -807,6 +812,23 @@ public class CAAItemsClass {
 
     public static final RegistryObject<Item> ENDERIUM_BOOTS = ITEMS.register("enderium_boots",
             () -> new ArmorItem(CAAArmorMaterial.ENDERIUM, ArmorItem.Type.BOOTS,
+                    new Item.Properties()));
+
+
+    public static final RegistryObject<Item> MINING_HELMET = ITEMS.register("mining_helmet",
+            () -> new ArmorItem(CAAArmorMaterial.MINING, ArmorItem.Type.HELMET,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> MINING_SHIRT = ITEMS.register("mining_shirt",
+            () -> new ArmorItem(CAAArmorMaterial.MINING, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> MINING_PANTS = ITEMS.register("mining_pants",
+            () -> new ArmorItem(CAAArmorMaterial.MINING, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> MINING_BOOTS = ITEMS.register("mining_boots",
+            () -> new ArmorItem(CAAArmorMaterial.MINING, ArmorItem.Type.BOOTS,
                     new Item.Properties()));
 
 

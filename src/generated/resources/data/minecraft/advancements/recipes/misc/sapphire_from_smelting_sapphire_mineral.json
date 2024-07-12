@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_gallium_chunk": {
+    "has_sapphire_mineral": {
       "conditions": {
         "items": [
           {
             "items": [
-              "caa:gallium_chunk"
+              "caa:sapphire_mineral"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:iridium_from_blasting_gallium_chunk"
+        "recipe": "minecraft:sapphire_from_smelting_sapphire_mineral"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_gallium_chunk",
+      "has_sapphire_mineral",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:iridium_from_blasting_gallium_chunk"
+      "minecraft:sapphire_from_smelting_sapphire_mineral"
     ]
   },
   "sends_telemetry_event": false

@@ -169,6 +169,7 @@
   "item.caa.palladium_shield": "Palladium Shield",
   "item.caa.enderium_shield": "Enderium Shield",
 
+
   "item.caa.gallium_sythe": "Gallium Sythe",
   "item.caa.adamantina_sythe": "Adamantina Sythe",
   "item.caa.iridium_sythe": "Iridium Sythe",
@@ -192,6 +193,7 @@
   "item.caa.bone_dagger": "Bone Dagger",
   "item.caa.skulk_blade": "Skulk Blade",
   "item.caa.the_butcher": "The Butcher",
+  "item.caa.star_shield": "Star Shield",
 
 
   "item.caa.old_ba": "Old Battle Axe",
@@ -201,6 +203,12 @@
   "item.caa.old_glaive": "Old Glaive",
   "item.caa.old_bow": "Old Bow",
   "item.caa.old_spear": "Old Spear",
+
+
+  "item.caa.mining_helmet": "Mining Helmet",
+  "item.caa.mining_shirt": "Mining Shirt",
+  "item.caa.mining_pants": "Mining Pants",
+  "item.caa.mining_boots": "Mining Boots",
 
 
   "item.caa.vanadium_helmet": "Vanadium Helmet",

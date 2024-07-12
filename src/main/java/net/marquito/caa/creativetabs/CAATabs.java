@@ -187,18 +187,17 @@ public class CAATabs {
                         pOutput.accept(CAAItemsClass.THUNDER_SPEAR.get());
                         pOutput.accept(CAAItemsClass.SKULK_BLADE.get());
                         pOutput.accept(CAAItemsClass.THE_BUTCHER.get());
-                        pOutput.accept(CAAItemsClass.BONE_DAGGER.get());
                         pOutput.accept(CAAItemsClass.FROST_GLAIVE.get());
+                        pOutput.accept(CAAItemsClass.STAR_SHIELD.get());
 
 
+                        pOutput.accept(CAAItemsClass.BONE_DAGGER.get());
                         pOutput.accept(CAAItemsClass.OLD_GLAIVE.get());
                         pOutput.accept(CAAItemsClass.OLD_BOW.get());
                         pOutput.accept(CAAItemsClass.OLD_SPEAR.get());
                         pOutput.accept(CAAItemsClass.OLD_BA.get());
                         pOutput.accept(CAAItemsClass.OLD_SHIELD.get());
                         pOutput.accept(CAAItemsClass.OLD_SWORD.get());
-
-
 
 
 
@@ -374,6 +373,12 @@ public class CAATabs {
                         pOutput.accept(CAAItemsClass.EMERALD_LEGGINGS.get());
                         pOutput.accept(CAAItemsClass.EMERALD_BOOTS.get());
                         */
+
+                        pOutput.accept(CAAItemsClass.MINING_HELMET.get());
+                        pOutput.accept(CAAItemsClass.MINING_SHIRT.get());
+                        pOutput.accept(CAAItemsClass.MINING_PANTS.get());
+                        pOutput.accept(CAAItemsClass.MINING_BOOTS.get());
+
                         pOutput.accept(CAAItemsClass.VIOLITE_STONE_HELMET.get());
                         pOutput.accept(CAAItemsClass.VIOLITE_STONE_CHESTPLATE.get());
                         pOutput.accept(CAAItemsClass.VIOLITE_STONE_LEGGINGS.get());
